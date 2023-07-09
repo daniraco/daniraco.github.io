@@ -61,59 +61,6 @@
     </section>
 
 
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-          var bibtexLinks = document.querySelectorAll('.bibtexLink');
-          bibtexLinks.forEach(function(link) {
-              link.addEventListener('click', function(e) {
-                  e.preventDefault();
-                  var citation = this.parentNode.textContent;
-                  var bibtex = generateBibtex(citation);
-                  alert(bibtex);
-              });
-          });
-      });
-
-      function generateBibtex(citation) {
-          var authors = citation.match(/^[^,(]*/)[0].trim();
-          var year = citation.match(/\d{4}/)[0].trim();
-          var title = citation.match(/(?<=\. ).*(?=,)/)[0].trim();
-          var journal = citation.match(/(?<=, ).*(?=, \d{4})/)[0].trim();
-          var volumeMatch = citation.match(/(?<=,\s)\d+(?=\(\d+\))/);
-          var numberMatch = citation.match(/\(\d+\)/);
-          var pagesMatch = citation.match(/\d+-\d+/);
-          
-          var volume = volumeMatch ? volumeMatch[0].replace('(', '').replace(')', '').trim() : undefined;
-          var number = numberMatch ? numberMatch[0].replace('(', '').replace(')', '').trim() : undefined;
-          var pages = pagesMatch ? pagesMatch[0].trim() : undefined;
-
-          var bibtex = "@article{author" + year + ",\n" +
-                      "\tauthor = {" + authors + "},\n" +
-                      "\ttitle = {" + title + "},\n" +
-                      "\tjournal = {" + journal + "},\n";
-                      
-          if (volume) {
-              bibtex += "\tvolume = {" + volume + "},\n";
-          }
-                      
-          if (number) {
-              bibtex += "\tnumber = {" + number + "},\n";
-          }
-                      
-          if (pages) {
-              bibtex += "\tpages = {" + pages + "},\n";
-          }
-                      
-          bibtex += "\tyear = {" + year + "}\n" +
-                    "}\n";
-                    
-          return bibtex;
-      }
-    </script>
-
-
-
     <section id="content">
         <div class="container">
                         
@@ -168,10 +115,10 @@
                                 </p>
                                   
                                   <ol reversed>
-                                    <li>Jimenez, G., Racoceanu, D. (2019). Deep Learning for Semantic Segmentation versus Classification in Computational Pathology: Application to mitosis analysis in Breast Cancer grading, Front. Bioeng. Biotechnol., 21 June 2019. <a href="https://doi.org/10.3389/fbioe.2019.00145">[doi]</a> <a href="pubs/Journals/jimenez2019frontiers.pdf">[pdf]</a> <a href="#" class="bibtexLink">[Bibtex]</a></li>
-                                    <li>Zemouri, R., Zerhouni, N., Racoceanu, D. (2019). Deep Learning in the Biomedical Applications: Recent and Future Status, Appl. Sci., 9(8), 1526. <a href="https://doi.org/10.3390/app9081526">[doi]</a> <a href="pubs/Journals/zemouri2019applsc.pdf">[pdf]</a>  <a href="#" class="bibtexLink">[Bibtex]</a> </li>
-                                    <li>Saha, M., Chakraborty, C., Racoceanu, D. (2018). Efficient Deep Learning Model for Mitosis Detection using Breast Histopathology Images, Computerized Medical Imaging and Graphics, 2018 Mar;64:29-40. Epub 2017 Dec 16. <a href="https://doi.org/10.1016/j.compmedimag.2017.12.001">[doi]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0895611117301222?via%3Dihub">[URL]</a> <a href="pubs/Journals/saha2017cmig.pdf">[pdf]</a> <a href="#" class="bibtexLink">[Bibtex]</a></li>
-                                    <li>Ehteshami Bejnordi, B. et al. (2017). Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer, JAMA, 2017; 318(22): 2199-2210. <a href="https://doi.org/10.1037/arc0000014">[doi]</a> <a href="https://jamanetwork.com/journals/jama/article-abstract/2665774?redirect=true">[URL]</a> <a href="pubs/Journals/ehteshami_bejnordi2017jama.pdf">[pdf]</a> <a href="#" class="bibtexLink">[Bibtex]</a></li>
+                                    <li>Jimenez, G., Racoceanu, D. (2019). Deep Learning for Semantic Segmentation versus Classification in Computational Pathology: Application to mitosis analysis in Breast Cancer grading, Front. Bioeng. Biotechnol., 21 June 2019. <a href="https://doi.org/10.3389/fbioe.2019.00145">[doi]</a> <a href="pubs/Journals/jimenez2019frontiers.pdf">[pdf]</a> <a href="pubs/bibtex/Jimenez2019.txt">[Bibtex]</a></li>
+                                    <li>Zemouri, R., Zerhouni, N., Racoceanu, D. (2019). Deep Learning in the Biomedical Applications: Recent and Future Status, Appl. Sci., 9(8), 1526. <a href="https://doi.org/10.3390/app9081526">[doi]</a> <a href="pubs/Journals/zemouri2019applsc.pdf">[pdf]</a></li>
+                                    <li>Saha, M., Chakraborty, C., Racoceanu, D. (2018). Efficient Deep Learning Model for Mitosis Detection using Breast Histopathology Images, Computerized Medical Imaging and Graphics, 2018 Mar;64:29-40. Epub 2017 Dec 16. <a href="https://doi.org/10.1016/j.compmedimag.2017.12.001">[doi]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0895611117301222?via%3Dihub">[URL]</a> <a href="pubs/Journals/saha2017cmig.pdf">[pdf]</a></li>
+                                    <li>Ehteshami Bejnordi, B. et al. (2017). Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer, JAMA, 2017; 318(22): 2199-2210. <a href="https://doi.org/10.1037/arc0000014">[doi]</a> <a href="https://jamanetwork.com/journals/jama/article-abstract/2665774?redirect=true">[URL]</a> <a href="pubs/Journals/ehteshami_bejnordi2017jama.pdf">[pdf]</a></li>
                                     <li>Clatici, V. G., Racoceanu, D., Dalle, C., Voicu, C., Thomas-Aragones, L., Servando E. Marron, S. E., Wollina, U., Fica, S. (2017). Perceived Age and Life Style. The specific Contributions of Seven Factors Involved in Health and Beauty. Maedica - A Journal Of Clinical Medicine, 12(3): 112-122. <a href="pubs/Journals/clatici2017maedica.pdf">[pdf]</a></li>
                                     <li>Traore, L., Kergosien, Y., Racoceanu, D. (2017). Bridging the semantic gap between diagnostic histopathology and image analysis, Stud Health Technol Inform., 235:436-440. <a href="pubs/Journals/traore2017shti.pdf">[pdf]</a> <a href=https://www.ncbi.nlm.nih.gov/pubmed/28423830>[Pubmed]</a></li>
                                     <li>Marin, L., Ezziane, M., Comperat, E., Mozer, P., Cancel-Tassin, G., CotÃ©, J.-F., Racoceanu, D., Boudghene, F., Lucidarme, O., Cussenot, O., Renard Penna, R. (2017). Comparison of semi-automated and manual methods to measure the volume of prostate cancer on magnetic resonance imaging, Diagn Interv Imaging, 98(5): 423-428. <a href="pubs/Journals/marin2017dii.pdf">[pdf]</a> <a href=https://www.ncbi.nlm.nih.gov/pubmed/28330587>[Pubmed]</a> <a href="http://dx.doi.org/10.1016/j.diii.2017.02.004">[DOI]</a></li>
