@@ -1,0 +1,9 @@
+@article{SongMorton2014_29,
+  title={The relationship between urban spatial structure and PM2. 5: Lessons learnt from a modeling project on vehicle emissions in Charlotte, USA},
+  pub_year={2014},
+  citation={City Plan. Rev 38, 9-14, 2014},
+  author={Y Song and S Zhong and Z Zhang and Y Chen and D Rodriguez and B Morton},
+  journal={City Plan. Rev},
+  volume={38},
+  pages={9-14}
+}

@@ -1,0 +1,9 @@
+@article{LoménieGouaillard2012_39,
+  title={Advances in Bio-Imaging: From Physics to Signal Understanding Issues: State-of-the-Art and Challenges},
+  pub_year={2012},
+  citation={Springer Science \& Business Media, 2012},
+  author={Nicolas Loménie and Daniel Racoceanu and Alexandre Gouaillard},
+  volume={120},
+  publisher={Springer Science \& Business Media},
+  abstract={Advances in Imaging Devices and Image processing stem from cross-fertilization between many fields of research such as Chemistry, Physics, Mathematics and Computer Sciences. This BioImaging Community feel the urge to integrate more intensively its various results, discoveries and innovation into ready to use tools that can address all the new exciting challenges that Life Scientists (Biologists, Medical doctors,...) keep providing, almost on a daily basis. Devising innovative chemical probes, for example, is an archetypal goal in which image quality improvement must be driven by the physics of acquisition, the image processing and analysis algorithms and the chemical skills in order to design an optimal bioprobe. This book offers an overview of the current advances in many research fields related to bioimaging and highlights the current limitations that would need to be addressed in the next decade to design fully integrated BioImaging Device.}
+}

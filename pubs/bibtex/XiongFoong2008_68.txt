@@ -1,0 +1,10 @@
+@article{XiongFoong2008_68,
+  title={Automatic working area classification in peripheral blood smears using spatial distribution features across scales},
+  pub_year={2008},
+  citation={2008 19th International Conference on Pattern Recognition, 1-4, 2008},
+  author={Wei Xiong and Sim Heng Ong and Joo-Hwee Lim and NN Tung and Jiang Liu and Daniel Racoceanu and K Tan and A Chong and K Foong},
+  conference={2008 19th International Conference on Pattern Recognition},
+  pages={1-4},
+  publisher={IEEE},
+  abstract={Automatic classification of working areas in peripheral blood smears can provide objective and reproducible quality control for the evaluation of smears and smear maker devices. However, it has drawn little research attention. In this paper we study this topic using image analysis and statistical pattern recognition methods. We employ generic features without requiring the extraction of individual cells. Two new spatial distribution features across scales are defined and utilized to classify working areas. We demonstrate that the only feature and method proposed in a similar work by others is insufficient to characterize the goodness of working areas, particularly the cell distribution. However, by utilizing it together with the features developed in this paper, we can achieve much better results. Our method has been tested on about 150 labeled images acquired from three malaria-infected Giemsa-stained blood smears …}
+}

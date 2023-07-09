@@ -1,0 +1,10 @@
+@article{TutacRacoceanu2010_83,
+  title={A Spatial representation and Reasoning Approach for Breast Cancer Grading Ontology},
+  pub_year={2010},
+  citation={Scientific Bulletin of Politehnica University of Timisoara, Transactions on …, 2010},
+  author={A Tutac and V Cretu and D Racoceanu},
+  journal={Scientific Bulletin of Politehnica University of Timisoara, Transactions on Automatic Control and Computer Science},
+  volume={55},
+  number={69},
+  pages={123-133}
+}

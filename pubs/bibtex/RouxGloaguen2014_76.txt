@@ -1,0 +1,10 @@
+@article{RouxGloaguen2014_76,
+  title={Mitos \& atypia},
+  pub_year={2014},
+  citation={Image Pervasive Access Lab (IPAL), Agency Sci., Technol. \& Res. Inst …, 2014},
+  author={Ludovic Roux and Daniel Racoceanu and Frédérique Capron and Jessica Calvo and Elham Attieh and Gilles Le Naour and Anne Gloaguen},
+  journal={Image Pervasive Access Lab (IPAL), Agency Sci., Technol. \& Res. Inst. Infocom Res., Singapore, Tech. Rep},
+  volume={1},
+  pages={1-8},
+  abstract={Breast cancer is a major cause of death in the world. According to figures published by the International Agency for Research on Cancer in their GLOBOCAN 2012 estimated cancer incidence, mortality and prevalence worldwide in 20121, the three most common cancers in the world were lung (1.825 million cases for both sexes, 583.000 cases for women only), breast (1.677 million cases) and colorectal (1.361 million cases for both sexes, 614.000 cases for women only). For women, breast cancer is by far the most frequent cancer worldwide. To diagnose breast cancer, samples of tissue are removed from breast. From these samples, histology slides are produced. These slides are stained generally with hematoxylin and eosin (H\&E). Pathologists analyse breast biopsy slides and give them a grade according to one of two international grading systems:}
+}

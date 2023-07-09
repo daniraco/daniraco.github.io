@@ -1,0 +1,10 @@
+@article{XiongFoong2008_76,
+  title={Automatic working area classification in peripheral blood smears without cell central zone extraction},
+  pub_year={2008},
+  citation={2008 30th Annual International Conference of the IEEE Engineering in …, 2008},
+  author={Wei Xiong and Joo-Hwee Lim and SH Ong and NN Tung and J Liu and D Racoceanu and K Tan and A Chong and K Foong},
+  conference={2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society},
+  pages={4074-4077},
+  publisher={IEEE},
+  abstract={In this paper we study automatic classification of working areas in peripheral blood smears using image analysis and recognition methods. Such automatic classification can provide objective and reproducible quality control for the evaluation of smears and smear maker devices. However, research in this filed has drawn little attention. Existing methods either can not differentiate correctly different cell distributions or rely on the extraction of the central pallor zones in cells for counting, which are not always observable. In contrast, we do not rely on the pallor zone extraction thus on more general basis. We introduce two generic parameters to measure the goodness of working areas, one for the degree of overlap, and the other for the spatial occupancy. We also propose a cascading classification network for the classification of different areas. The effectiveness of our method has been tested on over 150 labeled …}
+}

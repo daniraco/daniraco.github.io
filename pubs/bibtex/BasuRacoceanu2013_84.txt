@@ -1,0 +1,10 @@
+@article{BasuRacoceanu2013_84,
+  title={A stochastic model for automatic extraction of 3d neuronal morphology},
+  pub_year={2013},
+  citation={Medical Image Computing and Computer-Assisted Intervention–MICCAI 2013: 16th …, 2013},
+  author={Sreetama Basu and Maria Kulikova and Elena Zhizhina and Wei Tsang Ooi and Daniel Racoceanu},
+  conference={Medical Image Computing and Computer-Assisted Intervention–MICCAI 2013: 16th International Conference, Nagoya, Japan, September 22-26, 2013, Proceedings, Part I 16},
+  pages={396-403},
+  publisher={Springer Berlin Heidelberg},
+  abstract={Tubular structures are frequently encountered in bio-medical images. The center-lines of these tubules provide an accurate representation of the topology of the structures. We introduce a stochastic Marked Point Process framework for fully automatic extraction of tubular structures requiring no user interaction or seed points for initialization. Our Marked Point Process model enables unsupervised network extraction by fitting a configuration of objects with globally optimal associated energy to the centreline of the arbors. For this purpose we propose special configurations of marked objects and an energy function well adapted for detection of 3D tubular branches. The optimization of the energy function is achieved by a stochastic, discrete-time multiple birth and death dynamics. Our method finds the centreline, local width and orientation of neuronal arbors and identifies critical nodes like bifurcations and …}
+}

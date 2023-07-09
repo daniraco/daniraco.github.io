@@ -1,0 +1,8 @@
+@article{DepeursingeMuller2020_27,
+  title={COVID-19 and cardiovascular diseases},
+  pub_year={2020},
+  citation={Journal of Cardiology, 2020},
+  author={Adrien Depeursinge and Daniel Racoceanu and Jimison Iavindrasana and Gilles Cohen and Alexandra Platon and Pierre-Alexandre Poletti and Henning Muller},
+  publisher={Journal of Cardiology},
+  abstract={Infection by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) is responsible for the second pandemic of the XXI century after influenza A in 2009. As of mid-June 2020, more than 4, 40,000 fatal cases of SARS-CoV-2-related disease (COVID-19) have occurred worldwide. Besides its prominent expression at the level of the respiratory apparatus, COVID-19 is also characterized by a substantial degree of cardiovascular involvement, both in terms of deterioration of pre-existing conditions, and as the effect of inflammation-facilitated acute events. They include ischemic/inflammatory heart disease, ventricular arrhythmias, conduction disturbances, thrombotic events at the level of the lungs, and systemic activation of the coagulation cascade, configuring the scenario of disseminated intravascular coagulation. Herein, we summarize the main COVID-19 features of relevance for the clinicians in the …}
+}

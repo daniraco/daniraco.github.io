@@ -1,0 +1,7 @@
+@article{UlysseRigaud2014_47,
+  title={Framework for neurosphere growth modelling under phase-contrast microscopy},
+  pub_year={2014},
+  citation={Université Pierre et Marie Curie-Paris VI, 2014},
+  author={Stephane Ulysse Rigaud},
+  abstract={The study of stem cells is one of the most important fields of research in the biomedical field. Computer vision and image processing have been greatly emphasized in this area for the development of automated solutions for culture and observation of cells. This work proposes a new methodology for observing and modelling the proliferation of neural stem cell under a phase contrast microscope. At each time lapse observation performed by the microscope during the proliferation, the system determines a three-dimensional model of the structure formed by the observed cells. This is achieved by a framework combining analysis, synthesis and selection process. First, an analysis of the images from the microscope segments the neurosphere and the constituent cells. With this analysis, combined with prior knowledge about the cells and their culture protocol, several 3-D possible models are generated through a synthesis process. These models are finally selected and evaluated according to their likelihood with the microscope image using a 3-D to 2-D registration method. Through this approach, we present an automatic visualisation tool and observation of the proliferation of neural stem cell under a phase contrast microscope.}
+}

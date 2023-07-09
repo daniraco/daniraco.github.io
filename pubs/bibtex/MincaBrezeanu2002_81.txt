@@ -1,0 +1,9 @@
+@article{MincaBrezeanu2002_81,
+  title={Fuzzy based petri nets for the production systems diagnosis},
+  pub_year={2002},
+  citation={Proceedings International Conference on Information Systems, Analysis and …, 2002},
+  author={Eugenia Minca and Daniel Racoceanu and Nouredinne Zerhouni and Iulian Brezeanu},
+  conference={Proceedings International Conference on Information Systems, Analysis and Synthesis, Electronics, Informatics and Control Systems–Invited Session},
+  volume={12},
+  publisher={Orlando, Etats-Unis}
+}

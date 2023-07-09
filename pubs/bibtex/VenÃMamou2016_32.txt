@@ -1,0 +1,10 @@
+@article{VenÃMamou2016_32,
+  title={Micrometastasis Detection Guidance by Whole-Slide Image Texture Analysis in Colorectal Lymph Nodes},
+  pub_year={2016},
+  citation={Diagnostic Pathology 1 (8), 2016},
+  author={Rui VenÃ and B Ben Cheikh and A Coron and E Saegusa-Beecroft and J Machi and L Bridal and Daniel Racoceanu and J Mamou},
+  journal={Diagnostic Pathology},
+  volume={1},
+  number={8},
+  abstract={AimsTo help pathologists in their examination we propose a method that extracts textural features from histopathological LN whole slide images (WSI) and then applies support vector machines (SVMs) to automatically identify regions suspicious for metastatic foci.MethodsThe database consisted of WSI from 44 LNs. Sections were stained with hematoxylin-eosin and examined at 20x (0.45 Î¼m resolution). Twenty-eight of the LNs were identified by an expert pathologist as positive for cancer (P), and the remaining sixteen were negative (N). This database was divided into two groups. Group 1 (15P and 5N) was used for training and Group 2 (13P and 11N) was used for testing the classification technique. For all analysis each WSI was divided into non-overlapping 1000 x 1000 pixel sub-images that will be referred to as high-power fields (HPFs). For each LN in Group 1, at least one WSI was annotated by a pathologist to identify rectangular, HPF-scale regions as locally cancerous or locally non-cancerous. From these annotated slides, 924 HPFs (462 P and 462 N) were obtained. For each of these HPFs, statistical features based on gray-level co-occurrence matrices [1] and Lawâ€™ s texture energy measures [2, 3] were extracted from 9 derived images [4]. The extracted features were submitted to a sequential forward selection (SFS) method [5] to select few non-redundant features providing best class separation (cancerous vs. non-cancerous region). Combinations of the selected features were tested on the 924 HPFs using k-fold cross-validation to find those that produced the best results and consequently to train our SVM-based classifier. In …}
+}

@@ -1,0 +1,12 @@
+@article{HuangAhmed2012_67,
+  title={Online 3-D tracking of suspension living cells imaged with phase-contrast microscopy},
+  pub_year={2012},
+  citation={IEEE transactions on biomedical engineering 59 (7), 1924-1933, 2012},
+  author={Chao-Hui Huang and Shvetha Sankaran and Daniel Racoceanu and Srivats Hariharan and Sohail Ahmed},
+  journal={IEEE transactions on biomedical engineering},
+  volume={59},
+  number={7},
+  pages={1924-1933},
+  publisher={IEEE},
+  abstract={Neural stem cells/neural progenitors (NSCs/NPs) are cells that give rise to the main cell types of the nervous system: oligodendrocytes, neurons, and astrocytes. Studying NSCs/NPs with time-lapse microscopy is critical to the understanding of the biology of these cells. However, NSCs/NPs are very sensitive to phototoxic damage, and therefore, fluorescent dyes cannot be used to follow these cells. Also, since in most of NSC/NP-related experiments, a large number of cells neesd to be monitored. Consequently, the acquisition of a huge amount of images is required. An additional difficulty is related to our original suspension living, tracking objective, behavior much closer to the natural, in vivo, way of development of the cells. Indeed, unlike adherent cells, suspension cells float freely in a liquid solution, thus, making their dynamics very different from that of adherent cells. As a result, existing visual tracking algorithms …}
+}

@@ -1,0 +1,7 @@
+@article{HuangHariharan2014_31,
+  title={Method and system for tracking motion of microscopic objects within a three-dimensional volume},
+  pub_year={2014},
+  citation={US Patent App. 14/238,727, 2014},
+  author={Chao-Hui Huang and Shvetha Sankaran and Sohail Ahmed and Daniel Racoceanu and Srivats Hariharan},
+  abstract={Phase contrast microscopy images are collected of a liquid sample containing one or more microscopic objects. The images are analyzed to track the motion of the microscopic objects within the liquid sample. Using the updated locations of the tracking objects, a controller can generate control signals for controlling the microscopy parameters, to ensure that the portion of the liquid sample which is imaged includes the tracking objects. The tracking objects may be cells or cell-spheres. Thus, the system can, for example, track cells and cell-spheres, to observe their growth, during a long time-lapse experiment.}
+}

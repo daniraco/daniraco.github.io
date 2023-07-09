@@ -1,0 +1,7 @@
+@article{PalluatRacoceanu2004_82,
+  title={Conception et prototypage d’un systeme de surveillance dynamique embarqué et d’aide au diagnostic d’un centre d’usinagea grande vitesse},
+  pub_year={2004},
+  citation={Technical report. OSÉO anvar-Aide aux Jeunes pour l’Innovation Technologique, 2004},
+  author={Nicolas Palluat and Daniel Racoceanu},
+  publisher={Technical report. OSÉO anvar-Aide aux Jeunes pour l’Innovation Technologique}
+}

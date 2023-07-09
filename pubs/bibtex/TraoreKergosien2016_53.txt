@@ -1,0 +1,9 @@
+@article{TraoreKergosien2016_53,
+  title={SY05. 02| Computer Aided Diagnosis},
+  pub_year={2016},
+  citation={13TH EUROPEAN CONGRESS ON DIGITAL PATHOLOGY, 44, 2016},
+  author={L Traore and C Daniel and MC Jaulent and T Schrader and D Racoceanu and Y Kergosien},
+  journal={13TH EUROPEAN CONGRESS ON DIGITAL PATHOLOGY},
+  pages={44},
+  abstract={AimsOur objective is to i) analyze the histopathological knowledge for breast cancer grading available in the reference CAP CC\&P and ii) to build a sustainable formal representation of this knowledge based on existing biomedical ontologies in NCBO Bioportal [6][7] and UMLS semantic types [8].}
+}

@@ -1,0 +1,10 @@
+@article{JametRacoceanu2015_84,
+  title={Statistically Representative Cloud of Particles for Crowd Flow Tracking},
+  pub_year={2015},
+  citation={Pattern Recognition Applications and Methods: Third International Conference …, 2015},
+  author={Patrick Jamet and Stephen Chai Kheh Chew and Antoine Fagette and Jean-Yves Dufour and Daniel Racoceanu},
+  conference={Pattern Recognition Applications and Methods: Third International Conference, ICPRAM 2014, Angers, France, March 6-8, 2014, Revised Selected Papers 3},
+  pages={237-251},
+  publisher={Springer International Publishing},
+  abstract={This paper deal with the flow tracking topic applied to dense crowds of pedestrians. Using the estimated density, a cloud of particles is spread on the image and propagated according to the optical flow. Each particles embedding physical properties similar to those of a pedestrian, this cloud of particles is considered as statistically representative of the crowd. Therefore, the behavior of the particles can be validated with respect to the behavior expected from pedestrians and potentially optimized if needed. Three applications are derived by analysis of the cloud behavior: the detection of the entry and exit areas of the crowd in the image, the detection of dynamic occlusions and the possibility to link entry areas with exit ones according to the flow of the pedestrians. The validation is performed on synthetic data and shows promising results.}
+}

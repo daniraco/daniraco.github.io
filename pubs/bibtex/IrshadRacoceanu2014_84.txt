@@ -1,0 +1,10 @@
+@article{IrshadRacoceanu2014_84,
+  title={Spectral band selection for mitosis detection in histopathology},
+  pub_year={2014},
+  citation={2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI), 1279-1282, 2014},
+  author={Humayun Irshad and Alexandre Gouaillard and Ludovic Roux and Daniel Racoceanu},
+  conference={2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI)},
+  pages={1279-1282},
+  publisher={IEEE},
+  abstract={This study aims at evaluating the accuracy of mitosis detection on multispectral histopathological images by developing a solution specifically designed to take advantage of multi-spectral information. The proposed framework includes a selection of spectral bands and focal plane, detection of candidate mitotic regions, computation of morphological \& mul-tispectral statistical features (MMSF) and study of different state-of-the-art classification methods for mitosis classification. This framework achieved 74% TPR, 76% PPV and 74% F-Measure on MITOS dataset. Our results indicate that selected multispectral bands contain discriminant information for mitotic figures, being therefore a very promising exploration area to improve the quality of the diagnosis assistance in histopathology.}
+}

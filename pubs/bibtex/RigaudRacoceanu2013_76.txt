@@ -1,0 +1,10 @@
+@article{RigaudRacoceanu2013_76,
+  title={An analysis-synthesis approach for neurosphere modelisation under phase-contrast microscopy},
+  pub_year={2013},
+  citation={2013 35th Annual International Conference of the IEEE Engineering in …, 2013},
+  author={Stéphane Rigaud and Chao-Hui Huang and Sohail Ahmed and Joo-Hwee Lim and Daniel Racoceanu},
+  conference={2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  pages={3989-3992},
+  publisher={IEEE},
+  abstract={The study of stem cells is one of the most important biomedical research. Understanding their development could allow multiple applications in regenerative medicine. For this purpose, automated solutions for the observation of stem cell development process are needed. This study introduces an on-line analysis method for the modelling of neurosphere evolution during the early time of their development under phase contrast microscopy. From the corresponding phase contrast time-lapse sequences, we extract information from the neurosphere using a combination of phase contrast physics deconvolution and curve detection for locate the cells inside the neurosphere. Then, based on prior biological knowledge, we generate possible and optimal 3-dimensional configuration using 2D to 3D registration methods and evolutionary optimisation algorithm.}
+}

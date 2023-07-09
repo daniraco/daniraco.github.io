@@ -1,0 +1,7 @@
+@article{VeillardRacoceanu2012_0,
+  title={Kernel Methods for the Incorporation of Prior-Knowledge into Support Vector Machines–THESIS SYNOPSIS–},
+  pub_year={2012},
+  citation={},
+  author={Antoine Veillard and Stéphane Bressan and Daniel Racoceanu},
+  abstract={In this thesis, we present the Knowledge-Enhanced RBF (KE-RBF) framework, a family of kernel methods for the incorporation of prior-knowledge into SVMs. The KE-RBF framework consists in three different types of kernels (ξRBF, pRBF and gRBF) based on adaptations of the standard RBF kernel. KE-RBF kernels enable the incorporation of a wide range of prior-knowledge specific to the task including global properties such as monotonicity, pseudoperiodicity or characteristic correlation patterns, and semi-global properties represented by unlabelled and labelled regions of the feature space. The methods are numerically evaluated on several real-world applications using publicly available data. The empirical study shows that with adequate prior-knowledge, the methods are able to significantly improve the results obtained with standard kernels. In particular, they enable learning with very small or strongly biased training sets significantly broadening the field of application of SVMs.}
+}

@@ -1,0 +1,11 @@
+@article{MarinPinto2019_63,
+  title={Classification of prostate cancer based on clinical and omics data using neural networks techniques to improve prognostic power.},
+  pub_year={2019},
+  citation={Journal of Clinical Oncology 37 (15_suppl), e16569-e16569, 2019},
+  author={Laura Marin and Fanny Lys Casado and Daniel Racoceanu and Joseph A Pinto},
+  volume={37},
+  number={15_suppl},
+  pages={e16569-e16569},
+  publisher={American Society of Clinical Oncology},
+  abstract={e16569Background: In 2017, prostate cancer (PCa) was the second most common cancer in men after lung cancer. While there are different courses of action to treat the disease, its mortality in Peru is higher than 50%. Conventionally, PCa is diagnosed by evaluating tissue biopsies, and classified according to the Gleason grading system. Novel molecular classifications of PCa have been proposed for diagnostic and prognostic purposes. The main goal of this work is to implement a tool predicting the disease free time of patient according to the genomic expression and highlight the genes playing an influential role on the prediction. Methods: Modern techniques to classify data keep getting broader and more accurate, in particular with the introduction of Neural Networks(NN). We implement an Artificial Neural Network automatic genomic classification strategy based on a Local Interpretable Model-Agnostic …}
+}

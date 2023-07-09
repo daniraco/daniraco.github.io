@@ -1,0 +1,9 @@
+@article{TeodorescuRacoceanu2007_80,
+  title={Semantic inter-media fusion design for a content-based medical image retrieval system},
+  pub_year={2007},
+  citation={Japanese Society of Medical Imaging Technology-JAMIT-ONCO-MEDIA workshop …, 2007},
+  author={Roxana Teodorescu and Daniel Racoceanu},
+  journal={Japanese Society of Medical Imaging Technology-JAMIT-ONCO-MEDIA workshop, Tsukuba, Japan},
+  pages={21-22},
+  abstract={This article treats about a semantic content-based medical image retrieval system (CBMIR), focusing more precisely on the inter-media fusion module between the medical images and the associated medical reports. In the proposed CBMIR, the semantic indexing and fusion are based on the Unified Medical Language System’s (UMLS) Metathesaurus, a very large, multi-purpose, and multi-lingual biomedical and health-related concepts vocabulary. Coherent modeling approach of the indexing, the fusion and the retrieval processes is critical for CBMIR systems quality. We design the semantic fusion approach using the Unified Modeling Language (UML). A set of UML diagrams illustrating the steps of the semantic CBMIR methodology are proposed. The fusion operates before the query processing (retrieval) and works at an UMLS-compliant conceptual indexing level. By evaluating the probabilistic, fuzzy and evidence-based approaches for the fusion and different similarity functions for the retrieval processes, we introduce an analysis of the different approaches, trough the medical image retrieval benchmark of the Cross Language Evaluation Forum (CLEF) 2006.}
+}

@@ -1,0 +1,11 @@
+@article{SahaRacoceanu2018_57,
+  title={Efficient deep learning model for mitosis detection using breast histopathology images},
+  pub_year={2018},
+  citation={Computerized Medical Imaging and Graphics 64, 29-40, 2018},
+  author={Monjoy Saha and Chandan Chakraborty and Daniel Racoceanu},
+  journal={Computerized Medical Imaging and Graphics},
+  volume={64},
+  pages={29-40},
+  publisher={Pergamon},
+  abstract={Mitosis detection is one of the critical factors of cancer prognosis, carrying significant diagnostic information required for breast cancer grading. It provides vital clues to estimate the aggressiveness and the proliferation rate of the tumour. The manual mitosis quantification from whole slide images is a very labor-intensive and challenging task. The aim of this study is to propose a supervised model to detect mitosis signature from breast histopathology WSI images. The model has been designed using deep learning architecture with handcrafted features. We used handcrafted features issued from previous medical challenges MITOS @ ICPR 2012, AMIDA-13 and projects (MICO ANR TecSan) expertise. The deep learning architecture mainly consists of five convolution layers, four max-pooling layers, four rectified linear units (ReLU), and two fully connected layers. ReLU has been used after each convolution layer as …}
+}

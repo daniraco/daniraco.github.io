@@ -1,0 +1,11 @@
+@article{RacoceanuCapron2015_56,
+  title={Towards semantic-driven high-content image analysis: An operational instantiation for mitosis detection in digital histopathology},
+  pub_year={2015},
+  citation={Computerized Medical Imaging and Graphics 42, 2-15, 2015},
+  author={Daniel Racoceanu and Frédérique Capron},
+  journal={Computerized Medical Imaging and Graphics},
+  volume={42},
+  pages={2-15},
+  publisher={Pergamon},
+  abstract={This study concerns a novel symbolic cognitive vision framework emerged from the Cognitive Microscopy (MICO1) initiative. MICO aims at supporting the evolution towards digital pathology, by studying cognitive clinical-compliant protocols involving routine virtual microscopy. We instantiate this paradigm in the case of mitotic count as a component of breast cancer grading in histopathology. The key concept of our approach is the role of the semantics as driver of the whole slide image analysis protocol. All the decisions being taken into a semantic and formal world, MICO represents a knowledge-driven platform for digital histopathology. Therefore, the core of this initiative is the knowledge representation and the reasoning. Pathologists’ knowledge and strategies are used to efficiently guide image analysis algorithms. In this sense, hard-coded knowledge, semantic and usability gaps are to be reduced by a leading …}
+}

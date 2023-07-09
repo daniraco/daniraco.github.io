@@ -1,0 +1,10 @@
+@article{QiuTian2006_84,
+  title={Stripe: image feature based on a new grid method and its application in ImageCLEF},
+  pub_year={2006},
+  citation={Information Retrieval Technology: Third Asia Information Retrieval Symposium …, 2006},
+  author={Bo Qiu and Daniel Racoceanu and Chang Sheng Xu and Qi Tian},
+  conference={Information Retrieval Technology: Third Asia Information Retrieval Symposium, AIRS 2006, Singapore, October 16-18, 2006. Proceedings 3},
+  pages={489-496},
+  publisher={Springer Berlin Heidelberg},
+  abstract={There have been many features developed for images, like Blob, image patches, Gabor filters, etc. But generally the calculation cost is too high. When facing a large image database, their responding speed can hardly satisfy users’ demand in real time, especially for online users. So we developed a new image feature based on a new region division method of images, and named it as ‘stripe’. As proved by the applications in ImageCLEF’s medical subtasks, stripe is much faster at the calculation speed compared with other features. And its influence to the system performance is also interesting: a little higher than the best result in ImageCLEF 2004 medical retrieval task (Mean Average Precision — MAP: 44.95% vs. 44.69%), which uses Gabor filters; and much better than Blob and low-resolution map in ImageCLEF 2006 medical annotation task (classification correctness rate: 75.5% vs. 58.5% \& 75.1%).}
+}

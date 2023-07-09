@@ -1,0 +1,12 @@
+@article{RacoceanuRoux2011_32,
+  title={Cognitive virtual microscopy: a cognition-driven visual explorer for histopathology–the MICO ANR TecSan 2010 initiative},
+  pub_year={2011},
+  citation={BMC Proceedings 5 (1), 1-1, 2011},
+  author={Daniel Racoceanu and Nicolas Loménie and Ludovic Roux},
+  journal={BMC Proceedings},
+  volume={5},
+  number={1},
+  pages={1-1},
+  publisher={BioMed Central},
+  abstract={Within the last decade, histopathology became widely accepted as a powerful exam for diagnosis and prognosis in mainstream diseases such as breast cancer. Currently, analysis of medical images in histopathology largely remains the work of human experts. For pathologists, this consists of hundreds of slides examined daily. Such a tedious manual work is often inconsistent and subjective. The recent cognitive microscope–MICO-ANR TecSan project aims at radically modifying the medical practices by proposing a new cognitive medical imaging environment able to improve reliability of decisionmaking and prognosis assistance in histopathology. Our goal is to design a generic, open-ended, semantic digital histology platform including a cognitive dimension. MICO combines visual perception, pervasive exploration of whole slide images, context (including uncertainties) modeling, cognitive vision and quality of experience to reinforce a visual diagnosis assistance following an approach centered on the user behavior.}
+}

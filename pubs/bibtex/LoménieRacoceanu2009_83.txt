@@ -1,0 +1,9 @@
+@article{LoménieRacoceanu2009_83,
+  title={MICO: the COgnitive virtual MIcroscope project},
+  pub_year={2009},
+  citation={Cognitive Systems with Interactive Sensors (COGIS) symposium, Paris, France …, 2009},
+  author={Nicolas Loménie and Ludovic Roux and D Balensi and A Tutac and D Racoceanu},
+  journal={Cognitive Systems with Interactive Sensors (COGIS) symposium, Paris, France},
+  pages={16-18},
+  abstract={The field of microscopy is experiencing a new revolution, exactly in the same way as satellite imaging systems do, mainly due to dramatically improved storage and acquisition capabilities. The urge for intelligent interaction for image exploration tasks is gaining momentum. This paper gives it a try to define what should be a cognitive microscope regarding various criteria of cognitive vision systems and describes a first prototype of such a device highlighting the interest for the cognitive vision community to work on such dedicated biological issues.}
+}

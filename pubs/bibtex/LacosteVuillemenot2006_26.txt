@@ -1,0 +1,8 @@
+@article{LacosteVuillemenot2006_26,
+  title={IPAL Knowledge-based Medical Image Retrieval in ImageCLEFmed 2006.},
+  pub_year={2006},
+  citation={CLEF (Working Notes), 2006},
+  author={Caroline Lacoste and Jean-Pierre Chevallet and Joo-Hwee Lim and Xiong Wei and Daniel Racoceanu and Diem Thi Hoang Le and Roxana Teodorescu and Nicolas Vuillemenot},
+  conference={CLEF (Working Notes)},
+  abstract={This paper presents the contribution of IPAL group on the CLEF 2006 medical retrieval task (ie ImageCLEFmed). The main idea of our group is to incorporate medical knowledge in the retrieval system within a multimodal fusion framework. For text, this knowledge is in the Unified Medical Language System (UMLS) sources. For images, this knowledge is in semantic features that are learned from examples within structured learning framework. We propose to represent both image and text using UMLS concepts. The use of UMLS concepts allows the system to work at a higher semantic level and to standardize the semantic index of medical data, facilitating the communication between visual end textual indexing and retrieval. The results obtained with UMLS-based approaches show the potential of this conceptual indexing, especially when using a semantic dimension filtering, and the benefit of working within a fusion framework, leading to the best results of ImageCLEFmed 2006. We also test a visual retrieval system based on manual query design and visual task fusion. Even if it provides the best visual results, this purely visual retrieval provides poor results in comparison to the best textual approaches.}
+}

@@ -1,0 +1,12 @@
+@article{RacoceanuZerhouni1995_54,
+  title={On a new method of Markov chain reduction},
+  pub_year={1995},
+  citation={Mathematical Modelling of Systems 1 (3), 199-229, 1995},
+  author={D Racoceanu and A Elmoudni and M Ferney and S Zerhouni},
+  journal={Mathematical Modelling of Systems},
+  volume={1},
+  number={3},
+  pages={199-229},
+  publisher={Swets \& Zeitlinger Publishers},
+  abstract={The practical usefulness of Markov models and Markovian decision process has been severely limited due to their extremely large dimension. Thus, a reduced model without sacrificing significant accuracy can be very interesting.The homogeneous finite Markov chain's long-run behaviour is given by the persistent states, obtained after the decomposition in classes of connected states. In this paper we expound a new reduction method for ergodic classes formed by such persistent states. An ergodic class has a steady-state independent of the initial distribution. This class constitutes an irreducible finite ergodic Markov chain, which evolves independently after the capture of the event.The reduction is made according to the significance of steady-state probabilities. For being treatable by this method, the ergodic chain must have the Two-Time-Scale property.The presented reduction method is an …}
+}

@@ -1,0 +1,10 @@
+@article{MonninZerhouni2006_78,
+  title={Diagnosis methods using artificial intelligence. Application of fuzzy petri nets and neuro-fuzzy systems},
+  pub_year={2006},
+  citation={Management and Control of Production and Logistics 2004 (MCPL 2004): A …, 2006},
+  author={Maxime Monnin and Nicolas Palluat and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={Management and Control of Production and Logistics 2004 (MCPL 2004): A Proceedings Volume from the IFAC/IEEE/ACCA Conference, Santiago, Chile, 3-5 November 2004},
+  pages={101},
+  publisher={Elsevier},
+  abstract={In this paper an overview of the most important artificial intelligence diagnosis tools is given. For each tool, we focus on diagnosis principles and on their advantages and disadvantages. That allows us to extract four important points that a diagnosis tool should fulfilled. Using these results, we propose a tool based on fuzzy Petri nets and a tool based on neuro-fuzzy systems, which allow to make a diagnosis using a model easy to build and that take into account the uncertainties of maintenance knowledge. These tools provide abductive approaches of fault propagations research with an efficient localization and a characterization of the fault origin. At the end, we apply our tools on a comparative example of a flexible system diagnosis.}
+}

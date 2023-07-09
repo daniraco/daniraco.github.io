@@ -1,0 +1,11 @@
+@article{VeillardBressan2010_72,
+  title={Support Vector Methods for Sentence Level Machine Translation Evaluation},
+  pub_year={2010},
+  citation={2010 22nd IEEE International Conference on Tools with Artificial …, 2010},
+  author={Antoine Veillard and Elvina Melissa and Cassandra Theodora and Daniel Racoceanu and Stéphane Bressan},
+  conference={2010 22nd IEEE International Conference on Tools with Artificial Intelligence},
+  volume={2},
+  pages={347-348},
+  publisher={IEEE},
+  abstract={Recent work in the field of machine translation (MT) evaluation suggests that sentence level evaluation based on machine learning (ML) can outperform the standard metrics such as BLEU, ROUGE and METEOR. We conducted a comprehensive empirical study on support vector methods for ML-based MT evaluation involving multi-class support vector machines (SVM) and support vector regression (SVR) with different kernel functions. We empathize on a systematic comparison study of multiple feature models obtained with feature selection and feature extraction techniques. Besides finding the conditions yielding the best empirical results, our study supports several unobvious conclusions regarding qualitative and quantitative aspects of feature sets in MT evaluation.}
+}

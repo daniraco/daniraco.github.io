@@ -1,0 +1,7 @@
+@article{TEODORESCURACOCEANU2008_78,
+  title={The use of the medical ontology for a semantic-based fusion system in Biomedical Informatics},
+  pub_year={2008},
+  citation={IEEE Int. Joint Conferences on Computational Cybernetics and Technical …, 2008},
+  author={Roxana-Oana TEODORESCU and Cosmin CERNAZANU-GLAVAN and Vladimir-Ioan CRETU and Daniel RACOCEANU},
+  conference={IEEE Int. Joint Conferences on Computational Cybernetics and Technical Informatics}
+}

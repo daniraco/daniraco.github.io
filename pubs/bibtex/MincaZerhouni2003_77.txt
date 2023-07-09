@@ -1,0 +1,9 @@
+@article{MincaZerhouni2003_77,
+  title={Approche de détection par réseau de Petri flou},
+  pub_year={2003},
+  citation={Pentom2003, Performance et Nouvelles Technologies en Maintenance, 26-28, 2003},
+  author={E Minca and D Racoceanu and N Zerhouni},
+  journal={Pentom2003, Performance et Nouvelles Technologies en Maintenance},
+  pages={26-28},
+  publisher={Valencienne Valencienne}
+}

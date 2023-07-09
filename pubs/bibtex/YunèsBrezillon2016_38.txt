@@ -1,0 +1,17 @@
+@article{YunèsBrezillon2016_38,
+  title={Towards Efficient Collaborative Digital Pathology: A Pioneer Initiative Of The FlexMIm Project},
+  pub_year={2016},
+  citation={the diagnostic pathology journal, 2016},
+  author={Jean-Baptiste Yunès and Daniel Racoceanu and David Ameisen and A Veillard and B Ben Cheikh and E Attieh and P Brezillon},
+  journal={the diagnostic pathology journal},
+  abstract={Towards Efficient Collaborative Digital Pathology: A Pioneer Initiative Of The FlexMIm Project - 
+Archive ouverte HAL Accéder directement au contenu Accéder directement à la navigation 
+Toggle navigation HAL HAL - Archives Ouvertes La connaissance libre et partagée Accueil 
+Dépôt Consultation Les derniers dépôts Par type de publication Par discipline Par année de 
+publication Par structure de recherche Les portails de l'archive Recherche Documentation 
+hal-02419474, version 1 Article dans une revue Towards Efficient Collaborative Digital 
+Pathology: A Pioneer Initiative Of The FlexMIm Project Jean-Baptiste Yunès 1 Daniel Racoceanu 
+David Ameisen A. Veillard B. Ben Cheikh E. Attieh P. Brezillon Détails 1 IRIF (UMR_8243) - 
+Institut de Recherche en Informatique Fondamentale Type de document : Article dans une 
+revue Domaine : Sciences du Vivant [q-bio] / Médecine humaine et pathologie Liste complète …}
+}

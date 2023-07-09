@@ -1,0 +1,19 @@
+@article{VenâncioMamou2017_62,
+  title={Notice of Removal: Relating quantitative ultrasound parameters to histologic texture parameters in cancerous human lymph nodes},
+  pub_year={2017},
+  citation={2017 IEEE International Ultrasonics Symposium (IUS), 1-1, 2017},
+  author={Rui Venâncio and Bassem Ben Cheikh and Alain Coron and Emi Saegusa-Beecroft and Junji Machi and Daniel Racoceanu and Lori Bridal and Jonathan Mamou},
+  conference={2017 IEEE International Ultrasonics Symposium (IUS)},
+  pages={1-1},
+  publisher={IEEE},
+  abstract={Notice of Removal: Relating quantitative ultrasound parameters to histologic texture parameters in 
+cancerous human lymph nodes | IEEE Conference Publication | IEEE Xplore Skip to Main Content 
+Notice of Removal: Relating quantitative ultrasound parameters to histologic texture parameters in 
+cancerous human lymph nodes Abstract: Removed. Published in: 2017 IEEE International 
+Ultrasonics Symposium (IUS) Article #: Date of Conference: 06-09 September 2017 Date Added to 
+IEEE Xplore: 02 November 2017 ISBN Information: Electronic ISBN: 978-1-5386-3383-0 USB ISBN: 
+978-1-5386-3382-3 Print on Demand(PoD) ISBN: 978-1-5386-3384-7 ISSN Information: Electronic 
+ISSN: 1948-5727 INSPEC Accession Number: 17317882 DOI: 10.1109/ULTSYM.2017.8092764 
+Persistent Link: https://xplorestaging.ieee.org/servlet/opac?punumber=8081728 
+More » Publisher: IEEE IEEE Account Change Username/…}
+}

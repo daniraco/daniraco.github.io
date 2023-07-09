@@ -1,0 +1,20 @@
+@article{PALLUATZerhouni2005_55,
+  title={Utilisation des réseaux de neurones temporels pour le pronostic et la surveillance dynamique: Etude comparative de trois réseaux de neurones récurrents},
+  pub_year={2005},
+  citation={Revue d'intelligence artificielle 19 (6), 913-950, 2005},
+  author={Nicolas PALLUAT and Daniel RACOCEANU and Noureddine Zerhouni},
+  journal={Revue d'intelligence artificielle},
+  volume={19},
+  number={6},
+  pages={913-950},
+  abstract={Utilisation des réseaux de neurones temporels pour le pronostic et la surveillance dynamique : 
+Etude comparative de trois réseaux de neurones récurrents CNRS Inist Pascal-Francis CNRS 
+Pascal and Francis Bibliographic Databases Simple search Advanced search Search by 
+classification Search by vocabulary My Account Home > Search results Help Export Export 
+Selection : Selected items (1) Format : Permanent link CopyPermanent link Copy 
+http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail\&idt=17306313 Utilisation des 
+réseaux de neurones temporels pour le pronostic et la surveillance dynamique : Etude 
+comparative de trois réseaux de neurones récurrents Other title Time neural network use for the 
+dynamic monitoring and prognosis: comparative study of three recurrent neural networks (en) 
+Author PALLUAT, Nicolas 1 ; RACOCEANU, Daniel 1 ; ZERHOUNI, Noureddine 1 [1] Laboratoire d…}
+}

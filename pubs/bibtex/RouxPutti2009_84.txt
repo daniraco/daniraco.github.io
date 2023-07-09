@@ -1,0 +1,10 @@
+@article{RouxPutti2009_84,
+  title={A cognitive virtual microscopic framework for knowlege-based exploration of large microscopic images in breast cancer histopathology},
+  pub_year={2009},
+  citation={2009 Annual International Conference of the IEEE Engineering in Medicine and …, 2009},
+  author={Ludovic Roux and Adina Tutac and Nicolas Loménie and Didier Balensi and Daniel Racoceanu and Antoine Veillard and Wee-Kheng Leow and Jacques Klossa and Thomas C Putti},
+  conference={2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society},
+  pages={3697-3702},
+  publisher={IEEE},
+  abstract={Histopathological examination is a powerful method for prognosis of major diseases such as breast cancer. Analysis of medical images largely remains the work of human experts. Current virtual microscope systems are mainly an emulation of real microscopes with annotation and some image analysis capabilities. However, the lack of effective knowledge management prevents such systems from being computer-aided prognosis platforms. The cognitive virtual microscopic framework, through an extended modeling and use of medical knowledge, has the capacity to analyse histopathological images and to perform grading of breast cancer, providing pathologists with a robust and traceable second opinion.}
+}

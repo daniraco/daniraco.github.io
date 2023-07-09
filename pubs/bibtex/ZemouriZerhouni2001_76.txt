@@ -1,0 +1,11 @@
+@article{ZemouriZerhouni2001_76,
+  title={A Petri nets graphic method of reduction using birth-death processes},
+  pub_year={2001},
+  citation={Proceedings 2001 ICRA. IEEE International Conference on Robotics and …, 2001},
+  author={Ryad Zemouri and Daniel Racoceanu and Noureddine Zerhouni},
+  conference={Proceedings 2001 ICRA. IEEE International Conference on Robotics and Automation (Cat. No. 01CH37164)},
+  volume={1},
+  pages={46-51},
+  publisher={IEEE},
+  abstract={Stochastic Petri nets are a powerful tool for performance evaluation of concurrent systems like parallel computing, communication network and production systems. In many practical applications, performance evaluation using this model is very difficult because of the great dimension of the marking space. We present a graphical method for the reduction of stochastic Petri nets, applied to safe production system modeling. The approach is based on the principle of places interactivity in the model and the function of transition firing rates. The reduction of the Petri net is applied directly to the graphical model after a simple analysis of places efficiency by using mathematical techniques of birth-death processes. Thus, the problem of the model dimension is solved since our method is independent of the marking graph.}
+}

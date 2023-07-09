@@ -1,0 +1,10 @@
+@article{RouxKlossa2009_32,
+  title={A cognitive approach to microscopy analysis applied to automatic breast cancer grading},
+  pub_year={2009},
+  citation={VIRCHOWS ARCHIV 455, 34-35, 2009},
+  author={L Roux and A Tutac and A Veillard and J Dalle and D Racoceanu and N Lomenie and J Klossa},
+  conference={VIRCHOWS ARCHIV},
+  volume={455},
+  pages={34-35},
+  publisher={SPRINGER}
+}

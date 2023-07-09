@@ -1,0 +1,11 @@
+@article{VeillardBressan2012_81,
+  title={PRBF kernels: A framework for the incorporation of task-specific properties into support vector methods},
+  pub_year={2012},
+  citation={2012 11th International Conference on Machine Learning and Applications 1 …, 2012},
+  author={Antoine Veillard and Daniel Racoceanu and Stéphane Bressan},
+  conference={2012 11th International Conference on Machine Learning and Applications},
+  volume={1},
+  pages={156-161},
+  publisher={IEEE},
+  abstract={The incorporation of prior-knowledge into support vector machines (SVM) in order to compensate for inadequate training data has been the focus of previous research works and many found a kernel-based approach to be the most appropriate. However, they are more adapted to deal with broad domain knowledge (e.g. ``sets are invariant to permutations of the elements'') rather than task-specific properties (e.g. ``the weight of a person is cubically related to her height''). In this paper, we present the partially RBF (pRBF) kernels, our original framework for the incorporation of prior-knowledge about correlation patterns between specific features and the output label. pRBF kernels are based upon the tensor-product combination of the standard radial basis function (RBF) kernel with more specialized kernels and provide a natural way for the incorporation of a commonly available type of prior-knowledge. In addition to a …}
+}

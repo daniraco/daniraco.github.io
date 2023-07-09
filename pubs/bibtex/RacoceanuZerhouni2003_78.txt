@@ -1,0 +1,11 @@
+@article{RacoceanuZerhouni2003_78,
+  title={Fuzzy Petri nets for monitoring and recovery},
+  pub_year={2003},
+  citation={2003 IEEE International Conference on Robotics and Automation (Cat. No …, 2003},
+  author={Daniel Racoceanu and Eugenia Minca and Noureddine Zerhouni},
+  conference={2003 IEEE International Conference on Robotics and Automation (Cat. No. 03CH37422)},
+  volume={3},
+  pages={4318-4323},
+  publisher={IEEE},
+  abstract={In this paper, we propose a unitary tool for modeling and analysis of discrete event systems monitoring. Uncertain knowledge of such tasks asks specific reasoning and adapted fuzzy logic modeling and analysis methods. In this context, we propose a new fuzzy Petri net called Fuzzy Reasoning Petri Net: the FRPN. The modeling consists in a set of two collaborative FRPN. The first is used for the fault dynamic state of the system by temporal spectrum of the marking. A monitoring fuzzy Petri net (MFPN) represents the fault tree. The second model, the recovery fuzzy Petri net (RFPN) corresponds to recovering activities. The two proposed models form a dynamic loop for production system monitoring and recovery. Production system is supposed to be modelized using temporal Petri nets, with the assumption that the primary fault symptoms are detected. These symptoms are considered in the MFPN and evolve …}
+}

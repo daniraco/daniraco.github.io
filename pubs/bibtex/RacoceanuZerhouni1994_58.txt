@@ -1,0 +1,21 @@
+@article{RacoceanuZerhouni1994_58,
+  title={A singular perturbation approach to modeling and resolution of Markov chains},
+  pub_year={1994},
+  citation={Systems Analysis Modelling Simulation 15 (2), 83-101, 1994},
+  author={D Racoceanu and A El Moudni and M Ferney and S Zerhouni},
+  journal={Systems Analysis Modelling Simulation},
+  volume={15},
+  number={2},
+  pages={83-101},
+  publisher={Gordon and Breach Science Publishers, Inc.},
+  abstract={A singular perturbation approach to modeling and resolution of Markov chains | Systems 
+Analysis Modelling Simulation ACM Digital Library home ACM home Google, Inc. (search) 
+Advanced Search Browse About Sign in Register Advanced Search Journals Magazines 
+Proceedings Books SIGs Conferences People More Search ACM Digital Library SearchSearch 
+Advanced Search Systems Analysis Modelling Simulation Periodical Home Latest Issue 
+Archive Authors Affiliations Award Winners More HomeBrowse by TitlePeriodicalsSystems 
+Analysis Modelling SimulationVol. 15, No. 2A singular perturbation approach to modeling and 
+resolution of Markov chains article Share on A singular perturbation approach to modeling and 
+resolution of Markov chains Authors: D. Racoceanu View Profile , A. El Moudni View Profile 
+, M. Ferney View Profile , S. Zerhouni View Profile Authors Info \& Claims Systems Analysis …}
+}

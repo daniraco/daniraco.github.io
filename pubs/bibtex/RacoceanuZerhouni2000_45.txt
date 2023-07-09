@@ -1,0 +1,12 @@
+@article{RacoceanuZerhouni2000_45,
+  title={Use of singular perturbations for the reduction of manufacturing system models},
+  pub_year={2000},
+  citation={IFAC Proceedings Volumes 33 (17), 47-52, 2000},
+  author={Daniel Racoceanu and Noureddine Zerhouni},
+  journal={IFAC Proceedings Volumes},
+  volume={33},
+  number={17},
+  pages={47-52},
+  publisher={Elsevier},
+  abstract={The sense of singular perturbation reduction is close to the meaning of the longand short-run management problem. In this paper, we propose the decomposition of a class of manufacturing systems management using the singular perturbation methods. Controlled Stochastic Petri Nets are used for the modelling. The application of singular perturbation techniques on the Markov Reward marking model corresponds to a marking separation function of the behaviour of occurrence probability. The behaviour of slow part of the management system corresponds to a long-run management policy. Its fast part corresponds to a real time operational control of the manufacturing system.}
+}

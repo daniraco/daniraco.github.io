@@ -1,0 +1,10 @@
+@article{SuRacoceanu2007_81,
+  title={A Preliminary Study of Medical Image Distributed Intelligent Access Integrated with Electronic Medical Records System for Brain Degenerative Disease},
+  pub_year={2007},
+  citation={2007 9th International Conference on e-Health Networking, Application and …, 2007},
+  author={Mei-Ju Su and Heng-Shuen Chen and Chung-Yi Yang and Sao-Jie Chen and Wen-Jeng Lee and Po-Hsun Cheng and Ping-Kung Yip and Hon-Mon Liu and Fei-Pei Lai and Daniel Racoceanu},
+  conference={2007 9th International Conference on e-Health Networking, Application and Services},
+  pages={19-23},
+  publisher={IEEE},
+  abstract={As the computer data storage capacity increases and technology of digital imaging progresses rapidly, today we can access and manipulate huge image database on the Internet. How to search and access intelligently on content based image database become an important focus in the field of multimedia research. In this study, a preliminary system of grid-distributed, contextual and semantic based, intelligent information access framework for medical images database was designed to integrate with radiology reports and clinical department information. A prototyping was established with a model of intelligent diagnostic and therapeutic decision support for brain degenerative diseases among radiologist and neurologist. Dementia was the first disease selected for implementation. In the future, the system will extend its spectrum of diseases and more clinical specialties.}
+}

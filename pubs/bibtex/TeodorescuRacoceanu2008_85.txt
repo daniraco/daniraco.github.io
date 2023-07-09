@@ -1,0 +1,9 @@
+@article{TeodorescuRacoceanu2008_85,
+  title={The use of Medical Ontology in a knowledge-based semantic Fusion system},
+  pub_year={2008},
+  citation={IEEE Int. Conf. on Intelligent Computer Communication and Processing 1, 265-268, 2008},
+  author={Roxana-Oana Teodorescu and Vladimir–Ioan Cretu and Daniel Racoceanu},
+  journal={IEEE Int. Conf. on Intelligent Computer Communication and Processing},
+  volume={1},
+  pages={265-268}
+}

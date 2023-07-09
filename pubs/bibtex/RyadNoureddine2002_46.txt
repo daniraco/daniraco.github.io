@@ -1,0 +1,12 @@
+@article{RyadNoureddine2002_46,
+  title={Application of the dynamic RBF network in a monitoring problem of the production systems},
+  pub_year={2002},
+  citation={IFAC Proceedings Volumes 35 (1), 295-300, 2002},
+  author={Zemouri Ryad and Racoceanu Daniel and Zerhouni Noureddine},
+  journal={IFAC Proceedings Volumes},
+  volume={35},
+  number={1},
+  pages={295-300},
+  publisher={Elsevier},
+  abstract={A new architecture of temporal neural network, called Recurrent Radial Basis Function is proposed. This new architecture of neural network take into account the temporal aspect of the data in a dynamical way. This functionality is obtained by input layer neurons self-connections. The RRBF network is validated on a dynamic monitoring problem by analyzing strongly varying sensors signals. The obtained monitoring model is able to divert false alarms and to anticipate the system operation in order to consider corrective actions, before undesired modes occur.}
+}

@@ -1,0 +1,12 @@
+@article{MincaZerhouni2007_47,
+  title={A fuzzy approach for discrete event systems recovery},
+  pub_year={2007},
+  citation={IFAC Proceedings Volumes 40 (18), 585-590, 2007},
+  author={Eugénia Minca and Daniel Racoceanu and Fl Dragomir and Noureddine Zerhouni},
+  journal={IFAC Proceedings Volumes},
+  volume={40},
+  number={18},
+  pages={585-590},
+  publisher={Elsevier},
+  abstract={A fuzzy approach for modelling and analysing the recovery activities in discrete event systems is presented. Those essential components of the management of discrete event systems require special reasoning and methods to manage uncertain knowledge. For those purposes, we introduce a tool derived from the fuzzy Petri nets. This tool, inspired from the fault tree, generalizes the defects analysis by a temporal fuzzy approach. The correction requires a recovery which will be developed on a fuzzy rules basis. The recovery, modelled by a dedicated tool, preserves the fuzzy temporal aspect due to a real time information exchange mechanism provided by the monitoring system.}
+}

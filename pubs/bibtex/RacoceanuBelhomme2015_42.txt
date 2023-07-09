@@ -1,0 +1,10 @@
+@article{RacoceanuBelhomme2015_42,
+  title={Breakthrough technologies in digital pathology.},
+  pub_year={2015},
+  citation={Comput. Medical Imaging Graph. 42, 1, 2015},
+  author={Daniel Racoceanu and Philippe Belhomme},
+  journal={Comput. Medical Imaging Graph.},
+  volume={42},
+  pages={1},
+  abstract={The 12th European Congress on Digital Pathology (ECDP 2014) was held from 18 to 21 June 2014 at the Collège des Bernardins in Paris, thanks to the support of the French Pathology Society, and with the collaboration of the Association for Developing Informatics in Cytology and Anatomic Pathology, ADICAP and the French Cellular Haematology Group, GFHC. By bringing along pathologists, scientists and industrials, this conference highlighted the dynamics of the communities involved in the evolution towards digital pathology. Among the challenges raised by this evolution, being able to bring justified and traceable responses has become an ethical priority for the patients and the healthcare professionals. From this perspective, the digital pathology will certainly bring an important increase in the quality of healthcare. In order to assess this evolution, seven journal papers have been selected from the ECDP 2014 presentations, for their pertinence and their originality, from the information and imaging technologies perspective. We entitled this special issue “Breakthrough Technologies in Digital Pathology”, as a stimulus to new challenges for the future of digital pathology.New perspectives about the use of semantics at the helm for a knowledgeableWholeSlideImage (WSI) explorationarepresented. Indeed, in the perspective of a traceable ethical healthcare as the rise of big data challenges, semantic technologies will play a fundamental role in the future of digital as the integrative pathology. The modelling of visual appearance, very close to the cognitive and perceptual points of view, is considered as a key point for an ergonomic}
+}

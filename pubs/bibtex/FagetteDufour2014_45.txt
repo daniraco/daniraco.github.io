@@ -1,0 +1,11 @@
+@article{FagetteDufour2014_45,
+  title={Unsupervised dense crowd detection by multiscale texture analysis},
+  pub_year={2014},
+  citation={Pattern Recognition Letters 44, 126-133, 2014},
+  author={Antoine Fagette and Nicolas Courty and Daniel Racoceanu and Jean-Yves Dufour},
+  journal={Pattern Recognition Letters},
+  volume={44},
+  pages={126-133},
+  publisher={North-Holland},
+  abstract={This study introduces a totally unsupervised method for the detection and location of dense crowds in images without context-awareness. With the perspective of setting up fully autonomous video-surveillance systems, automatic detection and location of crowds is a crucial step that is going to point which areas of the image have to be analyzed. After retrieving multiscale texture-related feature vectors from the image, a binary classification is conducted to determine which parts of the image belong to the crowd and which to the background. The algorithm presented can be operated on images without any prior knowledge of any kind and is totally unsupervised.}
+}

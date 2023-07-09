@@ -1,0 +1,12 @@
+@article{LoménieRacoceanu2012_43,
+  title={Point Set Analysis: An Image Analysis Point of View for Rapid Prototyping Technologies},
+  pub_year={2012},
+  citation={Pattern Recognition 45 (8), 2894–2911, 2012},
+  author={Nicolas Loménie and Daniel Racoceanu},
+  journal={Pattern Recognition},
+  volume={45},
+  number={8},
+  pages={2894–2911},
+  publisher={Elsevier},
+  abstract={This chapter is dedicated to the review and presentation of an emerging paradigm in the world of computer vision: how to conciliate image analysis algorithms with computer graphics representations of shapes as point sets or meshes? In other words, what are the latest attempts to adapt algorithms performing on regular grids with fixed neighborhood system onto unorganized point sets (UPS)? In (Lomenie \& Stamon, 2011) it is shown that the underlying theoretical challenges to be solved boil down to the topological definition of continuity and neighborhood in these kinds of mathematical spaces. In particular, this work wraps up a decade of various contributions and developments about shape analysis and representation within unorganized point sets (UPS) carried out by the authors in (Lomenie et al., 2000; Lomenie, 2004; Lomenie \& Stamon, 2008; 2011) in the framework of mathematical morphology.Beyond theoretical aspects, a wide scope of practical studies already make use of intelligent solutions designed to process visual data represented by geometric point sets, in particular in the world of rapid prototyping. Digging into recent literature about the topic makes it clear that industrial countries like China are specifically interested in this emerging topic, even though first prototypes of 3D printers date back to approximatively the mid-nineties. While still lightly lagging behind in terms of creativity and design, there are high chances that these emerging superpowers will catch up with design and innovation by their ability to quickly devise machines and systems able to manufacture products customized according to the individual consumer wishes …}
+}

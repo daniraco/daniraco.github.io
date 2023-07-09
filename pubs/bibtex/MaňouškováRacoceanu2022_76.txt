@@ -1,0 +1,11 @@
+@article{MaňouškováRacoceanu2022_76,
+  title={Tau protein discrete aggregates in Alzheimer's disease: neuritic plaques and tangles detection and segmentation using computational histopathology},
+  pub_year={2022},
+  citation={Medical Imaging 2022: Digital and Computational Pathology 12039, 33-39, 2022},
+  author={Kristyna Maňoušková and Valentin Abadie and Mehdi Ounissi and Gabriel Jimenez and Lev Stimmer and Benoit Delatour and Stanley Durrleman and Daniel Racoceanu},
+  conference={Medical Imaging 2022: Digital and Computational Pathology},
+  volume={12039},
+  pages={33-39},
+  publisher={SPIE},
+  abstract={Tau proteins in the gray matter are widely known to be a part of Alzheimer’s disease symptoms. They can aggregate in three different structures within the brain: neurites, tangles, and neuritic plaques. The morphology and the spatial disposition of these three aggregates are hypothesised to be correlated to the advancement of the disease. In order to establish a behavioural disease model related to the Tau proteins aggregates, it is necessary to develop algorithms to detect and segment them automatically. We present a 5-folded pipeline aiming to perform with clinically operational results. This pipeline is composed of a non-linear colour normalisation, a CNN-based image classifier, an Unet-based image segmentation stage, and a morphological analysis of the segmented objects. The tangle detection and segmentation algorithms improve state-of-the-art performances (75.8% and 91.1% F1- score, respectively …}
+}

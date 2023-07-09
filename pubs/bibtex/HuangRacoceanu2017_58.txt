@@ -1,0 +1,11 @@
+@article{HuangRacoceanu2017_58,
+  title={Automated high-grade prostate cancer detection and ranking on whole slide images},
+  pub_year={2017},
+  citation={Medical Imaging 2017: Digital Pathology 10140, 59-66, 2017},
+  author={Chao-Hui Huang and Daniel Racoceanu},
+  conference={Medical Imaging 2017: Digital Pathology},
+  volume={10140},
+  pages={59-66},
+  publisher={SPIE},
+  abstract={Recently, digital pathology (DP) has been largely improved due to the development of computer vision and machine learning. Automated detection of high-grade prostate carcinoma (HG-PCa) is an impactful medical use-case showing the paradigm of collaboration between DP and computer science: given a field of view (FOV) from a whole slide image (WSI), the computer-aided system is able to determine the grade by classifying the FOV. Various approaches have been reported based on this approach. However, there are two reasons supporting us to conduct this work: first, there is still room for improvement in terms of detection accuracy of HG-PCa; second, a clinical practice is more complex than the operation of simple image classification. FOV ranking is also an essential step. E.g., in clinical practice, a pathologist usually evaluates a case based on a few FOVs from the given WSI. Then, makes decision based …}
+}

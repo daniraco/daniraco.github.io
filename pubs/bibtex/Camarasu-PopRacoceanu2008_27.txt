@@ -1,0 +1,7 @@
+@article{Camarasu-PopRacoceanu2008_27,
+  title={Grids for Content-Based Medical Image Indexing and Retrieval},
+  pub_year={2008},
+  citation={ICT4Health, Oncomedia, 2008},
+  author={Sorina Camarasu-Pop and H Benoit-Cattin and J Montagnat and D Racoceanu},
+  conference={ICT4Health, Oncomedia}
+}

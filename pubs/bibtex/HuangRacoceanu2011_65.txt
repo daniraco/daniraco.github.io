@@ -1,0 +1,12 @@
+@article{HuangRacoceanu2011_65,
+  title={Time-efficient sparse analysis of histopathological whole slide images},
+  pub_year={2011},
+  citation={Computerized medical imaging and graphics 35 (7-8), 579-591, 2011},
+  author={Chao-Hui Huang and Antoine Veillard and Ludovic Roux and Nicolas Loménie and Daniel Racoceanu},
+  journal={Computerized medical imaging and graphics},
+  volume={35},
+  number={7-8},
+  pages={579-591},
+  publisher={Pergamon},
+  abstract={Histopathological examination is a powerful standard for the prognosis of critical diseases. But, despite significant advances in high-speed and high-resolution scanning devices or in virtual exploration capabilities, the clinical analysis of whole slide images (WSI) largely remains the work of human experts. We propose an innovative platform in which multi-scale computer vision algorithms perform fast analysis of a histopathological WSI. It relies on application-driven for high-resolution and generic for low-resolution image analysis algorithms embedded in a multi-scale framework to rapidly identify the high power fields of interest used by the pathologist to assess a global grading. GPU technologies as well speed up the global time-efficiency of the system. Sparse coding and dynamic sampling constitute the keystone of our approach. These methods are implemented within a computer-aided breast biopsy analysis …}
+}

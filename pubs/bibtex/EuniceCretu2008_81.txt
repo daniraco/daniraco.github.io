@@ -1,0 +1,11 @@
+@article{EuniceCretu2008_81,
+  title={Knowledge-guided semantic indexing of breast cancer histopathology images},
+  pub_year={2008},
+  citation={2008 international conference on biomedical engineering and informatics 2 …, 2008},
+  author={Adina Eunice Tutac and Daniel Racoceanu and Thomas Putti and Wei Xiong and Wee-Kheng Leow and Vladimir Cretu},
+  conference={2008 international conference on biomedical engineering and informatics},
+  volume={2},
+  pages={107-112},
+  publisher={IEEE},
+  abstract={Narrowing the semantic gap represents one of the most outstanding challenges in medical image analysis and indexing. This paper introduces a medical knowledge - guided paradigm for semantic indexing of histopathology images, applied to breast cancer grading (BCG). Our method improves pathologists' current manual procedures consistency by employing a semantic indexing technique, according to a rule-based decision system related to Nottingham BCG system. The challenge is to move from the medical concepts/ rules related to the BCG, to the computer vision (CV) concepts and symbolic rules, to design a future generic framework- following Web Ontology Language standards - for an semi- automatic generation of CV rules. The effectiveness of this approach was experimentally validated over six breast cancer cases consisting of 7000 frames with domain knowledge from experts of Singapore National …}
+}

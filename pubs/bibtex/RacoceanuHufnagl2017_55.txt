@@ -1,0 +1,9 @@
+@article{RacoceanuHufnagl2017_55,
+  title={Selected papers from the 13th European Congress on Digital Pathology},
+  pub_year={2017},
+  citation={COMPUTERIZED MEDICAL IMAGING AND GRAPHICS 61, 1-1, 2017},
+  author={Daniel Racoceanu and Peter Hufnagl},
+  volume={61},
+  pages={1-1},
+  publisher={PERGAMON-ELSEVIER SCIENCE LTD}
+}

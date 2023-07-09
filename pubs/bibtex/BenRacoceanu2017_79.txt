@@ -1,0 +1,10 @@
+@article{BenRacoceanu2017_79,
+  title={Spatial interaction analysis with graph based mathematical morphology for histopathology},
+  pub_year={2017},
+  citation={2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017 …, 2017},
+  author={Bassem Ben Cheikh and Nicolas Elie and Benoit Plancoulaine and Catherine Bor-Angelier and Daniel Racoceanu},
+  conference={2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017)},
+  pages={813-817},
+  publisher={IEEE},
+  abstract={Exploring the spatial interactions between tumor and the inflammatory microenvironment using digital pathology image analysis can contribute to a better understanding of the immune function and tumor heterogeneity. We address this by providing tools able to reveal various metrics describing spatial relationships in the cancer ecosystem. The approach comprises nuclei segmentation and classification, using supervised learning algorithm, to detect lymphoid aggregates and tumor patterns, and spatial distribution quantification using sparse sets' mathematical morphology. Tumor patterns were classified into three groups: surrounded by lymphocytes, close to lymphoid aggregates or distant and might be protected from immune attack. The approach provides statistical assessment and comprehensive visual representation of the inflammatory tumor microenvironment.}
+}

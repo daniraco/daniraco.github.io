@@ -1,0 +1,8 @@
+@article{IrshadCapron2017_50,
+  title={Détection automatique et calcul du compte de mitoses sur lames H\&E},
+  pub_year={2017},
+  citation={Harvard University OpenScholar Working Paper, 2017},
+  author={Humayun Irshad and Ludovic Roux and Olivier Morere and Daniel Racoceanu and Gilles le Naour and Frédérique Capron},
+  number={221851},
+  abstract={Nous proposons une méthode pour la détection automatique de mitoses sur des lames virtuelles coloréesa l’hématoxyline eta l’éosine (H\&E), ainsi qu’une stratégie pour identifier rapidement la zone présentant la plus forte concentration en mitoses dans une région tumorale. Enfin, dans la zone choisie, nous effectuons le calcul du compte de mitoses sur 10 champs consécutifs.}
+}

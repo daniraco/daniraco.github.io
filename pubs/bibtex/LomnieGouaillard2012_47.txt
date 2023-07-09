@@ -1,0 +1,7 @@
+@article{LomnieGouaillard2012_47,
+  title={Advances in Bio-Imaging: From Physics to Signal Understanding Issues State-Of-The-Art and Challenges, chp. 13, pp, 215},
+  pub_year={2012},
+  citation={Springer Publishing Company, Incorporated, 2012},
+  author={Nicolas Lomnie and Daniel Racoceanu and Alexandre Gouaillard},
+  publisher={Springer Publishing Company, Incorporated}
+}

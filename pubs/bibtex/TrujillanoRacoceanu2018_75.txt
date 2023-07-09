@@ -1,0 +1,10 @@
+@article{TrujillanoRacoceanu2018_75,
+  title={Corn classification using Deep Learning with UAV imagery. An operational proof of concept},
+  pub_year={2018},
+  citation={2018 IEEE 1st Colombian conference on applications in computational …, 2018},
+  author={Fedra Trujillano and Andres Flores and Carlos Saito and Mario Balcazar and Daniel Racoceanu},
+  conference={2018 IEEE 1st Colombian conference on applications in computational intelligence (ColCACI)},
+  pages={1-4},
+  publisher={IEEE},
+  abstract={Climate change is affecting the agricultural production in Ancash - Peru and corn is one of the most important crops of the region. It is essential to constantly monitor grain yields and generate statistic models in order to evaluate how climate change will affect food security. The present study proposes as a proof of concept to use Deep learning techniques for the classification of near infrared images, acquired by an Unmanned Aerial Vehicle (UAV), in order to estimate areas of corn, for food security purpose. The results show that using a well balanced (altitudes, seasons, regions) database during the acquisition process improves the performance of a trained system, therefore facing crop classification from a variable and difficult-to-access geography.}
+}

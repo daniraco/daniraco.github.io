@@ -1,0 +1,10 @@
+@article{CioargaRacoceanu2009_22,
+  title={Emergent Behavior Control Patterns in Robotic Collectives.},
+  pub_year={2009},
+  citation={ICIRA 9, 165-173, 2009},
+  author={Razvan-Dorel Cioarga and Mihai V Micea and Vladimir Cretu and Daniel Racoceanu},
+  journal={ICIRA},
+  volume={9},
+  pages={165-173},
+  abstract={This paper focuses on the implementation and evaluation of a set of integrated models for the representation of emergent behavior control patterns in robotic environments. The models have been validated on a custom developed emergent behavior simulator and tested using the CORE-TX (COllaborative Robotic Environment-the Timisoara eXperiment) prototype platform. Four metrics (pheromone intensity, path affinity, reachability and liveness) are introduced and used to evaluate the performance of the proposed control patterns. Experimental results for an environment which employs ant colony behavior patterns in obstacle avoidance applications show that the emergent behavior of the robotic collective is triggered by a number ranging from 9 to 11 entities. The results are also consistent with the theoretical model-based predictions. When doubling the number of entities, the performance of the system can be further increased by 19.3%. On the other hand, a high concentration of entities has been noted to affect the emergent behavior of the system and, thus, its performance, mainly due to the interaction overhead. An upper bound to the number of individuals has been computed, based on a set of parameters which model each particular application. The experimental validation of the proposed behavior control patterns endorses them as a good framework for the analysis and development of complex applications which require collaborative and distributed intelligence, perception and operation.}
+}

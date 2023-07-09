@@ -1,0 +1,12 @@
+@article{MarinPenna2017_59,
+  title={Comparison of semi-automated and manual methods to measure the volume of prostate cancer on magnetic resonance imaging},
+  pub_year={2017},
+  citation={Diagnostic and Interventional Imaging 98 (5), 423-428, 2017},
+  author={L Marin and M Ezziane and E Comperat and P Mozer and G Cancel-Tassin and J-F Coté and D Racoceanu and F Boudghene and O Lucidarme and O Cussenot and R Renard Penna},
+  journal={Diagnostic and Interventional Imaging},
+  volume={98},
+  number={5},
+  pages={423-428},
+  publisher={Elsevier Masson},
+  abstract={The purpose of this study was to determine the accuracy of manual semi-automated and volumetric measurements to assess prostate cancer volume on multiparametric magnetic resonance imaging (MP-MRI) using whole-mount histopathology for validation.We evaluated 30 consecutive men (median age, 65.7 years; interquartile range [IQR], 61.5–70.9 years) with a median prostatic specific antigen of 8.5 ng/dL (IQR, 5.5–10.5 ng/dL), who underwent MP-MRI before radical prostatectomy. Index tumor volume was determined prospectively and independently on the basis of MRI and whole-mount section volumetric assessment using the maximum histologic diameter (MHD) and the histologic volume (HV). The MRI index tumor volume was determined by two independent radiologists using a single measurement of the maximum tumor dimension (MTD), a simplified MR ellipsoid volume …}
+}

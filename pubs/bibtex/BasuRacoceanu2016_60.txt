@@ -1,0 +1,12 @@
+@article{BasuRacoceanu2016_60,
+  title={Neurite tracing with object process},
+  pub_year={2016},
+  citation={IEEE transactions on medical imaging 35 (6), 1443-1451, 2016},
+  author={Sreetama Basu and Wei Tsang Ooi and Daniel Racoceanu},
+  journal={IEEE transactions on medical imaging},
+  volume={35},
+  number={6},
+  pages={1443-1451},
+  publisher={IEEE},
+  abstract={In this paper we present a pipeline for automatic analysis of neuronal morphology: from detection, modeling to digital reconstruction. First, we present an automatic, unsupervised object detection framework using stochastic marked point process. It extracts connected neuronal networks by fitting special configuration of marked objects to the centreline of the neurite branches in the image volume giving us position, local width and orientation information. Semantic modeling of neuronal morphology in terms of critical nodes like bifurcations and terminals, generates various geometric and morphology descriptors such as branching index, branching angles, total neurite length, internodal lengths for statistical inference on characteristic neuronal features. From the detected branches we reconstruct neuronal tree morphology using robust and efficient numerical fast marching methods. We capture a mathematical model …}
+}

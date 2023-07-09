@@ -1,0 +1,8 @@
+@article{BrinzeiZerhouni1999_84,
+  title={Modélisation des systèmes de production par une approche multi-agents},
+  pub_year={1999},
+  citation={Bulletin scientifique, Université «POLITEHNICA» de Timisoara, département de …, 1999},
+  author={Nicolae Brinzei and George Draghici and Michel Ferney and Noureddine Zerhouni},
+  journal={Bulletin scientifique, Université «POLITEHNICA» de Timisoara, département de Mécanique},
+  abstract={This work constitutes a first step towards to one new methodology of studying the manufacturing systems. The aim of this study is the modeling of manufacturing systems by a multi-agent systems. Agents are autonomous interacting entities able to cooperate in order to solve problems appears in manufacturing systems such that: concurrency, synchronization, contention for shared resources, uncertainty, conflicts and deadlocks. The behavior of agents are described by means of stochastic object oriented Petri nets.}
+}

@@ -1,0 +1,11 @@
+@article{AZerhouni2002_48,
+  title={Réseaux de neurones récurrents à fonctions de base radiales: RRFR Application au pronostic.},
+  pub_year={2002},
+  citation={Rev. d'Intelligence Artif. 16 (3), 307-338, 2002},
+  author={Ryad A Zemouri and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={Rev. d'Intelligence Artif.},
+  volume={16},
+  number={3},
+  pages={307-338},
+  abstract={Cet article présente un réseau RFR récurrent (Réseaux Récurrent à Fonction de base Radiales) appliqué à un problème de pronostic d’un système non linéaire. Le processus d’apprentissage du réseau RRFR se décompose en deux étapes. Durant la première étape, les paramètres des neurones gaussiens sont déterminés par la méthode non supervisée des K-moyens, dont les performances ont été améliorées avec la technique FuzzyMinMax. Dans une seconde étape, les poids des connexions de sortie sont déterminés par une technique supervisée de régression linéaire. A travers l’application sur le benchmark Box and Jenkins gaz, nous illustrons la capacité du RRFR de prédire l’évolution d’un système non linéaire. Ses performances se montrent nettement supérieurs à celles du TDRBF, dés lors qu’on augmente l’horizon des prédictions temporelles. La technique FuzzyMinMax rend la convergence de l’algorithme des K-moyens plus stable.This paper introduces a Recurrent Radial Basis Function network (RRBF) for nonlinear system prognosis. The training process is divided in two stages. First, the parameters of the RRBF are determined by the unsupervised k-means algorithm. The ineffectiveness of this algorithm is improved by the FuzzyMinMax technique. In the second stage, a multivariable linear regression supervised learning technique is used to determine the weights of the connections between the hidden and output layer. We test the RRBF on the Box and Jenkins furnace database. This application shows that the RRBF is able to predict the evolution of a non-linear system. The performances of the RRBF are …}
+}

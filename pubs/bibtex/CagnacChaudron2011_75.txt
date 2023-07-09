@@ -1,0 +1,10 @@
+@article{CagnacChaudron2011_75,
+  title={Consciousness-driven model for visual attention},
+  pub_year={2011},
+  citation={The 2011 International Joint Conference on Neural Networks, 1061-1066, 2011},
+  author={Pierre Cagnac and Noël Di Noia and Chao-Hui Huang and Daniel Racoceanu and Laurent Chaudron},
+  conference={The 2011 International Joint Conference on Neural Networks},
+  pages={1061-1066},
+  publisher={IEEE},
+  abstract={A consciousness-driven visual attention model is presented in this paper. It is based on a bio-inspired computer fovea model and a hierarchical analysis for the given visual receptive field. Indeed, the bio-inspired computer fovea model is used to simulate the neural activity on the human visual system, and the hierarchical analysis provides a function to explore the information on the given visual scene. The proposed model can evaluate the contents on the scene and automatically highlights visually important regions. This model can be used in various applications, such as surveillance, visual navigation and target acquisition, etc.}
+}

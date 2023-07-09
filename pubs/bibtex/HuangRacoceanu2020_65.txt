@@ -1,0 +1,8 @@
+@article{HuangRacoceanu2020_65,
+  title={Enhanced Methods for Lymphocyte Detection and Segmentation on H\&E Stained Images using eXclusive Autoencoders},
+  pub_year={2020},
+  citation={EMBC'20-42nd Engineering in Medicine and Biology Conference, 2020},
+  author={Chao-Hui Huang and Daniel Racoceanu},
+  conference={EMBC'20-42nd Engineering in Medicine and Biology Conference},
+  abstract={In this paper, we propose a generalized solution for lymphocyte detection and segmentation, based on a novel image feature extraction method, named exclusive autoencoder (XAE). XAE is compatible with conventional autoencoder (AE) and able to provide additional information about the categorization in the feature space. For the task of lymphocyte detection, XAE was able to reach the an F-score of 99.96%, outperforming the state-of-the-art methods (reporting an F-score of 90%). Further, based on the integration of XAE+FCN (fully connected network) and conventional image processing function blocks provided in CellProfiler, we propose a lymphocyte segmentation pipeline. The obtained Dice coefficient reached 88.31% while the cutting-edge approach was at 74%.}
+}

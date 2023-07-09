@@ -1,0 +1,7 @@
+@article{WPPelissier2004_0,
+  title={On the Use of Artificial Intelligence for Prognosis and Diagnosis in the PROTEUS E-maintenance platform},
+  pub_year={2004},
+  citation={},
+  author={PROTEUS WP Team and B Brézillon and F Charpillet and JY Jaffray and N Moine and B Morello and S Müller and G Nguengang and N Palluat and L Pelissier},
+  abstract={The PROTEUS project has identified several maintenance tasks and functionalities where Artificial Intelligence tools or methods could bring many benefits. In this paper, we focus on the diagnosis and prognosis of faulty states in equipments. We show how the generic “PROTEUS AI Web Service” can be instantiated with different AI tools to do diagnosis or prognosis. Thanks to the PROTEUS architecture, these services can work with various data and knowledge sources (like FMECA, SCADA, CMMS, ERP) enabling the use of both maintenance and production data. The characteristics of these “Web Services” are then analyzed so as to specify the features of a “Meta-Tool” that, for a given diagnosis or prognosis task, would help decide which tools are best suited. This Meta-Tool itself could be built as an instance of the generic “PROTEUS AI Web Service”.}
+}

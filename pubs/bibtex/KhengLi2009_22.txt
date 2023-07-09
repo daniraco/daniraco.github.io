@@ -1,0 +1,8 @@
+@article{KhengLi2009_22,
+  title={Proceedings Of The Singaporean-french Ipal Symposium 2009-Sinfra'09 (Cd-rom)},
+  pub_year={2009},
+  citation={World Scientific, 2009},
+  author={Wee Kheng Leow and Daniel Racoceanu and Feng Ding and Hao Li},
+  publisher={World Scientific},
+  abstract={This Singaporean-French Symposium aims to strengthen existing research collaboration between French and Singapore scientists, and to explore and develop new collaborations in IPAL (Image Perception, Access \& Language)—the Singaporean-French international research lab created between the French National Research Center (CNRS), the National University of Singapore (NUS), the Institute for Infocomm Research (I2 RA∗ STAR) and the Joseph Fourier University (UJF). SinFra'09 welcomes researchers and collaborators under IPAL organizations and those who wish to collaborate with IPAL. The symposium proposes Tutorials and Scientific Sessions in relevant Singaporean—French common interest fields, related to the present and possible future activities in IPAL. We seek submissions of high-quality, original work in the following areas: existing IPAL areas like Medical Image Analysis and Access, Mobile Information Access, and also new areas of collaboration between French and Singaporean scientists, such as interactive digital media, cognitive vision and audio, video surveillance and security, real-time/embedded systems, media and sensors networks, programming languages, language-based security and quantum informatics.}
+}

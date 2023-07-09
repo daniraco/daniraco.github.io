@@ -1,0 +1,19 @@
+@article{ZEMOURIDURAND2003_86,
+  title={Utilisation conjointe des techniques de modélisation analytiques et de simulation pour l'évaluation des performances et l'optimisation de l'organisation d'un service de maintenance},
+  pub_year={2003},
+  citation={Revue internationale d'ingénierie des systèmes de production mécanique, II3-II14, 2003},
+  author={R ZEMOURI and D RACOCEANU and N ZERHOUNI and S DURAND},
+  journal={Revue internationale d'ingénierie des systèmes de production mécanique},
+  number={7},
+  pages={II3-II14},
+  abstract={Utilisation conjointe des techniques de modélisation analytiques et de simulation pour l'évaluation 
+des performances et l'optimisation de l'organisation d'un service de maintenance CNRS 
+Inist Pascal-Francis CNRS Pascal and Francis Bibliographic Databases Simple search 
+Advanced search Search by classification Search by vocabulary My Account Home > 
+Search results Help Export Export Selection : Selected items (1) Format : Permanent link 
+CopyPermanent link Copy http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail\&idt=15429275 
+Utilisation conjointe des techniques de modélisation analytiques et de simulation pour l'évaluation 
+des performances et l'optimisation de l'organisation d'un service de maintenance Other title 
+Joint use of analytical modelling and simulation technics for the performance evaluation 
+and optimization of a maintenance service (en) Author ZEMOURI, R 1 ; RACOCEANU, …}
+}

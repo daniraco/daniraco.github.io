@@ -1,0 +1,6 @@
+@article{KulikovaMinotto2012_0,
+  title={PROGRESS IN BIOMEDICAL OPTICS AND IMAGING-PROCEEDINGS OF SPIE},
+  pub_year={2012},
+  citation={},
+  author={M Kulikova and A Veillard and L Roux and D Racoceanu and J Huo and M Brown and K Okada and J Zhong and J Tian and H Liu and C Qin and X Yang and X Ma and V Pedoia and E Binaghi and S Balbi and A De Benedictis and E Monti and R Minotto}
+}

@@ -1,0 +1,11 @@
+@article{MarinEzziane2017_84,
+  title={Prostate cancer: computer-aided diagnosis on multiparametric mri},
+  pub_year={2017},
+  citation={13th International Conference on Medical Information Processing and Analysis …, 2017},
+  author={Laura Marin and Daniel Racoceanu and Raphaele Renard Penna and Malek Ezziane},
+  conference={13th International Conference on Medical Information Processing and Analysis},
+  volume={10572},
+  pages={346-351},
+  publisher={SPIE},
+  abstract={ }
+}

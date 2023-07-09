@@ -1,0 +1,11 @@
+@article{VeillardRacoceanu2012_86,
+  title={SVM-based framework for the robust extraction of objects from histopathological images using color, texture, scale and geometry},
+  pub_year={2012},
+  citation={2012 11th International Conference on Machine Learning and Applications 1, 70-75, 2012},
+  author={Antoine Veillard and Stéphane Bressan and Daniel Racoceanu},
+  conference={2012 11th International Conference on Machine Learning and Applications},
+  volume={1},
+  pages={70-75},
+  publisher={IEEE},
+  abstract={The extraction of nuclei from Haematoxylin and Eosin (H\&E) stained biopsies present a particularly steep challenge in part due to the irregularity of the high-grade (most malignant) tumors. To your best knowledge, although some existing solutions perform adequately with relatively predictable low-grade cancers, solutions for the problematic high-grade cancers have yet to be proposed. In this paper, we propose a method for the extraction of cell nuclei from H\&E stained biopsies robust enough to deal with the full range of histological grades observed in daily clinical practice. The robustness is achieved by combining a wide range of information including color, texture, scale and geometry in a multi-stage, Support Vector Machine (SVM) based framework to replace the original image with a new, probabilistic image modality with stable characteristics. The actual extraction of the nuclei is performed from the new image …}
+}

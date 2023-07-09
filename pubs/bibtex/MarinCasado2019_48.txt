@@ -1,0 +1,12 @@
+@article{MarinCasado2019_48,
+  title={Classification of prostate cancer based on clinical and omic data using neural networks techniques to improve prognostic power},
+  pub_year={2019},
+  citation={European Urology Supplements 18 (1), e1783, 2019},
+  author={L Marin and D Racoceanu and F Casado},
+  journal={European Urology Supplements},
+  volume={18},
+  number={1},
+  pages={e1783},
+  publisher={Elsevier},
+  abstract={Results: Instead of using a classic fully connected layer, we implemented an Artificial Neural Network where the final network provides the predicted survival rate or time to recurrence.The resulting neural network can predict the time of recurrence within a range of three months based on the genomic expression with an accuracy of 96, 9% and a loss of less than 5%. Using the implemented LIME algorithm, our results indicate that this subset of genes is informative of recurrence and plays a substantial role in the prediction.}
+}

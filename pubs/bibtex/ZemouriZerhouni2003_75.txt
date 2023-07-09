@@ -1,0 +1,12 @@
+@article{ZemouriZerhouni2003_75,
+  title={Recurrent radial basis function network for time-series prediction},
+  pub_year={2003},
+  citation={Engineering Applications of Artificial Intelligence 16 (5-6), 453-463, 2003},
+  author={Ryad Zemouri and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={16},
+  number={5-6},
+  pages={453-463},
+  publisher={Pergamon},
+  abstract={This paper proposes a Recurrent Radial Basis Function network (RRBFN) that can be applied to dynamic monitoring and prognosis. Based on the architecture of the conventional Radial Basis Function networks, the RRBFN have input looped neurons with sigmoid activation functions. These looped-neurons represent the dynamic memory of the RRBF, and the Gaussian neurons represent the static one. The dynamic memory enables the networks to learn temporal patterns without an input buffer to hold the recent elements of an input sequence. To test the dynamic memory of the network, we have applied the RRBFN in two time series prediction benchmarks (MacKey-Glass and Logistic Map). The third application concerns an industrial prognosis problem. The nonlinear system identification using the Box and Jenkins gas furnace data was used. A two-steps training algorithm is used: the RCE training algorithm for …}
+}

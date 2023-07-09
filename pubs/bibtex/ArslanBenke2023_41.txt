@@ -1,0 +1,12 @@
+@article{ArslanBenke2023_41,
+  title={Deep Learning Using Images of the Retina for Assessment of Severity of Neurological Dysfunction in Parkinson Disease},
+  pub_year={2023},
+  citation={JAMA ophthalmology 141 (3), 240-241, 2023},
+  author={Janan Arslan and Daniel Racoceanu and Kurt K Benke},
+  journal={JAMA ophthalmology},
+  volume={141},
+  number={3},
+  pages={240-241},
+  publisher={American Medical Association},
+  abstract={The deep learning (DL) approach is a recent development in research on the automation of medical diagnostics using machine learning. This type of statistical learning is not based on biophysical (mechanistic) models but on training (for parameter estimation) using a sample of population data. There are issues about robustness in performance when testing on new data sets in uncontrolled conditions separate from validation experiments. The use of DL in diagnostic modeling has been demonstrated in recent years with very encouraging results in the assessment of diabetic retinopathy, geographic atrophy in age-related macular degeneration, and cardiovascular disease when using images of the retina. 1 The study by Ahn et al1 in this issue ofJAMA Ophthalmology provides insights and useful information on the application of DL to explore possible associations between changes in the retina and brain function …}
+}

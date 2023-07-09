@@ -1,0 +1,11 @@
+@article{ZemouriRacoceanu2019_34,
+  title={Deep learning in the biomedical applications: Recent and future status},
+  pub_year={2019},
+  citation={Applied Sciences 9 (8), 1526, 2019},
+  author={Ryad Zemouri and Noureddine Zerhouni and Daniel Racoceanu},
+  volume={9},
+  number={8},
+  pages={1526},
+  publisher={MDPI},
+  abstract={Deep neural networks represent, nowadays, the most effective machine learning technology in biomedical domain. In this domain, the different areas of interest concern the Omics (study of the genome—genomics—and proteins—transcriptomics, proteomics, and metabolomics), bioimaging (study of biological cell and tissue), medical imaging (study of the human organs by creating visual representations), BBMI (study of the brain and body machine interface) and public and medical health management (PmHM). This paper reviews the major deep learning concepts pertinent to such biomedical applications. Concise overviews are provided for the Omics and the BBMI. We end our analysis with a critical discussion, interpretation and relevant open challenges.}
+}

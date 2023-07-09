@@ -1,0 +1,9 @@
+@article{MincaBrezeanu2003_84,
+  title={Approche floue par la détection},
+  pub_year={2003},
+  citation={Qualita2003, 5ème Congrès International Pluridisciplinaire Qualité et Sûreté …, 2003},
+  author={E Minca and D Racoceanu and N Zerhouni and I Brezeanu},
+  journal={Qualita2003, 5ème Congrès International Pluridisciplinaire Qualité et Sûreté de fonctionnement},
+  pages={18-20},
+  publisher={Nancy Nancy}
+}

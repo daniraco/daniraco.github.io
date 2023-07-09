@@ -1,0 +1,12 @@
+@article{GabrielWollina2017_25,
+  title={Perceived age and life style. The specific contributions of seven factors involved in health and beauty},
+  pub_year={2017},
+  citation={Maedica 12 (3), 191, 2017},
+  author={Victor Gabriel Clatici and Daniel Racoceanu and Claude Dalle and Cristiana Voicu and Lucia Tomas-Aragones and Servando E Marron and Uwe Wollina},
+  journal={Maedica},
+  volume={12},
+  number={3},
+  pages={191},
+  publisher={Amaltea Medical, Editura Magister},
+  abstract={Objectives:The skin is a dynamic, visible organ, showing the most obvious signs of aging. The mechanisms of extrinsic aging, most of them presented in this paper, are currently well known and also the only ones that can be counteracted. Therefore, the transition of this knowledge in the general population is of the most importance, in order to introduce healthy aging strategies, to prevent the development of chronic or malignant diseases and psychological burden related to old age.Materials and methods:A thorough review of the literature has been performed in order to identify the main factors involved in skin health and aging.Outcomes:This concept article represents a compilation of seven anti-ageing directions regarding major factors involved in health, aging and beauty, respectively sun, sugar, smoking, skin care, stress, sleep and second (the passage of time), easy to comprehend by the general public but …}
+}

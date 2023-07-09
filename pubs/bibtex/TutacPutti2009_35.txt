@@ -1,0 +1,7 @@
+@article{TutacPutti2009_35,
+  title={Knowledge Representation and Reasoning for Breast Cancer Grading in Cognitive Virtual Microscope Framework},
+  pub_year={2009},
+  citation={A* STAR Scientific Conference, 2009},
+  author={Adina Tutac and Daniel Racoceanu and Nicolas Loménie and Ludovic Roux and Didier Balensi and Thomas Putti},
+  journal={A* STAR Scientific Conference}
+}

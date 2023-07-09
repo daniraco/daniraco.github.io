@@ -1,0 +1,17 @@
+@article{RacoceanuMoudni1997_37,
+  title={Contribution à la modélisation et à l’analyse des chaînes de Markov à échelles de temps et échelles de pondérations multiples. Application à la gestion d’un système hydro-énergétique},
+  pub_year={1997},
+  citation={Th. Automatique et informatique, 1997},
+  author={Daniel Racoceanu and Abdellah El Moudni},
+  publisher={Th. Automatique et informatique},
+  abstract={Contribution à la modélisation et à l'analyse des chaînes de Markov à échelles de temps et 
+échelles de pondérations multiples. Application à la gestion d'un système hydro-énergétique 
+CNRS Inist Pascal-Francis CNRS Pascal and Francis Bibliographic Databases Simple 
+search Advanced search Search by classification Search by vocabulary My Account Home 
+> Search results Help Export Export Selection : Selected items (1) Format : Permanent link 
+CopyPermanent link Copy http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail\&idt=180838 
+Contribution à la modélisation et à l'analyse des chaînes de Markov à échelles de temps et 
+échelles de pondérations multiples. Application à la gestion d'un système hydro-énergétique 
+Other title Contribution to the modelling and the analysis of Markov chains with multiple time 
+scale and multiple weighting scale. Application to the management of a hydropower …}
+}

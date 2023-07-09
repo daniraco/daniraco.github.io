@@ -1,0 +1,11 @@
+@article{TutacPutti2009_81,
+  title={Knowledge Modeling of Breast Cancer Grading using OWLDL formalism},
+  pub_year={2009},
+  citation={Virchows Archiv The European Journal of Pathology, Springer-Verlag Berlin …, 2009},
+  author={Adina Tutac and Daniel Racoceanu and Nicolas Loménie and Wee-Kheng Leow and Ludovic Roux and VI Cretu and Thomas Putti},
+  journal={Virchows Archiv The European Journal of Pathology, Springer-Verlag Berlin Heidelberg, H. Höfler ed},
+  volume={455},
+  number={supp. 1},
+  pages={S36},
+  publisher={Springer-Verlag}
+}

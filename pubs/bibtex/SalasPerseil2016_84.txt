@@ -1,0 +1,10 @@
+@article{SalasPerseil2016_84,
+  title={Resource-centered distributed processing of large histopathology images},
+  pub_year={2016},
+  citation={2016 IEEE Intl Conference on Computational Science and Engineering (CSE) and …, 2016},
+  author={Daniel Salas and Jens Gustedt and Daniel Racoceanu and Isabelle Perseil},
+  conference={2016 IEEE Intl Conference on Computational Science and Engineering (CSE) and IEEE Intl Conference on Embedded and Ubiquitous Computing (EUC) and 15th Intl Symposium on Distributed Computing and Applications for Business Engineering (DCABES)},
+  pages={367-370},
+  publisher={IEEE},
+  abstract={Automatic cell nuclei detection is a real challenge in medical imagery. The Marked Point Process (MPP) is one of the most promising scalable and paralellizable method. To handle large histopathology images, the algorithm has to be distributed. A new parallelization paradigm called Ordered Read-Write Locks (ORWL) is presented as a possible solution for solving some of the unwanted side effects of the distribution, namely an imprecision of the results on the internal boundaries of partitioned images. This solution extends a parallel version of MPP that has reached good speedups on GPU cards, but was not scaling to complete images as they appear in practical data.}
+}

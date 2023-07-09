@@ -1,0 +1,11 @@
+@article{LaifaRacoceanu2017_84,
+  title={Tumor angiogenesis assessment using multi-fluorescent scans on murine slices by Markov random field framework},
+  pub_year={2017},
+  citation={13th International Conference on Medical Information Processing and Analysis …, 2017},
+  author={Oumeima Laifa and Delphine Le Guillou-Buffello and Daniel Racoceanu},
+  conference={13th International Conference on Medical Information Processing and Analysis},
+  volume={10572},
+  pages={49-58},
+  publisher={SPIE},
+  abstract={The fundamental role of vascular supply in tumor growth makes the evaluation of the angiogenesis crucial in assessing effect of anti-angiogenic therapies. Since many years, such therapies are designed to inhibit the vascular endothelial growth factor (VEGF). To contribute to the assessment of anti-angiogenic agent (Pazopanib) effect on vascular and cellular structures, we acquired data from tumors extracted from a murine tumor model using Multi- Fluorescence Scanning. In this paper, we implemented an unsupervised algorithm combining the Watershed segmentation and Markov Random Field model (MRF). This algorithm allowed us to quantify the proportion of apoptotic endothelial cells and to generate maps according to cell density. Stronger association between apoptosis  and endothelial cells was revealed in the tumors receiving anti-angiogenic therapy (n = 4) as compared to those receiving placebo (n …}
+}

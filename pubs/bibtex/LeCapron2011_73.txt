@@ -1,0 +1,9 @@
+@article{LeCapron2011_73,
+  title={Un explorateur visuel cognitif (MIcroscope COgnitif-MICO) pour l'histopathologie. Application au diagnostic et à la graduation du cancer du sein.},
+  pub_year={2011},
+  citation={RITS 2011, Recherche en Imagerie et Technologies pour la Santé, 119, 2011},
+  author={Gilles Le Naour and Catherine Genestie and Ludovic Roux and Antoine Veillard and Daniel Racoceanu and Frédérique Capron},
+  conference={RITS 2011, Recherche en Imagerie et Technologies pour la Santé},
+  pages={119},
+  abstract={L’objectif de notre projet est de concevoir un explorateur cognitif pour l’histopathologie et utilisable en routine dans un service d’anatomie et cytologie pathologiques. Nous avons utilisé le cancer du sein pour le développement de cet explorateur.}
+}

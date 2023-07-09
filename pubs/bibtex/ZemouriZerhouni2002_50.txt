@@ -1,0 +1,17 @@
+@article{ZemouriZerhouni2002_50,
+  title={Application of the dynamic RBF network in a monitoring problem of the production systems},
+  pub_year={2002},
+  citation={15e IFAC World Congress on Automatic Control, 2002},
+  author={Ryad Zemouri and Daniel Racoceanu and Noureddine Zerhouni},
+  conference={15e IFAC World Congress on Automatic Control},
+  abstract={APPLICATION OF THE DYNAMIC RBF NETWORK IN A MONITORING PROBLEM OF THE 
+PRODUCTION SYSTEMS - Archive ouverte HAL Accéder directement au contenu Accéder 
+directement à la navigation Toggle navigation HAL HAL - Archives Ouvertes La connaissance 
+libre et partagée Accueil Dépôt Consultation Les derniers dépôts Par type de publication Par 
+discipline Par année de publication Par structure de recherche Les portails de l'archive 
+Recherche Documentation hal-02479197, version 1 Article dans une revue APPLICATION OF 
+THE DYNAMIC RBF NETWORK IN A MONITORING PROBLEM OF THE PRODUCTION 
+SYSTEMS Ryad Zemouri 1 Racoceanu Daniel 1 Zerhouni Noureddine 1 Détails 1 LAB - 
+Laboratoire d'automatique de Besançon Type de document : Article dans une revue Domaine : 
+Informatique [cs] / Apprentissage [cs.LG] Liste complète des métadonnées Voir https://hal-cnam.…}
+}

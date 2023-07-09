@@ -1,0 +1,9 @@
+@article{MincaZerhouni2003_69,
+  title={Fuzzy logic Petri nets for monitoring systems modeling},
+  pub_year={2003},
+  citation={IEEE International Conference on Robotics and Automation, 14-19, 2003},
+  author={E Minca and D Racoceanu and N Zerhouni},
+  journal={IEEE International Conference on Robotics and Automation},
+  pages={14-19},
+  publisher={Taiwan Taiwan}
+}

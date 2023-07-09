@@ -1,0 +1,10 @@
+@article{IrshadRacoceanu2013_54,
+  title={Methods for nuclei detection, segmentation, and classification in digital histopathology: a review—current status and future potential},
+  pub_year={2013},
+  citation={IEEE reviews in biomedical engineering 7, 97-114, 2013},
+  author={Humayun Irshad and Antoine Veillard and Ludovic Roux and Daniel Racoceanu},
+  volume={7},
+  pages={97-114},
+  publisher={IEEE},
+  abstract={Digital pathology represents one of the major evolutions in modern medicine. Pathological examinations constitute the gold standard in many medical protocols, and also play a critical and legal role in the diagnosis process. In the conventional cancer diagnosis, pathologists analyze biopsies to make diagnostic and prognostic assessments, mainly based on the cell morphology and architecture distribution. Recently, computerized methods have been rapidly evolving in the area of digital pathology, with growing applications related to nuclei detection, segmentation, and classification. In cancer research, these approaches have played, and will continue to play a key (often bottleneck) role in minimizing human intervention, consolidating pertinent second opinions, and providing traceable clinical information. Pathological studies have been conducted for numerous cancer detection and grading applications, including …}
+}

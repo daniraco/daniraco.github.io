@@ -1,0 +1,11 @@
+@article{MonninZerhouni2004_80,
+  title={Overview on diagnosis methods using artificial intelligence application of fuzzy Petri nets},
+  pub_year={2004},
+  citation={IEEE Conference on Robotics, Automation and Mechatronics, 2004. 2, 740-745, 2004},
+  author={Maxime Monnin and Daniel Racoceanu and Noureddine Zerhouni},
+  conference={IEEE Conference on Robotics, Automation and Mechatronics, 2004.},
+  volume={2},
+  pages={740-745},
+  publisher={IEEE},
+  abstract={This paper studies diagnosis-aid systems that use artificial intelligence tools. This kind of system is very interesting in an uncertain industrial environment, especially flexible production systems. An overview of the most important artificial intelligence diagnosis tools is given. For each tool, we focus on diagnosis principles and its advantages and disadvantages. That allows us to extract four important points that a diagnosis tool should fulfil. Using these results, we propose a tool based on fuzzy Petri nets which allows to make a diagnosis using a model that is easy to build and that takes into account the uncertainties of maintenance knowledge. This tool provides abductive approaches of a fault propagation system with efficient localization and characterization of the fault origin. We apply our tool to an illustrative example of flexible system diagnosis.}
+}

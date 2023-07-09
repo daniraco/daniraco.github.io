@@ -1,0 +1,12 @@
+@article{ZemouriFilip2009_48,
+  title={Training the Recurrent neural network by the Fuzzy Min‐Max algorithm for fault prediction},
+  pub_year={2009},
+  citation={AIP Conference proceedings 1107 (1), 85-90, 2009},
+  author={Ryad Zemouri and Daniel Racoceanu and Noureddine Zerhouni and Eugenia Minca and Florin Filip},
+  journal={AIP Conference proceedings},
+  volume={1107},
+  number={1},
+  pages={85-90},
+  publisher={American Institute of Physics},
+  abstract={In this paper, we present a training technique of a Recurrent Radial Basis Function neural network for fault prediction. We use the Fuzzy Min‐Max technique to initialize the k‐center of the RRBF neural network. The k‐means algorithm is then applied to calculate the centers that minimize the mean square error of the prediction task. The performances of the k‐means algorithm are then boosted by the Fuzzy Min‐Max technique.}
+}

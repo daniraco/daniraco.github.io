@@ -1,0 +1,7 @@
+@article{AbadieRacoceanu2021_0,
+  title={Tau Protein Discrete Aggregates in Alzheimer’s Disease: Detection and Segmentation from Computational Histopathology},
+  pub_year={2021},
+  citation={},
+  author={Valentin Abadie and Lev Stimmer and Benoit Delatour and Stanley Durrleman and Daniel Racoceanu},
+  abstract={Tau proteins in the gray matter are widely known to be a part of the Alzheimer’s disease symptoms. Within the brain, they can aggregate in 3 different structures: neurites, tangles and neuritic plaques. According to the literature, the morphology and spatial disposition of these 3 categories of shapes are supposed to be correlated with the advancement of the disease. In order to establish a behavioral model of the disease related to these Tau proteins aggregates, it is mandatory to develop algorithms to automatically detect and segment them. This paper presents a 4-folded pipeline aiming to perform clinically operational results. This pipeline is composed of a non-linear color normalization, an image classification based on a CNN architecture, an image segmentation with a Unet-based deep learning architecture and a morphological analysis of the segmented objects. The tangle detection/segmentation algorithms …}
+}

@@ -1,0 +1,11 @@
+@article{RacoceanuCapron2016_36,
+  title={Semantic integrative digital pathology: Insights into microsemiological semantics and image analysis scalability},
+  pub_year={2016},
+  citation={Pathobiology 83 (2-3), 148-155, 2016},
+  author={Daniel Racoceanu and Frédérique Capron},
+  volume={83},
+  number={2-3},
+  pages={148-155},
+  publisher={S. Karger AG},
+  abstract={Being able to provide a traceable and dynamic second opinion has become an ethical priority for patients and health care professionals in modern computer-aided medicine. In this perspective, a semantic cognitive virtual microscopy approach has been recently initiated, the MICO project, by focusing on cognitive digital pathology. This approach supports the elaboration of pathology-compliant daily protocols dedicated to breast cancer grading, in particular mitotic counts and nuclear atypia. A proof of concept has thus been elaborated, and an extension of these approaches is now underway in a collaborative digital pathology framework, the FlexMIm project. As important milestones on the way to routine digital pathology, a series of pioneer international benchmarking initiatives have been launched for mitosis detection (MITOS), nuclear atypia grading (MITOS-ATYPIA) and glandular structure detection (GlaS …}
+}

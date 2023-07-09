@@ -1,0 +1,9 @@
+@article{SirinukunwattanaRajpoot2017_40,
+  title={Gland segmentation in colon histology images: The glas challenge contest},
+  pub_year={2017},
+  citation={Medical image analysis 35, 489-502, 2017},
+  author={Korsuk Sirinukunwattana and Josien PW Pluim and Hao Chen and Xiaojuan Qi and Pheng-Ann Heng and Yun Bo Guo and Li Yang Wang and Bogdan J Matuszewski and Elia Bruni and Urko Sanchez and Anton Böhm and Olaf Ronneberger and Bassem Ben Cheikh and Daniel Racoceanu and Philipp Kainz and Michael Pfeiffer and Martin Urschler and David RJ Snead and Nasir M Rajpoot},
+  volume={35},
+  pages={489-502},
+  publisher={Elsevier}
+}

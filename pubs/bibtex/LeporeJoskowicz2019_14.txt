@@ -1,0 +1,8 @@
+@article{LeporeJoskowicz2019_14,
+  title={Processing and Analysis of Biomedical Information},
+  pub_year={2019},
+  citation={Springer, 2019},
+  author={Natasha Lepore and Jorge Brieva and Eduardo Romero and Daniel Racoceanu and Leo Joskowicz},
+  publisher={Springer},
+  abstract={Medical information and image processing have been experiencing an accelerated growth worldwide in the past decade, and are reaching all parts of the world. In particular, Spanish-and Portuguese-speaking countries in Latin America, which have a long and rich history of academic and clinical research, are addressing a variety of health-care challenges, both general and specific to the region. The scientific communities in these countries have been growing and have attended and organized a growing number of regional and international conferences and meetings. In this context, the International Symposium on Medical Information Processing and Analysis (SIPAIM) is a yearly event held in various Latin American cities. Its main goal is bringing together biomedical engineering and medical researchers from the region with a strong interest in image and signal analysis. This community originated in the late …}
+}

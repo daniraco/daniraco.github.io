@@ -1,0 +1,11 @@
+@article{LRacoceanu2017_84,
+  title={Semantic knowledge for histopathological image analysis: from ontologies to processing portals and deep learning},
+  pub_year={2017},
+  citation={13th International Conference on Medical Information Processing and Analysis …, 2017},
+  author={Yannick L Kergosien and Daniel Racoceanu},
+  conference={13th International Conference on Medical Information Processing and Analysis},
+  volume={10572},
+  pages={456-462},
+  publisher={SPIE},
+  abstract={This article presents our vision about the next generation of challenges in computational/digital pathology. The key role of the domain ontology, developed in a sustainable manner (i.e. using reference checklists and protocols, as the living semantic repositories), opens the way to effective/sustainable traceability and relevance feedback concerning the use of existing machine learning algorithms, proven to be very performant in the latest digital pathology challenges (i.e. convolutional neural networks). Being able to work in an accessible web-service environment, with strictly controlled issues regarding intellectual property (image and data processing/analysis algorithms) and medical data/image confidentiality is essential for the future. Among the web-services involved in the proposed approach, the living yellow pages in the area of computational pathology seems to be very important in order to reach an …}
+}

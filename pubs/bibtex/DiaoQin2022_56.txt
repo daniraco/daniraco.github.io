@@ -1,0 +1,12 @@
+@article{DiaoQin2022_56,
+  title={Weakly supervised framework for cancer region detection of hepatocellular carcinoma in whole-slide pathologic images based on multiscale attention convolutional neural network},
+  pub_year={2022},
+  citation={The American journal of pathology 192 (3), 553-563, 2022},
+  author={Songhui Diao and Yinli Tian and Wanming Hu and Jiaxin Hou and Ricardo Lambo and Zhicheng Zhang and Yaoqin Xie and Xiu Nie and Fa Zhang and Daniel Racoceanu and Wenjian Qin},
+  journal={The American journal of pathology},
+  volume={192},
+  number={3},
+  pages={553-563},
+  publisher={Elsevier},
+  abstract={Visual inspection of hepatocellular carcinoma cancer regions by experienced pathologists in whole-slide images (WSIs) is a challenging, labor-intensive, and time-consuming task because of the large scale and high resolution of WSIs. Therefore, a weakly supervised framework based on a multiscale attention convolutional neural network (MSAN-CNN) was introduced into this process. Herein, patch-based images with image-level normal/tumor annotation (rather than images with pixel-level annotation) were fed into a classification neural network. To further improve the performances of cancer region detection, multiscale attention was introduced into the classification neural network. A total of 100 cases were obtained from The Cancer Genome Atlas and divided into 70 training and 30 testing data sets that were fed into the MSAN-CNN framework. The experimental results showed that this framework significantly …}
+}

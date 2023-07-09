@@ -1,0 +1,12 @@
+@article{XiongTan2010_67,
+  title={Automatic area classification in peripheral blood smears},
+  pub_year={2010},
+  citation={IEEE Transactions on Biomedical Engineering 57 (8), 1982-1990, 2010},
+  author={Wei Xiong and Sim-Heng Ong and Joo-Hwee Lim and Kelvin Weng Chiong Foong and Jiang Liu and Daniel Racoceanu and Alvin GL Chong and Kevin SW Tan},
+  journal={IEEE Transactions on Biomedical Engineering},
+  volume={57},
+  number={8},
+  pages={1982-1990},
+  publisher={IEEE},
+  abstract={Cell enumeration and diagnosis using peripheral blood smears are routine tasks in many biological and pathological examinations. Not every area in the smear is appropriate for such tasks due to severe cell clumping or sparsity. Manual working-area selection is slow, subjective, inconsistent, and statistically biased. Automatic working-area classification can reproducibly identify appropriate working smear areas. However, very little research has been reported in the literature. With the aim of providing a preprocessing step for further detailed cell enumeration and diagnosis for high-throughput screening (HTS), we propose an integrated algorithm for area classification and quantify both cell spreading and cell clumping in terms of individual clumps and the occurrence probabilities of the group of clumps over the image. Comprehensive comparisons are presented to compare the effect of these quantifications and …}
+}

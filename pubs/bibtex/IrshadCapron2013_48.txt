@@ -1,0 +1,12 @@
+@article{IrshadCapron2013_48,
+  title={Automated mitosis detection using texture, SIFT features and HMAX biologically inspired approach},
+  pub_year={2013},
+  citation={Journal of pathology informatics 4 (2), 12, 2013},
+  author={Humayun Irshad and Sepehr Jalali and Ludovic Roux and Daniel Racoceanu and Lim Joo Hwee and Gilles Le Naour and Frédérique Capron},
+  journal={Journal of pathology informatics},
+  volume={4},
+  number={2},
+  pages={12},
+  publisher={Elsevier},
+  abstract={Context: According to Nottingham grading system, mitosis count in breast cancer histopathology is one of three components required for cancer grading and prognosis. Manual counting of mitosis is tedious and subject to considerable inter- and intra-reader variations. Aims: The aim is to investigate the various texture features and Hierarchical Model and X (HMAX) biologically inspired approach for mitosis detection using machine-learning techniques. Materials and Methods: We propose an approach that assists pathologists in automated mitosis detection and counting. The proposed method, which is based on the most favorable texture features combination, examines the separability between different channels of color space. Blue-ratio channel provides more discriminative information for mitosis detection in histopathological images. Co-occurrence features, run-length features, and Scale-invariant feature …}
+}

@@ -1,0 +1,8 @@
+@article{DallePutti2009_10,
+  title={Nuclear pleomorphism scoring by selective cell nuclei detection.},
+  pub_year={2009},
+  citation={WACV, 2009},
+  author={Jean-Romain Dalle and Hao Li and Chao-Hui Huang and Wee Kheng Leow and Daniel Racoceanu and Thomas C Putti},
+  conference={WACV},
+  abstract={Scoring the nuclear pleomorphism in histopathological images is a standard clinical practice for the diagnosis and prognosis of breast cancer. It relies highly on the experience of the pathologists. In a large hospital, one pathologist may have to evaluate more than a hundred cases per day, which is a very tedious and time-consuming task. Thus, it is necessary to develop an automatic system to support the pathologists. This paper proposes a method that automatically selects and segments critical cell nuclei within a high-resolution histopathological image for nuclear pleomorphism scoring according to the Nottingham grading system. In contrast, most of the existing methods tend to detect all the cells in an image which is computationally expensive. Comprehensive experiments show that accurate scoring can be achieved by segmenting only critical cells, thus reducing the execution time of the method.}
+}

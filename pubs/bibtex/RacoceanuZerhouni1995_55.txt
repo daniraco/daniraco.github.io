@@ -1,0 +1,20 @@
+@article{RacoceanuZerhouni1995_55,
+  title={A nearby optimal control of Markov chains using discrete singular perturbations in the case of first order polynomial control: problems with target},
+  pub_year={1995},
+  citation={Systems Analysis Modelling Simulation 18, 429-442, 1995},
+  author={Daniel Racoceanu and Abdellah El Moudni and Michel Ferney and Said Zerhouni},
+  journal={Systems Analysis Modelling Simulation},
+  volume={18},
+  pages={429-442},
+  publisher={Gordon and Breach Science Publishers, Inc.},
+  abstract={A nearby optimal control of Markov chains using discrete singular perturbations in the case of 
+first order polynomial control: problems with target: Systems Analysis Modelling Simulation: 
+Vol 18-19, No null ACM Digital Library home ACM home Google, Inc. (search) Advanced 
+Search Browse About Sign in Register Advanced Search Journals Magazines Proceedings 
+Books SIGs Conferences People More Search ACM Digital Library SearchSearch Advanced 
+Search Systems Analysis Modelling Simulation Periodical Home Latest Issue Archive Authors 
+Affiliations Award Winners More HomeBrowse by TitlePeriodicalsSystems Analysis Modelling 
+SimulationVol. 18-19A nearby optimal control of Markov chains using discrete singular 
+perturbations in the case of first order polynomial control: problems with target article Share on 
+A nearby optimal control of Markov chains using discrete singular perturbations in the case of …}
+}

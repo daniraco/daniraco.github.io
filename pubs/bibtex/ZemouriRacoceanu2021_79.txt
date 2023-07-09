@@ -1,0 +1,10 @@
+@article{ZemouriRacoceanu2021_79,
+  title={Innovative deep learning approach for biomedical data instantiation and visualization},
+  pub_year={2021},
+  citation={Deep Learning for Biomedical Data Analysis: Techniques, Approaches, and …, 2021},
+  author={Ryad Zemouri and Daniel Racoceanu},
+  journal={Deep Learning for Biomedical Data Analysis: Techniques, Approaches, and Applications},
+  pages={171-196},
+  publisher={Springer International Publishing},
+  abstract={One of the main problems that most of biomedical applications face, is represented by the massive amount of unlabeled data. Manually analyzing and classifying massive database by human expert is mostly unfeasible, being—in certain limited conditions (still, extremely time-consuming)—partially been done, only for simple signatures, easily recognizable by an expert. Concerning this aspect, medical experts face two challenging problems: how to select the most significant data for labeling, and what is the minimum size of the data set—but sufficient to define each pathology—to perform the training of the classifier. In this chapter, we propose a new method, based on a visual data analysis, to build an efficient classifier with a minimum of labeled data. An encoder, part of a Convolutional Variational Autoencoder (CVAE), is used as a data projection for a 2D-visualization. The input vectors are encoded into a …}
+}

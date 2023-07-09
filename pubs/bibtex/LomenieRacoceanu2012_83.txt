@@ -1,0 +1,9 @@
+@article{LomenieRacoceanu2012_83,
+  title={Ontology-Enhanced Vision System for New Microscopy Imaging Challenges},
+  pub_year={2012},
+  citation={Advances in Bio-Imaging: From Physics to Signal Understanding Issues: State …, 2012},
+  author={Nicolas Lomenie and Daniel Racoceanu},
+  pages={157-172},
+  publisher={Springer Berlin Heidelberg},
+  abstract={Artificial intelligence and computer vision have long been separate fields basically because the data structures to work with and to reason about were rather distinct and non permeable. Ontology-driven systems may have the ability to build a bridge between these two fundamental topics involved in intelligent system design. We provide preliminary insights about this powerful synergy in the field of digitized pathology as a brand new topic in which, like currently for satellite imaging, the amount of raw data and high-level concepts to handle give no other choice but to innovate about the low-level image image processing machine and the knowledge modeling framework integration. Above all, the end-user who is most of the time naive about signal, image and algorithmic issues can thence play the key role in the design of such enhanced vision system.}
+}

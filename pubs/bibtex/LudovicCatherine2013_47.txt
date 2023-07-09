@@ -1,0 +1,12 @@
+@article{LudovicCatherine2013_47,
+  title={Mitosis detection in breast cancer histological images An ICPR 2012 contest},
+  pub_year={2013},
+  citation={Journal of pathology informatics 4 (1), 8, 2013},
+  author={Roux Ludovic and Racoceanu Daniel and Loménie Nicolas and Kulikova Maria and Irshad Humayun and Klossa Jacques and Capron Frédérique and Genestie Catherine},
+  journal={Journal of pathology informatics},
+  volume={4},
+  number={1},
+  pages={8},
+  publisher={Elsevier},
+  abstract={Introduction: In the framework of the Cognitive Microscope (MICO) project, we have set up a contest about mitosis detection in images of H and E stained slides of breast cancer for the conference ICPR 2012. Mitotic count is an important parameter for the prognosis of breast cancer. However, mitosis detection in digital histopathology is a challenging problem that needs a deeper study. Indeed, mitosis detection is difficult because mitosis are small objects with a large variety of shapes, and they can thus be easily confused with some other objects or artefacts present in the image. We added a further dimension to the contest by using two different slide scanners having different resolutions and producing red-green-blue (RGB) images, and a multi-spectral microscope producing images in 10 different spectral bands and 17 layers Z-stack. 17 teams participated in the study and the best team achieved a recall rate of 0.7 …}
+}

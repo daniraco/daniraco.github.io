@@ -1,0 +1,12 @@
+@article{PalluatZerhouni2006_43,
+  title={A neuro-fuzzy monitoring system: Application to flexible production systems},
+  pub_year={2006},
+  citation={Computers in Industry 57 (6), 528-538, 2006},
+  author={Nicolas Palluat and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={Computers in Industry},
+  volume={57},
+  number={6},
+  pages={528-538},
+  publisher={Elsevier},
+  abstract={The multiple reconfiguration and the complexity of the modern production system lead to design intelligent monitoring aid systems. Accordingly, the use of neuro-fuzzy technics seems very promising. In this paper, we propose a new monitoring aid system composed by a dynamic neural network detection tool and a neuro-fuzzy diagnosis tool. Learning capabilities due to the neural structure permit us to update the monitoring aid system. The neuro-fuzzy network provides an abductive diagnosis. Moreover it takes into account the uncertainties on the maintenance knowledge by giving a fuzzy characterization of each cause. At the end, we illustrate the industrial usefulness of the proposed dynamic neuro-fuzzy monitoring system trough a flexible production system monitoring application.}
+}

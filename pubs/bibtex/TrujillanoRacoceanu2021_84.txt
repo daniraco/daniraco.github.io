@@ -1,0 +1,10 @@
+@article{TrujillanoRacoceanu2021_84,
+  title={Corn Crops Identification Using Multispectral Images from Unmanned Aircraft Systems},
+  pub_year={2021},
+  citation={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS, 4712 …, 2021},
+  author={Fedra Trujillano and Jessenia Gonzalez and Carlos Saito and Andres Flores and Daniel Racoceanu},
+  conference={2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS},
+  pages={4712-4715},
+  publisher={IEEE},
+  abstract={Corn is cultivated by smallholder farmers in Ancash - Peru and it is one of the most important crops of the region. Climate change and migration from rural to urban areas are affecting agricultural production and therefore, food security. Information about the cultivated extension is needed for the authorities in order to evaluate the impact in the region. The present study proposes corn areas segmentation in multi-spectral images acquired from Unmanned Aerial Vehicles (UAV), using convolutional neural networks. U-net and U-net using VGG11 encoder were compared using dice and IoU coefficient as metrics. Results show that with the second model, 81.5% dice coefficient can be obtained in this challenging task, allowing envisaging an effective and efficient use of this technology, in this hard context.}
+}

@@ -1,0 +1,9 @@
+@article{TeodorescuMuller2009_21,
+  title={Parkinson’s disease detection using 3d brain mri fa map histograms correlated with tract directions},
+  pub_year={2009},
+  citation={RSNA 8015681, 1, 2009},
+  author={Roxana Teodorescu and Daniel Racoceanu and L Chan and K Lovblad and H Muller},
+  journal={RSNA},
+  volume={8015681},
+  pages={1}
+}

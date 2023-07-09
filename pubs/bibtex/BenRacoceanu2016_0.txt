@@ -1,0 +1,7 @@
+@article{BenRacoceanu2016_0,
+  title={Nuclei Classification in Immunohistochemical Stainings for Tumor Microenvironment Analysis in Digital Pathology},
+  pub_year={2016},
+  citation={},
+  author={Bassem Ben Cheikh and Catherine Bor-Angelier and Daniel Racoceanu},
+  abstract={Tumor microenvironment (TME) is composed by the stromal cells surrounding cancers cells within a malignant tumor, including the immune system and the connective tissue. TME is being increasingly identified as an important factor in the dynamical behavior of a tumor. In histopathological imaging, the extraction of meaningful information describing the relationships between the tumor and its microenvironment relies on an accurate cell identification technique. In this work, we present an efficient approach for cell detection and classification from immunohistochemistry (IHC)-stained breast cancer tissue. The detected nuclei are classified in 3 types (cancer cells, fibroblasts and immune system cells) using Random Forest classifier based on morphologic, color and texture features.}
+}

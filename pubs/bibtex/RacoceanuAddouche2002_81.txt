@@ -1,0 +1,11 @@
+@article{RacoceanuAddouche2002_81,
+  title={Modular modeling and analysis of a distributed production system with distant specialised maintenance},
+  pub_year={2002},
+  citation={Proceedings 2002 IEEE International Conference on Robotics and Automation …, 2002},
+  author={Daniel Racoceanu and Noureddine Zerhouni and Nawal Addouche},
+  conference={Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No. 02CH37292)},
+  volume={4},
+  pages={4046-4052},
+  publisher={IEEE},
+  abstract={This paper introduces a modular modeling approach for distributed production systems, considering the production and maintenance processes synchronization. The production job shop, preventive and curative specialized tele-maintenance actions are studied. Stochastic synchronized Petri nets are used for modeling. This tool was adapted to the tele-maintenance distributed case and to integrate distant communications, synchronization problems and execution scheduling. Performance evaluation was performed using Markov Processes and Monte Carlo simulation.}
+}

@@ -1,0 +1,9 @@
+@article{JimenezRacoceanu2022_84,
+  title={Visual deep learning-based explanation for neuritic plaques segmentation in Alzheimer’s Disease using weakly annotated whole slide histopathological images},
+  pub_year={2022},
+  citation={Medical Image Computing and Computer Assisted Intervention–MICCAI 2022: 25th …, 2022},
+  author={Gabriel Jimenez and Anuradha Kar and Mehdi Ounissi and Léa Ingrassia and Susana Boluda and Benoît Delatour and Lev Stimmer and Daniel Racoceanu},
+  pages={336-344},
+  publisher={Springer Nature Switzerland},
+  abstract={Quantifying the distribution and morphology of tau protein structures in brain tissues is key to diagnosing Alzheimer’s Disease (AD) and its subtypes. Recently, deep learning (DL) models such as UNet have been successfully used for automatic segmentation of histopathological whole slide images (WSI) of biological tissues. In this study, we propose a DL-based methodology for semantic segmentation of tau lesions (i.e., neuritic plaques) in WSI of postmortem patients with AD. The state of the art in semantic segmentation of neuritic plaques in human WSI is very limited. Our study proposes a baseline able to generate a significant advantage for morphological analysis of these tauopathies for further stratification of AD patients. Essential discussions concerning biomarkers (ALZ50 versus AT8 tau antibodies), the imaging modality (different slide scanner resolutions), and the challenge of weak annotations are …}
+}

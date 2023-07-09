@@ -1,0 +1,10 @@
+@article{XiongFoong2009_86,
+  title={Cell clumping quantification and automatic area classification in peripheral blood smear images},
+  pub_year={2009},
+  citation={2009 2nd International Conference on Biomedical Engineering and Informatics, 1-5, 2009},
+  author={Wei Xiong and SH Ong and Christina Kang and Joo Hwee Lim and Jiang Liu and Daniel Racoceanu and Kelvin Foong},
+  conference={2009 2nd International Conference on Biomedical Engineering and Informatics},
+  pages={1-5},
+  publisher={IEEE},
+  abstract={Cell enumeration in peripheral blood smears and cell are widely applied in biological and pathological practice. Not every area in the smear is appropriate for enumeration due to severe cell clumping or sparseness arising from smear preparation. The automatic selection of good areas for cell enumeration can reduce manual labor and provide objective and consistent results. However, this has been infrequently studied and it is often difficult to count the exact number of cells in the clumps. To select good areas, we do not have to do this. Instead, we measure the goodness of such areas in terms of the degree of cell spread and the degree of clumping. The later is defined based on the distances and linking strengths of local voting peaks generated in the accumulator space after multi-scale circular Hough transforms. Support vector machines are then applied to classify the image areas into good or non-good classes …}
+}

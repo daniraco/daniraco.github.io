@@ -1,0 +1,11 @@
+@article{RyadNoureddine2001_84,
+  title={The RRBF. Dynamic representation of time in radial basis function network},
+  pub_year={2001},
+  citation={ETFA 2001. 8th International Conference on Emerging Technologies and Factory …, 2001},
+  author={Zemouri Ryad and Racoceanu Daniel and Zerhouni Noureddine},
+  conference={ETFA 2001. 8th International Conference on Emerging Technologies and Factory Automation. Proceedings (Cat. No. 01TH8597)},
+  volume={2},
+  pages={737-740},
+  publisher={IEEE},
+  abstract={This paper introduces the Recurrent Radial Basis Function networks (RRBF) for recognition of simple temporal sequence. The RRBF combines features from recurrent neural network and Radial Basis Function networks (RBF). An application has been developed by implementation on the IBM/ZISC (Zero Instruction Set Computer) card for temporal sequences recognition.}
+}

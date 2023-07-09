@@ -1,0 +1,12 @@
+@article{IrshadRacoceanu2014_63,
+  title={Multispectral band selection and spatial characterization: Application to mitosis detection in breast cancer histopathology},
+  pub_year={2014},
+  citation={Computerized Medical Imaging and Graphics 38 (5), 390-402, 2014},
+  author={Humayun Irshad and Alexandre Gouaillard and Ludovic Roux and Daniel Racoceanu},
+  journal={Computerized Medical Imaging and Graphics},
+  volume={38},
+  number={5},
+  pages={390-402},
+  publisher={Pergamon},
+  abstract={Breast cancer is the second most frequent cancer. The reference process for breast cancer prognosis is Nottingham grading system. According to this system, mitosis detection is one of the three important criteria required for grading process and quantifying the locality and prognosis of a tumor. Multispectral imaging, as relatively new to the field of histopathology, has the advantage, over traditional RGB imaging, to capture spectrally resolved information at specific frequencies, across the electromagnetic spectrum. This study aims at evaluating the accuracy of mitosis detection on histopathological multispectral images. The proposed framework includes: selection of spectral bands and focal planes, detection of candidate mitotic regions and computation of morphological and multispectral statistical features. A state-of-the-art of the methods for mitosis classification is also provided. This framework has been evaluated …}
+}

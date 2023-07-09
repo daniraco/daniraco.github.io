@@ -1,0 +1,8 @@
+@article{TutacCretu2009_77,
+  title={Breast Cancer Grading Knowledge Modeling and Reasoning for Cognitive Virtual Microscopy},
+  pub_year={2009},
+  citation={National Institutes of Health NIH Inter-Institute Workshop on Optical …, 2009},
+  author={Adina Tutac and Daniel Racoceanu and Nicolas Loménie and Ludovic Roux and Thomas C Putti and Vladimir Cretu},
+  journal={National Institutes of Health NIH Inter-Institute Workshop on Optical Diagnostic and Biophotonic Methods from Bench to Bedside, Bethesda, USA},
+  pages={1-2}
+}

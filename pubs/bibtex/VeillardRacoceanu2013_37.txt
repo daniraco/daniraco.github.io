@@ -1,0 +1,12 @@
+@article{VeillardRacoceanu2013_37,
+  title={Cell nuclei extraction from breast cancer histopathologyimages using colour, texture, scale and shape information},
+  pub_year={2013},
+  citation={Diagnostic Pathology 8 (1), 1-3, 2013},
+  author={Antoine Veillard and Maria S Kulikova and Daniel Racoceanu},
+  conference={Diagnostic Pathology},
+  volume={8},
+  number={1},
+  pages={1-3},
+  publisher={BioMed Central},
+  abstract={BackgroundStandard cancer diagnosis and prognosis procedures such as the Nottingham Grading System for breast cancer incorporate a criterion based on cell morphology known as cytonuclear atypia. Therefore, algorithms able to precisely extract the cell nuclei are a requirement in computer-aided diagnosis applications.}
+}

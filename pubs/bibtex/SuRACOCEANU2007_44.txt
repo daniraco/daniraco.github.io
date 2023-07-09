@@ -1,0 +1,12 @@
+@article{SuRACOCEANU2007_44,
+  title={Diagnostic Decision Support by Intelligent Medical Image Retrieval with Electronic Medical Record for Dementia Treatment Enhancement},
+  pub_year={2007},
+  citation={Medical Imaging Technology 25 (5), 350, 2007},
+  author={Mei-Ju Su and Heng-Shuen Chen and Chung-Yi Yang and Sao-Jie Chen and Robert Chen and Wen-Jeng LEE and Po-Hsun CHENG and Ping-Kung YIP and Hon-Mon LIU and Fei-Pei LAI and Daniel RACOCEANU},
+  journal={Medical Imaging Technology},
+  volume={25},
+  number={5},
+  pages={350},
+  publisher={日本医用画像工学会},
+  abstract={In most hospitals, medical images such as computed tomography (CT), magnetic resonance imaging (MRI), and X-ray films are stored in Picture Archiving and Communication System (PACS). However, clinicians make differential diagnosis of patients in the Electronic Medical Record (EMR) system with references to laboratory results and the medical images reports. To establish a prototype model for intelligent access of medical image database, this study integrated EMR, Radiology Information Systems (RIS) and PAC for a clinician to retrieve the clinical information automatically. Dementia was chosen to establish the prototyping system for Content-Based Image Retrieval (CBIR) with EMR because it is a neurological disease usually with a long histopathology, and presents itself with a variety of abnormalities in brain images such as those obtained through CT, MRI or Positron Emission Tomography (PET). If a clinician wants to diagnose a condition, he will need a series of images to make this diagnosis and to decide on what therapeutic strategies to pursue. Therefore, the image database, in conjunction with clinical information, can be crucial in the care of dementia patients. Moreover, treatments for dementia patients usually involve intensive collaboration among neurologists, radiologists and other clinical specialties. The implementation of this study, an intelligent medical image retrieval system coupled with the EMR system, is expected to enhance the early diagnosis and monitoring of disease progressions in both Dementia and other chronic pathologies.}
+}

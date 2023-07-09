@@ -1,0 +1,7 @@
+@article{PalluatZerhouni2004_47,
+  title={Dynamic neuro-fuzzy system for diagnosis aid},
+  pub_year={2004},
+  citation={Intelligent Maintenance System - IMS 2004, 2004},
+  author={Nicolas Palluat and Daniel Racoceanu and Noureddine Zerhouni},
+  conference={Intelligent Maintenance System - IMS 2004}
+}

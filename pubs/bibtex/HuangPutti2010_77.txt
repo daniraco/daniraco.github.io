@@ -1,0 +1,10 @@
+@article{HuangPutti2010_77,
+  title={Bio-inspired computer visual system using GPU and visual pattern assessment language (ViPAL): application on breast cancer prognosis},
+  pub_year={2010},
+  citation={The 2010 International Joint Conference on Neural Networks (IJCNN), 1-8, 2010},
+  author={Chao-Hui Huang and Daniel Racoceanu and Ludovic Roux and Thomas C Putti},
+  conference={The 2010 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1-8},
+  publisher={IEEE},
+  abstract={Bio-inspired computer vision is an emerging field. It aims to reproduce the capabilities of biological vision systems, eventually to simulate the visual functions for various purposes. In this paper, we propose a bio-inspired computer visual system using Graphical Processing Unit (GPU), and its application on breast cancer prognosis. The system extracts visual features from an input image using a mechanism which is similar to human visual system. Then classify the visual features using a machine learning algorithm. As a result, the elements of the input image, which might be related to particular knowledge concepts, can be identified.}
+}

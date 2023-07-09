@@ -1,0 +1,7 @@
+@article{ArslanRacoceanu2022_29,
+  title={Responsible artificial intelligence: a review of current trends},
+  pub_year={2022},
+  citation={Winter School AI4Health, 2022},
+  author={Janan Arslan and Mehdi Ounissi and Gabriel Jiménez and Anuradha Kar and Daniel Racoceanu},
+  abstract={While the advent of artificial intelligence (AI) has seen an increase in computational power and development of novel technologies to expedite current human-run processes, with this breakneck speed some concerns have risen around the technology's social, legal, and ethical implications. Responsible AI (RAI) has emerged as a new discipline designed to ensure AI technologies produce equitable outcomes and that AI is developed for the betterment of humanity. In this review poster, some of the AI-related concerns are highlighted, various aspects of RAI are defined (as there current remains no real consensus to what RAI involves), some attempts at creating quantifiable AI are illustrated, and some future directions are proposed.}
+}

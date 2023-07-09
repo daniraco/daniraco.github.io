@@ -1,0 +1,10 @@
+@article{LacosteVuillenemot2007_53,
+  title={Part V-Cross-Language Retrieval in Image Collections (ImageCLEF)-ImageCLEFmed-Inter-media Concept-Based Medical Image Indexing and Retrieval with UMLS at IPAL},
+  pub_year={2007},
+  citation={Lecture Notes in Computer Science 4730, 694-701, 2007},
+  author={Caroline Lacoste and Jean-Pierre Chevallet and Joo-Hwee Lim and Diem Thi Hoang Le and Wei Xiong and Daniel Racoceanu and Roxana Teodorescu and Nicolas Vuillenemot},
+  journal={Lecture Notes in Computer Science},
+  volume={4730},
+  pages={694-701},
+  publisher={Berlin: Springer-Verlag, 1973-}
+}

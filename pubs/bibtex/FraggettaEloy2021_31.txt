@@ -1,0 +1,12 @@
+@article{FraggettaEloy2021_31,
+  title={Best practice recommendations for the implementation of a digital pathology workflow in the anatomic pathology laboratory by the European Society of digital and integrative pathology (ESDIP)},
+  pub_year={2021},
+  citation={Diagnostics 11 (11), 2167, 2021},
+  author={Filippo Fraggetta and Vincenzo L’imperio and David Ameisen and Rita Carvalho and Sabine Leh and Tim-Rasmus Kiehl and Mircea Serbanescu and Daniel Racoceanu and Vincenzo Della Mea and Antonio Polonia and Norman Zerbe and Catarina Eloy},
+  journal={Diagnostics},
+  volume={11},
+  number={11},
+  pages={2167},
+  publisher={MDPI},
+  abstract={The interest in implementing digital pathology (DP) workflows to obtain whole slide image (WSI) files for diagnostic purposes has increased in the last few years. The increasing performance of technical components and the Food and Drug Administration (FDA) approval of systems for primary diagnosis led to increased interest in applying DP workflows. However, despite this revolutionary transition, real world data suggest that a fully digital approach to the histological workflow has been implemented in only a minority of pathology laboratories. The objective of this study is to facilitate the implementation of DP workflows in pathology laboratories, helping those involved in this process of transformation to identify: (a) the scope and the boundaries of the DP transformation; (b) how to introduce automation to reduce errors; (c) how to introduce appropriate quality control to guarantee the safety of the process and (d) the hardware and software needed to implement DP systems inside the pathology laboratory. The European Society of Digital and Integrative Pathology (ESDIP) provided consensus-based recommendations developed through discussion among members of the Scientific Committee. The recommendations are thus based on the expertise of the panel members and on the agreement obtained after virtual meetings. Prior to publication, the recommendations were reviewed by members of the ESDIP Board. The recommendations comprehensively cover every step of the implementation of the digital workflow in the anatomic pathology department, emphasizing the importance of interoperability, automation and tracking of the entire process …}
+}

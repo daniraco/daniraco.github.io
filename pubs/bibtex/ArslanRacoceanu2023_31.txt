@@ -1,0 +1,8 @@
+@article{ArslanRacoceanu2023_31,
+  title={3D Reconstruction of H\&E Whole Slide Images in Melanoma},
+  pub_year={2023},
+  citation={SPIE Medical Imaging 2023, 2023},
+  author={Janan Arslan and Haocheng Luo and Matthieu Lacroix and Pierrick Dupré and Pawan Kumar and Arran Hodgkinson and Sarah Dandou and Romain M Larive and Christine Pignodel and Ovidiu Radulescu and Daniel Racoceanu},
+  conference={SPIE Medical Imaging 2023},
+  abstract={Cutaneous melanoma is an invasive cancer with a worldwide annual death toll of 57,000 (Arnold et al., JAMA Dermatol 2022). Changes in the tumor microenvironment, including the evolution of the metabolic states, have been suggested to be associated with poor chemotherapeutic response. To elucidate differing metabolic states and their correlation with treatment response, we have developed a vascular-based 3D pipeline for whole slide images (WSI). In this presentation, we share details of the pipeline, provide quantitative results to validate its performance, and share the challenges experienced and the solutions created to manage and process WSIs.}
+}

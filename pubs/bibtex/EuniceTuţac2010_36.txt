@@ -1,0 +1,7 @@
+@article{EuniceTuţac2010_36,
+  title={Formal representation and reasoning for microscopic medical image-based prognosis; Application to breast cancer grading},
+  pub_year={2010},
+  citation={Timişoara: Editura Politehnica, 2010},
+  author={Adina Eunice Tuţac},
+  abstract={This thesis addresses ontology-driven prognosis assistance using knowledge representation and reasoning for very large microscopic medical images. One particular medical application in which prognosis assistance is needed is the breast cancer grading. Although this is considered the key assessment tool in prognosis of modern pathology practice, time constraints, the intra-observer reproducibility and the inter-observer reliability inconsistencies determine a lack of consensus which emphasizes the subjectivity of the method. To this end, we propose a qualitative formal ontological representation of breast cancer grading, an application ontology entitled Breast Cancer Grading Ontology based on OWL-DL and SWRL formalisms. By this approach, the thesis also tackles the semantic gap between the high- level semantic concepts and the low-level image features. Additionally, we propose a spatial theory support for the representation of the spatial relations between the spatial concepts of the breast cancer grading. This ontology is integrated into a cognitive microscope framework MICO, guiding the image exploration, semantic indexing and retrieval of the microscopic images.}
+}

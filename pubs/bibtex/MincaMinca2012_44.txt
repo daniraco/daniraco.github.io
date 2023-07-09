@@ -1,0 +1,8 @@
+@article{MincaMinca2012_44,
+  title={A Fuzzy Approach of the Optimal Analysis Based of Failure States in Manufacturing Systems},
+  pub_year={2012},
+  citation={" Dunarea de Jos" University of Galati, 2012},
+  author={Eugenia Minca},
+  publisher={" Dunarea de Jos" University of Galati},
+  abstract={This article proposes an algorithm for prognosis in optimal analysis of manufacturing systems. Uncertain knowledge of such task requires for specific reasoning and adaptive model base of fuzzy logic analyzes. The proposed method performs the interfaces between the results provided by the fuzzy supervision model and the algorithm witch identify the real state of the monitored system. The supervisory system sends failure signals described in a fuzzy approach. These ones represent inputs values in the system of failure optimal analysis which identifies the current degradation states by recurrent identification cycle. The proposed algorithm has also predictive component capable to determine the possible evolution of the system state towards a critical state of failure.}
+}

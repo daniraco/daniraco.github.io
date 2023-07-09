@@ -1,0 +1,7 @@
+@article{RACOCEANURACOCEANU2006_36,
+  title={HABILITATION à DIRIGER des RECHERCHES},
+  pub_year={2006},
+  citation={University of Besancon, France, 2006},
+  author={Daniel RACOCEANU},
+  publisher={University of Besancon, France}
+}

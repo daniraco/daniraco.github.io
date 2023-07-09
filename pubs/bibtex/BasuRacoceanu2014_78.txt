@@ -1,0 +1,10 @@
+@article{BasuRacoceanu2014_78,
+  title={Reconstructing neuronal morphology from microscopy stacks using fast marching},
+  pub_year={2014},
+  citation={2014 IEEE international conference on image processing (ICIP), 3597-3601, 2014},
+  author={Sreetama Basu and Daniel Racoceanu},
+  conference={2014 IEEE international conference on image processing (ICIP)},
+  pages={3597-3601},
+  publisher={IEEE},
+  abstract={Automated algorithms to build accurate models of 3D neuronal arborization is much in demand due to large volume of microscopy data. We present a tracking algorithm for automatic and reliable extraction of neuronal morphology. It is robust to ambiguous branch discontinuities, variability of intensity and curvature of fibres, arbitrary branch cross-sections, noise and irregular background illumination. We complete the presentation of our method with demonstration of its performance on synthetic data modeling challenging scenarios and on confocal microscopy data of Olfactory Projection fibres from DIADEM data set with promising results.}
+}

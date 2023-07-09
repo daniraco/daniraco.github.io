@@ -1,0 +1,12 @@
+@article{TeodorescuCretu2008_43,
+  title={Prospective study for semantic inter-media fusion in content-based medical image retrieval},
+  pub_year={2008},
+  citation={Medical Imaging Technology 26 (1), 48, 2008},
+  author={Roxana Teodorescu and Daniel Racoceanu and Wee-Kheng Leow and Vladimir Cretu},
+  journal={Medical Imaging Technology},
+  volume={26},
+  number={1},
+  pages={48},
+  publisher={日本医用画像工学会},
+  abstract={One important challenge in modern Content-Based Medical Image Retrieval (CBMIR) approaches is represented by the semantic gap, related to the complexity of the medical knowledge. Among the methods that are able to close this gap in CBMIR, the use of medical thesauri/ontologies has interesting perspectives due to the possibility of accessing on-line updated relevant webservices and to extract real-time medical semantic structured information. The CBMIR approach proposed in this paper uses the Unified Medical Language System’s (UMLS) Metathesaurus to perform a semantic indexing and fusion of medical media. This fusion operates before the query processing (retrieval) and works at an UMLS-compliant conceptual indexing level. Our purpose is to study various techniques related to semantic data alignment, preprocessing, fusion, clustering and retrieval, by evaluating the various techniques and highlighting future research directions. The alignment and the preprocessing are based on partial text/image retrieval feedback and on the data structure. We analyze various probabilistic, fuzzy and evidence-based approaches for the fusion process and different similarity functions for the retrieval process. All the proposed methods are evaluated on the Cross Language Evaluation Forum’s (CLEF) medical image retrieval benchmark, by focusing also on a more homogeneous component medical image database: the Pathology Education Instructional Resource (PEIR).}
+}

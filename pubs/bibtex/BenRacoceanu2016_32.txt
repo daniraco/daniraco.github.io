@@ -1,0 +1,10 @@
+@article{BenRacoceanu2016_32,
+  title={Graph-Based Approach for Spatial Heterogeneity Analysis in Tumor Microenvironment},
+  pub_year={2016},
+  citation={Diagnostic Pathology 1 (8), 2016},
+  author={B Ben Cheikh and C Bor-Angelier and Daniel Racoceanu},
+  journal={Diagnostic Pathology},
+  volume={1},
+  number={8},
+  abstract={AimsIn this work, we propose a novel approach to characterize the spatial relationships between cancer cells and TME components in breast tumors, using graph theory and sparse setsâ€™ mathematical morphology (MM). The tools of morphology on graphs were first used in [4] to study the neighborhood relationships between cells in germinal centers from lymph nodes, then in [5] for semantic spatial configuration modeling in histopathology. In our study, we propose new morphological descriptors characterizing the tumor architecture and the interactions with TME cells.MethodsTowards a better evaluation and understanding, we use simulated data of different breast tumor types,, where locations of cancer nuclei (CN), fibroblasts (synthesizers of collagen, FN), and lymphocytes (LN) are already known. In order to set neighborhood relationships between different cells, Delaunay graph [3] is first reconstructed on all cells, and alpha-shape filter [5] is applied to circumvent border effects, giving new graph denoted G. The designed features are extracted basically from two different morphological operations. The first operation is composed of successive morphological erosions [4] applied to the subgraph induced by CN (denoted SGC,), repeated until the subgraph is null. The curve given by the number of CN in terms of erosions provides 3 significant characteristics: I) The origin slope describes the number of CN on the boundary of tumor aggregates (TA) and, thus, the tumor-stromal interface; II) The area under curve (AUC) reflects the density within TAs, and III) the number of iterations outlines the morphologic radius of the largest TA and …}
+}

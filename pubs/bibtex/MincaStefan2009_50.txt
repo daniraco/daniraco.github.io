@@ -1,0 +1,10 @@
+@article{MincaStefan2009_50,
+  title={Advanced methods for recurrent hierarchical systems modeling. Application to producer-consumer distributed energy production systems},
+  pub_year={2009},
+  citation={2009 7th Asian Control Conference, 1542-1547, 2009},
+  author={Eugenia Minca and Florin Filip and Daniel Racoceanu and Veronica Stefan and Antoniu Stefan},
+  conference={2009 7th Asian Control Conference},
+  pages={1542-1547},
+  publisher={IEEE},
+  abstract={This article proposes a fuzzy recurrent synchronized Petri networks (PNetSinFREC), dedicated to implementing the recurrent appearance of the functions of monitoring-decision. The proposed instrument improves a previous proposal because it proposes modeling the decision function in both autonomous and non-autonomous hierarchical systems. PNetSinFREC integrates fuzzy logic in modeling temporal aspects of the occurrence of monitored events. We propose two types of structural systems decision: hierarchical autonomous system and hierarchical distributed non-autonomous system. On each level there are events with equal probabilities of occurrence / detection. Proposed typology provides a recurrent behavior to the horizontal firing of the networks, which allows the detection of the occurrence / persistence of the external events monitored. It proposes an application for monitoring of the PNetSinFREC in a …}
+}

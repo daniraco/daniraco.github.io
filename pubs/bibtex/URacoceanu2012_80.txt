@@ -1,0 +1,8 @@
+@article{URacoceanu2012_80,
+  title={Neurosphere fate prediction: An analysis-synthesis approach for feature extraction},
+  pub_year={2012},
+  citation={IEEE WCCI 2012, IEEE World Congress On Computational Intelligence, IJCNN …, 2012},
+  author={Stéphane U Rigaud and Nicolas Loménie and Shvetha Sankaran and Sohail Ahmed and Joo-Hwee Lim and Daniel Racoceanu},
+  conference={IEEE WCCI 2012, IEEE World Congress On Computational Intelligence, IJCNN 2012- International Joint Conference on Neural Networks},
+  abstract={The study of stem cells is one of the current most important biomedical research field. Understanding their development could allow multiple applications in regenerative medicine. For this purpose, we need automated methods for the segmentation and the modeling of neural stem cell development process into a neurosphere colony from phase contrast microscopy. We use such methods to extract relevant structural and textural features like cell division dynamism and cell behavior patterns for biological interpretation. The combination of phase contrast imaging, high fragility and complex evolution of neural stem cells pose many challenges in image processing and image analysis. This study introduces an on-line analysis method for the modeling of neurosphere evolution during the first three days of their development. From the corresponding time-lapse sequences, we extract information from the neurosphere …}
+}

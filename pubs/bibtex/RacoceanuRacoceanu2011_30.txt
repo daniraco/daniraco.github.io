@@ -1,0 +1,7 @@
+@article{RacoceanuRacoceanu2011_30,
+  title={Multifractal Analysis of Histopathological Tissue Images},
+  pub_year={2011},
+  citation={University of Canterbury, 2011},
+  author={D Racoceanu},
+  abstract={Histopathological classification and grading of biopsy specimens play an important role in early cancer detection and prognosis. Nottingham scoring system is one of the standard grading procedures used in breast cancer assessment, where three parameters, Mitotic Count (MC), Nuclear Pleomorphism (NP), and Tubule Formation (TF) are used for prognostic information. The grading takes into account the deviations in cellular structures and appearance from normal, using measures such as density, size, colour and regularity. Cell structures in tissue images are also known to exhibit multifractal characteristics. This paper looks at the multifractal properties of several graded biopsy specimens and analyses the dependency and variation of the fractal parameters with respect to the scores assigned by pathologists.Subjects/Keywords breast cancer assessment; multifractal spectra; image analysis; histopathological …}
+}

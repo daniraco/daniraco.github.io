@@ -1,0 +1,11 @@
+@article{NakaiRacoceanu2008_59,
+  title={Ontology for FMRI as a biomedical informatics method},
+  pub_year={2008},
+  citation={Magnetic Resonance in Medical Sciences 7 (3), 141-155, 2008},
+  author={Toshiharu Nakai and Epifanio Bagarinao and Yoshio Tanaka and Kayako Matsuo and Daniel Racoceanu},
+  volume={7},
+  number={3},
+  pages={141-155},
+  publisher={Japanese Society for Magnetic Resonance in Medicine},
+  abstract={Ontological engineering is one of the most challenging topics in biomedical informatics because of its key role in integrating the heterogeneous database used by biomedical information services. Ontology can translate concepts and their real-world relationships into expressions that can be processed by computer programs or web services, providing a unique taxonomic frame to describe a pathway for extracting, processing, storing, and retrieving information. In developing clinical functional neuroimaging, which requires the integration of heterogeneous information derived from multimodal measurement of the brain, these features will be indispensable. Neuroimaging ontology is remarkable in that it requires detailed description of the hypothesis, the paradigm employed, and a scheme for data generation. Neuroimaging modalities, such as functional magnetic resonance imaging (fMRI), magnetoencephalography (MEG), electroencephalography (EEG), and near infrared spectroscopy (NIRS), share similar application purposes, imaging protocol, analyzing methods, and data structure; semantic gaps that remain among the modalities will be bridged as ontology develops. High-performance, global resource information database (GRID) computing and the applications organized as service-oriented computing (SOC) will support the heavy processing to integrate the heterogeneous neuroimaging system. We have been developing such a distributed intelligent neuroimaging system for real-time fMRI analysis, called BAXGRID, and a neuroimaging database. The fMRI ontology of this system will be integrated with established medical ontologies, such …}
+}

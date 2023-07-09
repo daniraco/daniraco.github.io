@@ -1,0 +1,8 @@
+@article{OanaRacoceanu2011_80,
+  title={Parkinson’s Disease Diagnosis and Prognosis Using Diffusion Tensor Medical Imaging Features Fusion},
+  pub_year={2011},
+  citation={Biomedical Engineering, Trends in Electronics, Communications and Software, 2011},
+  author={Roxana Oana Teodorescu and Vladimir-Ioan Cretu and Daniel Racoceanu},
+  publisher={IntechOpen},
+  abstract={Despite important advances in medical imaging, cognitive testing methods are still used almost exclusively nowadays for Parkinson’s Disease (PD) diagnosis. These tests are evaluated and scored using predefined scales representing the disease severity like UPDRS (Unified Parkinson’s Disease Rating Scale) or H\&Y (Hoehn and Yahr) scale. Using the same scales, our objective is to include information extracted and fused from different medical imaging modalities, in order to obtain a quantification of the disease evolution, for diagnosis and prognosis purposes.The dopamine, one of the main neurotransmitters, is lost when PD is installed. By the time the disease can be identified, 80-90% of the dopamine is no longer produced (Today, 2009). Medical studies concluded that the Substantia Nigra, a small anatomical region situated in the midbrain, is the producer of dopamine (Chan et al., 2007). The same anatomical region contains the motor fibres and the effect of the dopamine lost affects these fibers, as the patients lose their motor functions and start trembling once the disease starts manifesting. The importance of the motor fibers for the evolution and the early detection of the disease, represent a major medical motivation to set up a method able to extract and quantify abnormalities in the strationigral tract.}
+}

@@ -1,0 +1,10 @@
+@article{MincaDragomir2009_77,
+  title={Predictive modelling of the monitoring function. A predictive modelling application for fault states in a manufacturing system},
+  pub_year={2009},
+  citation={2009 IEEE International Conference on Control and Automation, 1487-1492, 2009},
+  author={Eugenia Minca and Daniel Racoceanu and Otilia Dragomir and Veronica Stefan and Florin Dragomir},
+  conference={2009 IEEE International Conference on Control and Automation},
+  pages={1487-1492},
+  publisher={IEEE},
+  abstract={A new tool for non-autonomous hierarchical systems modelling is proposed in this article. This tool is used for the modelling of monitoring functions and integrates the fuzzy logic in the temporal aspect of the events occurrence. The tool is also suited for the development of the hierarchical and distributed typologies structures and in modelling of recurrent functions. The proposed hierarchical systems are structured on hierarchical levels. On each level there are events with equal probabilities of occurrence/detection. The proposed typologies ensure a recurrent behaviour to the horizontal firing of the networks, which allows the detection of the occurrence/persistence of the monitored external events. In this context, the Recurrent Synchronized Fuzzy Petri Nets (PNetSinFREC) are well adapted to detection/decision modelling of the functions by a temporized fuzzy transition approach in hierarchical systems.}
+}

@@ -1,0 +1,10 @@
+@article{VeillardRacoceanu2010_74,
+  title={An exploration scheme for large images: application to breast cancer grading},
+  pub_year={2010},
+  citation={2010 20th International Conference on Pattern Recognition, 3472-3475, 2010},
+  author={Antoine Veillard and Nicolas Loménie and Daniel Racoceanu},
+  conference={2010 20th International Conference on Pattern Recognition},
+  pages={3472-3475},
+  publisher={IEEE},
+  abstract={Most research works focus on pattern recognition within a small sample images but strategies for running efficiently these algorithms over large images are rarely if ever specifically considered. In particular, the new generation of satellite and microscopic images are acquired at a very high resolution and a very high daily rate. We propose an efficient, generic strategy to explore large images by combining computational geometry tools with a local signal measure of relevance in a dynamic sampling framework. An application to breast cancer grading from huge histopathological images illustrates the benefit of such a general strategy for new major applications in the field of microscopy.}
+}

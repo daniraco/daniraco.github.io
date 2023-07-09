@@ -1,0 +1,10 @@
+@article{LoménieRacoceanu2009_81,
+  title={Spatial relationships over sparse representations},
+  pub_year={2009},
+  citation={2009 24th International Conference Image and Vision Computing New Zealand …, 2009},
+  author={Nicolas Loménie and Daniel Racoceanu},
+  conference={2009 24th International Conference Image and Vision Computing New Zealand},
+  pages={226-230},
+  publisher={IEEE},
+  abstract={New imaging devices provide image data at very high spatial resolution acquisition and throughput rate. In satellite or medical two-dimensional images, high-content and large image issues plead for more high semantic level interactions between the computer vision systems and the end-users in order to leverage the cognitive symbiosis between both systems for practical tasks such as clinical disease grading practices based on visual inspection. Within the mathematical morphology framework, this seminal paper proposes new theoretical tools to perform high-level spatial relation queries for the exploration of large amount of image data through sparse representations like Delaunay triangulations.}
+}

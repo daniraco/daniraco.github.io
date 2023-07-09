@@ -1,0 +1,8 @@
+@article{PalluatZerhouni2004_83,
+  title={Diagnosis aid system using a neuro-fuzzy approach},
+  pub_year={2004},
+  citation={Advances in Maintenance and Modeling, Simulation and Intelligent Monitoring …, 2004},
+  author={Nicolas Palluat and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={Advances in Maintenance and Modeling, Simulation and Intelligent Monitoring of Degradation},
+  abstract={The complexity of real production systems implies more difficulties to make an efficient fault diagnosis. We propose a new method that helps the operator to find the cause and the origin of a fault. To obtain a diagnosis aid system that is both reactive and easy to configure, we define a set of artificial intelligence tools using neuro-fuzzy techniques. The interest of these techniques is to combine the ability to learn of neural networks and the natural language formalism of the fuzzy logic.}
+}

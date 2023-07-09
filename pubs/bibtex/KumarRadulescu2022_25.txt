@@ -1,0 +1,18 @@
+@article{KumarRadulescu2022_25,
+  title={Estimating spatial distribution of oxygen and hypoxia in tumor microenvironment: a mechanistic approach},
+  pub_year={2022},
+  citation={CanceropoleGSO 2022, 2022},
+  author={Pawan Kumar and Janan ARSLAN and Arran Hodgkinson and Haocheng Luo and Sarah Dandou and Matthieu Lacroix and Pierrick Dupré and Christine Pignodel and Romain M Larive and Laurent Le Cam and Daniel Racoceanu and Ovidiu Radulescu},
+  conference={CanceropoleGSO 2022},
+  abstract={Estimating spatial distribution of oxygen and hypoxia in tumor microenvironment: a 
+mechanistic approach - Archive ouverte HAL Accéder directement au contenu 
+Documentation FR Français (FR) Anglais (EN) Se connecter HAL science ouverte 
+Recherche Loading... Recherche avancée Information de documents Titres Titres Sous-titre 
+Titre de l'ouvrage Titre du volume (Série) Champ de recherche par défaut (multicritères) + 
+texte intégral des PDF Résumé Texte intégral indexé des documents PDF Mots-clés Type 
+de document Sous-type de document Tous les identifiants du document Identifiant HAL du 
+dépôt Langue du document (texte) Pays (Texte) Ville À paraître (true ou false) Ajouter 
+Auteur Auteur (multicritères) Auteur (multicritères) Auteur : Nom complet Auteur : Nom de 
+famille Auteur : Prénom Auteur : Complément de nom, deuxième prénom Auteur : 
+Organisme payeur Auteur : IdHal (chaîne de caractères) …}
+}

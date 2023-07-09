@@ -1,0 +1,10 @@
+@article{TutacRacoceanu2010_76,
+  title={Spatial representation and reasoning in breast cancer grading ontology},
+  pub_year={2010},
+  citation={2010 International Joint Conference on Computational Cybernetics and …, 2010},
+  author={AE Tutac and VI Cretu and D Racoceanu},
+  conference={2010 International Joint Conference on Computational Cybernetics and Technical Informatics},
+  pages={89-94},
+  publisher={IEEE},
+  abstract={The most emphasized way of representing the knowledge from domains of real world is the ontology, which is undoubtedly the trend of current years. In medical applications such as breast cancer grading, formal ontological representation is of high relevance due to the importance of grading in the prognosis process and to the semantic gap. However, since the representation deals with histopathology images, a spatial representation and reasoning is required. We extend our breast cancer grading ontology with spatial representation and spatial reasoning support and we show how it helps in overcoming the inconsistencies and ambiguities. The ontology is integrated in a cognitive virtual microscope platform guiding the image exploration and assisting the grading process.}
+}

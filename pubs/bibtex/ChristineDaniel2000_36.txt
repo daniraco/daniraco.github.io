@@ -1,0 +1,10 @@
+@article{ChristineDaniel2000_36,
+  title={Poten-tial of plant-protein sources as fish meal substitutes in diets for turbot (Psetta maxima): growth, nutrient utilization and thyroid status},
+  pub_year={2000},
+  citation={Aquaculture 188 (3/4), 363-382, 2000},
+  author={B Christine and B Thierry and JK Sadasivam and K Michel and R Daniel},
+  journal={Aquaculture},
+  volume={188},
+  number={3/4},
+  pages={363-382}
+}

@@ -1,0 +1,10 @@
+@article{HaungRacoceanu2009_71,
+  title={A cellular neural network as a principal component analyzer},
+  pub_year={2009},
+  citation={2009 International Joint Conference on Neural Networks, 1163-1170, 2009},
+  author={Chao-Hui Haung and Wee-Kheng Leow and Daniel Racoceanu},
+  conference={2009 International Joint Conference on Neural Networks},
+  pages={1163-1170},
+  publisher={IEEE},
+  abstract={In this paper, A configuration of Cellular Neural Network (CNN) is introduced to implement Principal Component Analysis (PCA). CNN is a parallel computing paradigm. Many researchers considered it as the next generation universal machine and developed so-called CNN universal chips. Based on the capability of CNN, an alternative PCA implementation named Principal Component Analyzing Cellular Neural Network (PCACNN) is proposed. PCA is used to reduce the dimensions of a given dataset in order to extract the principal information of the given dataset. In decades, many researchers presented their investigations based on PCA in order to improve the performance and/or to attack some open issues in specific fields. In this paper, PCA is implemented based on the architecture and capabilities of CNN. Consequently, the computing performance of PCA can be improved as long as the CNN architecture …}
+}

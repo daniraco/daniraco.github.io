@@ -1,0 +1,10 @@
+@article{BasuRacoceanu2014_77,
+  title={Improved marked point process priors for single neurite tracing},
+  pub_year={2014},
+  citation={2014 International Workshop on Pattern Recognition in Neuroimaging, 1-4, 2014},
+  author={Sreetama Basu and Wei Tsang Ooi and Daniel Racoceanu},
+  conference={2014 International Workshop on Pattern Recognition in Neuroimaging},
+  pages={1-4},
+  publisher={IEEE},
+  abstract={Recent advances in neuroimaging has produced a spurt for automatic neuronal reconstruction algorithms for large scale data. A stochastic marked point process framework for unsupervised, automatic reconstruction of single neurons has been proposed. In this paper, we introduce improved priors modeling arborization patterns encountered in neurons for efficient detection of bifurcation junctions, terminal nodes, and intermediate points on neurite branches. These priors also enforce constraints for preserving the connectedness of the neuronal tree components in spite of imperfect labeling causing intensity inhomogeneity and discontinuities in branches. To demonstrate the effectiveness of the proposed priors, we performed neurite tracing on 3D light microscopy images of Olfactory Projection Fibre axons from the DIADEM data set and obtained good scores. We also analyzed the errors and their sources in the …}
+}

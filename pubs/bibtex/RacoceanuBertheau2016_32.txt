@@ -1,0 +1,10 @@
+@article{RacoceanuBertheau2016_32,
+  title={Towards efficient collaborative digital pathology: a pioneer initiative of the FlexMIm project},
+  pub_year={2016},
+  citation={Diagnostic Pathology 1 (8), 2016},
+  author={Daniel Racoceanu and David Ameisen and A Veillard and B Ben Cheikh and E Attieh and P Brezillon and J-B YunÃ and J-M Temerson and L Toubiana and V Verger and J-F Pomerol and Jacques Klossa and F Lallemand and P Constant and F Capron and C Guettier and N Phan and P Bertheau},
+  journal={Diagnostic Pathology},
+  volume={1},
+  number={8},
+  abstract={AimsIn addition to developing new tools for helping Whole Slide Image (WSI) analysis by pathologists, the cooperative research project FlexMIm aims at setting up a shared platform allowing further technological improvements to be tested and evaluated online by a community of pathologists.}
+}

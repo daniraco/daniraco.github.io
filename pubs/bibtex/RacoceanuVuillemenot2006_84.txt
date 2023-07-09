@@ -1,0 +1,10 @@
+@article{RacoceanuVuillemenot2006_84,
+  title={A semantic fusion approach between medical images and reports using UMLS},
+  pub_year={2006},
+  citation={Information Retrieval Technology: Third Asia Information Retrieval Symposium …, 2006},
+  author={Daniel Racoceanu and Caroline Lacoste and Roxana Teodorescu and Nicolas Vuillemenot},
+  conference={Information Retrieval Technology: Third Asia Information Retrieval Symposium, AIRS 2006, Singapore, October 16-18, 2006. Proceedings 3},
+  pages={460-475},
+  publisher={Springer Berlin Heidelberg},
+  abstract={One of the main challenges in content-based image retrieval still remains to bridge the gap between low-level features and semantic information. In this paper, we present our first results concerning a medical image retrieval approach using a semantic medical image and report indexing within a fusion framework, based on the Unified Medical Language System (UMLS) metathesaurus. We propose a structured learning framework based on Support Vector Machines to facilitate modular design and extract medical semantics from images. We developed two complementary visual indexing approaches within this framework: a global indexing to access image modality, and a local indexing to access semantic local features. Visual indexes and textual indexes – extracted from medical reports using MetaMap software application – constitute the input of the late fusion module. A weighted vectorial norm fusion …}
+}

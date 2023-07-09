@@ -1,0 +1,11 @@
+@article{OanaChan2010_66,
+  title={Parkinson's disease prediction using diffusion-based atlas approach},
+  pub_year={2010},
+  citation={Medical Imaging 2010: Computer-Aided Diagnosis 7624, 639-648, 2010},
+  author={Roxana Oana Teodorescu and Daniel Racoceanu and Nicolas Smit and Vladimir Ioan Cretu and Eng King Tan and Ling Ling Chan},
+  conference={Medical Imaging 2010: Computer-Aided Diagnosis},
+  volume={7624},
+  pages={639-648},
+  publisher={SPIE},
+  abstract={We study Parkinson's disease (PD) using an automatic specialized diffusion-based atlas. A total of 47 subjects, among who 22 patients diagnosed clinically with PD and 25 control cases, underwent DTI imaging. The EPIs have lower resolution but provide essential anisotropy information for the fiber tracking process. The two volumes of interest (VOI) represented by the Substantia Nigra and the Putamen are detected on the EPI and FA respectively. We use the VOIs for the geometry-based registration. We fuse the anatomical detail detected on FA image for the putamen volume with the EPI. After 3D fibers growing on the two volumes, we compute the fiber density (FD) and the fiber volume (FV). Furthermore, we compare patients based on the extracted fibers and evaluate them according to Hohen\&Yahr (H\&Y) scale. This paper introduces the method used for automatic volume detection and evaluates the fiber …}
+}

@@ -1,0 +1,10 @@
+@article{JimenezRacoceanu2022_40,
+  title={Interpretable Deep Learning in Computational Histopathology for refined identification of Alzheimer’s Disease biomarkers},
+  pub_year={2022},
+  citation={Alzheimer's \& Dementia 18, e065363, 2022},
+  author={Gabriel Jimenez Garay and Anuradha Kar and Mehdi Ounissi and Lev Stimmer and Benoit Delatour and Daniel Racoceanu},
+  journal={Alzheimer's \& Dementia},
+  volume={18},
+  pages={e065363},
+  abstract={In this research, an explainable deep‐learning based framework is proposed for the segmentation of tau protein biomarkers like plaques, and tangles in histopathological whole slide images (WSI). The concept is to integrate an explainable deep learning model with collaborative human feedback to improve the model precision of identifying tau biomarkers as well as making the results interpretable to human experts. The final goal of this project is to refine AD patients’ stratification.A pilot study has been done on 6 WSIs stained with ALZ50 monoclonal antibody. The preliminary models have been extended to a larger database of 15 WSIs stained with an AT8 monoclonal antibody. All WSIs are post‐mortem brain samples corresponding to the frontal cortex. In the proposed system, firstly, for automatic segmentation of Tau aggregates, deep learning (DL) models are trained and tested using the …}
+}

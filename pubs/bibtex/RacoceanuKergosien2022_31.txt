@@ -1,0 +1,8 @@
+@article{RacoceanuKergosien2022_31,
+  title={Explainability in Artificial Intelligence; towards Responsible AI},
+  pub_year={2022},
+  citation={Techniques de l'Ingenieur, 2022},
+  author={Daniel Racoceanu and Mehdi Ounissi and Yannick L Kergosien},
+  journal={Techniques de l'Ingenieur},
+  abstract={Essentielle pour une adoption efficace comme pour une utilisation avisée et objective de l'Intelligence Artificielle (IA), l'explicabilité est un véritable verrou de l'évolution de ces technologies, en particulier concernant l'apprentissage automatique et profond.  Sans une réelle explicabilité des algorithmes proposés, ces technologies resteront une boîte noire pour les professionnels de santé (et pas seulement), chercheurs, ingénieurs, techniciens - qui assument (et vont continuer à assumer) la pleine responsabilité de leurs actes. De plus en plus, les ingénieurs exploitants et concepteurs d'outils d'IA devront donc faire preuve de responsabilité, en fournissant des algorithmes permettant de garantir l'explicabilité des modèles proposés. Cet article présente les motivations d'une IA explicable, les principales caractéristiques du paysage conceptuel de l'explicabilité en IA, les grandes familles de méthodes pour l'explicabilité - avec un focus sur quelques méthodes parmi les plus courantes, pour finir sur un aperçu des opportunités, challenges et perspectives de ce domaine passionnant de l'interaction homme-machine. En effet, c'est uniquement par une bonne compréhension des challenges associés à cette révolution technologique que nous pourrons la transformer en atout pour nos entreprises ainsi que pour l'ensemble de nos acteurs, partenaires et clients humains.}
+}

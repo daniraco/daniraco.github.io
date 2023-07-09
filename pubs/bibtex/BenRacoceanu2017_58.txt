@@ -1,0 +1,11 @@
+@article{BenRacoceanu2017_58,
+  title={A model of tumor architecture and spatial interactions with tumor microenvironment in breast carcinoma},
+  pub_year={2017},
+  citation={Medical Imaging 2017: Digital Pathology 10140, 73-80, 2017},
+  author={Bassem Ben Cheikh and Catherine Bor-Angelier and Daniel Racoceanu},
+  conference={Medical Imaging 2017: Digital Pathology},
+  volume={10140},
+  pages={73-80},
+  publisher={SPIE},
+  abstract={Breast carcinomas are cancers that arise from the epithelial cells of the breast, which are the cells that line the lobules and the lactiferous ducts. Breast carcinoma is the most common type of breast cancer and can be divided into different subtypes based on architectural features and growth patterns, recognized during a histopathological examination. Tumor microenvironment (TME) is the cellular environment in which tumor cells develop. Being composed of various cell types having different biological roles, TME is recognized as playing an important role in the progression of the disease. The architectural heterogeneity in breast carcinomas and the spatial interactions with TME are, to date, not well understood. Developing a spatial model of tumor architecture and spatial interactions with TME can advance our understanding of tumor heterogeneity. Furthermore, generating histological synthetic datasets can …}
+}

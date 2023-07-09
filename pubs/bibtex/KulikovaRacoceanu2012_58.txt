@@ -1,0 +1,11 @@
+@article{KulikovaRacoceanu2012_58,
+  title={Nuclei extraction from histopathological images using a marked point process approach},
+  pub_year={2012},
+  citation={Medical Imaging 2012: Image Processing 8314, 649-656, 2012},
+  author={Maria Kulikova and Antoine Veillard and Ludovic Roux and Daniel Racoceanu},
+  conference={Medical Imaging 2012: Image Processing},
+  volume={8314},
+  pages={649-656},
+  publisher={SPIE},
+  abstract={Morphology of cell nuclei is a central aspect in many histopathological studies, in particular in breast cancer grading. Therefore, the automatic detection and extraction of cell nuclei from microscopic images obtained from cancer tissue slides is one of the most important problems in digital histopathology. We propose to tackle the problem using a model based on marked point processes (MPP), a methodology for extraction of multiple objects from images. The advantage of MPP based models is their ability to take into account the geometry of objects; and the information about their spatial repartition in the image. Previously, the MPP models have been applied for the extraction of objects of simple geometrical shapes. For histological grading, a morphological criterion known as nuclear pleomorphism corresponding to fine morphological differences between the nuclei is assessed by pathologists. Therefore, the …}
+}

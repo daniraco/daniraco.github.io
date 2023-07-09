@@ -1,0 +1,8 @@
+@article{SuaChence2010_18,
+  title={Medical Image Intelligent Access Integrated with Electronic Medical Records System for Brain Degenerative Disease},
+  pub_year={2010},
+  citation={Data Storage, 2010},
+  author={Mei-Ju Sua and Po-Hsun Chengb and Sao-Jie Chena and Chung-Yi Yangd and Ping-Kung Yipf and Daniel Racoceanugh and Heng-Shuen Chence},
+  publisher={IntechOpen},
+  abstract={As the computer data storage capacity increases and technology of digital imaging progresses rapidly, today we can access and manipulate massive image database on the Internet. How to search and access intelligently on content based image database become a prominent focus in the field of multimedia research. In this chapter, to support the diagnostic decision making, a new idea of grid-distributed, contextual, representation, use of specific visual medical knowledge, intelligent information access framework for medical images database was integrated with radiology reports and clinical department information. It will assist reducing the human, legal and financing consequences of these medical errors. A report by the American Hospital Association suggests that US hospitals use only 1.5%~ 2.5% of their Hospital Medical budgets on data information systems, which is less than the 5-10% of similar funds dedicated to such systems found in the budgets of other industries. Moreover, as computer data storage capacity increases and the technology involving digital imaging progresses rapidly, the traditional image has been replaced by Computer Radiography (CR) or Digital Radiography (DR) derived imagery, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), and Digital Subtraction}
+}

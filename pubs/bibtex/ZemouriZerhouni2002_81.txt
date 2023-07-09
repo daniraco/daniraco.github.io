@@ -1,0 +1,11 @@
+@article{ZemouriZerhouni2002_81,
+  title={From the spherical to an elliptic form of the dynamic RBF neural network influence field},
+  pub_year={2002},
+  citation={Proceedings of the 2002 International Joint Conference on Neural Networks …, 2002},
+  author={Ryad Zemouri and Daniel Racoceanu and Noureddine Zerhouni},
+  conference={Proceedings of the 2002 International Joint Conference on Neural Networks. IJCNN'02 (Cat. No. 02CH37290)},
+  volume={1},
+  pages={107-112},
+  publisher={IEEE},
+  abstract={We introduce a new neural network architecture corresponding to the dynamic RBF with an elliptic influence field. The dynamic aspect is obtained with a self-connection, and the elliptic influence field form, by adding a supplementary RBF layer. The modified RBF neural network gives good results in monitoring applications.}
+}

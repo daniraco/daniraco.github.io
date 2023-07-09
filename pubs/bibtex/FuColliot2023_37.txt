@@ -1,0 +1,8 @@
+@article{FuColliot2023_37,
+  title={Frequency Disentangled Learning for Segmentation of Midbrain Structures from Quantitative Susceptibility Mapping Data},
+  pub_year={2023},
+  citation={arXiv preprint arXiv:2302.12980, 2023},
+  author={Guanghui Fu and Gabriel Jimenez and Sophie Loizillon and Lydia Chougar and Didier Dormont and Romain Valabregue and Ninon Burgos and Stéphane Lehéricy and Daniel Racoceanu and Olivier Colliot},
+  journal={arXiv preprint arXiv:2302.12980},
+  abstract={One often lacks sufficient annotated samples for training deep segmentation models. This is in particular the case for less common imaging modalities such as Quantitative Susceptibility Mapping (QSM). It has been shown that deep models tend to fit the target function from low to high frequencies. One may hypothesize that such property can be leveraged for better training of deep learning models. In this paper, we exploit this property to propose a new training method based on frequency-domain disentanglement. It consists of two main steps: i) disentangling the image into high- and low-frequency parts and feature learning; ii) frequency-domain fusion to complete the task. The approach can be used with any backbone segmentation network. We apply the approach to the segmentation of the red and dentate nuclei from QSM data which is particularly relevant for the study of parkinsonian syndromes. We demonstrate that the proposed method provides considerable performance improvements for these tasks. We further applied it to three public datasets from the Medical Segmentation Decathlon (MSD) challenge. For two MSD tasks, it provided smaller but still substantial improvements (up to 7 points of Dice), especially under small training set situations.}
+}

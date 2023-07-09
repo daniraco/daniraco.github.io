@@ -1,0 +1,7 @@
+@article{BREZILLONRACOCEANU2007_82,
+  title={Context Modeling in CBIR},
+  pub_year={2007},
+  citation={JAMIIT Proceedings, ONCO_MEDIA special session in JAMIIT (Japanese Society …, 2007},
+  author={Patrick BREZILLON and Daniel RACOCEANU},
+  conference={JAMIIT Proceedings, ONCO_MEDIA special session in JAMIIT (Japanese Society of Medical Imaging Technology) Annual Meeting}
+}

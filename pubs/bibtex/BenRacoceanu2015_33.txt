@@ -1,0 +1,9 @@
+@article{BenRacoceanu2015_33,
+  title={Preliminary approach for crypt detection in Inflammatory Bowel Disease},
+  pub_year={2015},
+  citation={Journées RITS 2015, 138-139, 2015},
+  author={Bassem Ben Cheikh and Philippe Bertheau and Daniel Racoceanu},
+  conference={Journées RITS 2015},
+  pages={138-139},
+  abstract={Crypt architecture is one of the most significant histological features used for the examination of colorectal biopsy specimens enabling clinical decisions in the investigation of Inflammatory Bowel Diseases. However, the architecture modelling remains a challenging problem leading to variability in reporting and subjectivity in pathological examination. In this context, intestinal gland detection represent a necessary step before a clinical study of their architecture. This work presents a graph-based technique describing spatial relationships over sparse structures for crypt detection using morphological mesh filtering operators.}
+}

@@ -1,0 +1,10 @@
+@article{VeillardBressan2011_72,
+  title={Incorporating prior-knowledge in support vector machines by kernel adaptation},
+  pub_year={2011},
+  citation={2011 IEEE 23rd International Conference on Tools with Artificial …, 2011},
+  author={Antoine Veillard and Daniel Racoceanu and Stéphane Bressan},
+  conference={2011 IEEE 23rd International Conference on Tools with Artificial Intelligence},
+  pages={591-596},
+  publisher={IEEE},
+  abstract={SVMs with the general purpose RBF kernel are widely considered as state-of-the-art supervised learning algorithms due to their effectiveness and versatility. However, in practice, SVMs often require more training data than readily available. Prior-knowledge may be available to compensate this shortcoming provided such knowledge can be effectively passed on to SVMs. In this paper, we propose a method for the incorporation of prior-knowledge via an adaptation of the standard RBF kernel. Our practical and computationally simple approach allows prior-knowledge in a variety of forms ranging from regions of the input space as crisp or fuzzy sets to pseudo-periodicity. We show that this method is effective and that the amount of required training data can be largely decreased, opening the way for new usages of SVMs. We propose a validation of our approach for pattern recognition and classification tasks with …}
+}

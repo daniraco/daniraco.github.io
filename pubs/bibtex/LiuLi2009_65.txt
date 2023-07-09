@@ -1,0 +1,6 @@
+@article{LiuLi2009_65,
+  title={Leaking detection for Medical image segmentation},
+  pub_year={2009},
+  citation={ICT4Health 2008 - International Symposium on ICT For Health, 2009},
+  author={Jiang Liu and Joo Hwee Lim and Daniel RACOCEANU and Wong Wing Kee Damon and Huiqi Li}
+}

@@ -1,0 +1,12 @@
+@article{NAKAIRACOCEANU2007_44,
+  title={Special Issue on ONCO-MEDIA-Introduction},
+  pub_year={2007},
+  citation={Medical imaging technology 25 (5), 325, 2007},
+  author={Toshiharu NAKAI and Daniel RACOCEANU},
+  journal={Medical imaging technology},
+  volume={25},
+  number={5},
+  pages={325},
+  publisher={日本医用画像工学会},
+  abstract={It is our pleasure to organize a special issue on the ONCO-MEDIA (ONtology and COntext related MEdical image Distributed Intelligent Access; http://www. onco-media. com/) project. This special issue is a summary of the presentations at the international symposium of the 26th Annual Meeting of the Japanese Society for Medical Imaging Technology at Tsukuba International Convention Center on July 20th, 2007. Currently, many modalities and types of medical images, which represent not only morphological changes but also functional and physiological information, are employed for clinical diagnosis as well as for research purposes. Mdical image databases have grown to GB scale and their processing, analysis, indexing, fusion, retrieval as well as statistical analysis demand heavy computation. In this sense, high-resolution whole-body MRI scan, fusion analysis of functional neuroimaging and diffusion tractography represent illustrative examples of traditional computation limitations. In order to maximize the exploitation of these various imaging modalities for clinical diagnosis, high performance information systems are needed to extract and index the image features and associate them with the reference behavioral, physiological, biochemical and pathological information. Content-based visual information retrieval (CBVIR) or content-based image retrieval (CBIR) has been one of the most vivid research areas in the field of computer vision, and many CBIR programs and tools have been developed to formulate and execute queries based on the medical image visual content and to help browsing. However, many questions with respect to …}
+}

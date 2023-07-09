@@ -1,0 +1,10 @@
+@article{RouxGurcan2013_19,
+  title={J Pathol Inform},
+  pub_year={2013},
+  citation={J Pathol 2, 8, 2013},
+  author={Ludovic Roux and Daniel Racoceanu and Nicolas Loménie and Maria Kulikova and Humayun Irshad and Jacques Klossa and Frédérique Capron and Catherine Genestie and Gilles Le Naour and Metin N Gurcan},
+  journal={J Pathol},
+  volume={2},
+  pages={8},
+  abstract={Introduction: In the framework of the Cognitive Microscope (MICO) project, we have set up a contest about mitosis detection in images of H and E stained slides of breast cancer for the conference ICPR 2012. Mitotic count is an important parameter for the prognosis of breast cancer. However, mitosis detection in digital histopathology is a challenging problem that needs a deeper study. Indeed, mitosis detection is difficult because mitosis are small objects with a large variety of shapes, and they can thus be easily confused with some other objects or artefacts present in the image. We added a further dimension to the contest by using two different slide scanners having different resolutions and producing red-green-blue (RGB) images, and a multi-spectral microscope producing images in 10 different spectral bands and 17 layers Z-stack. 17 teams participated in the study and the best team achieved a recall rate of 0.7 …}
+}

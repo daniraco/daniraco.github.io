@@ -1,0 +1,7 @@
+@article{DanielBerg2005_27,
+  title={The voice and voice therapy},
+  pub_year={2005},
+  citation={Boston: Allyn \& Bacon, 2005},
+  author={R Daniel and RB Boone and C Stephen and SC McFarlane and L Shelley and S Von Berg},
+  publisher={Boston: Allyn \& Bacon}
+}

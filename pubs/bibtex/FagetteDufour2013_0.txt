@@ -1,0 +1,7 @@
+@article{FagetteDufour2013_0,
+  title={Particle video for crowd flow tracking},
+  pub_year={2013},
+  citation={},
+  author={Antoine Fagette and Patrick Jamet and Daniel Racoceanu and Jean-Yves Dufour},
+  abstract={In this paper we interest ourselves to the problem of flow tracking for dense crowds. For this purpose, we use a cloud of particles spread on the image according to the estimated crowd density and driven by the optical flow. This cloud of particles is considered as statistically representative of the crowd. Therefore, each particle has physical properties that enable us to assess the validity of its behavior according to the one expected from a pedestrian and to optimize its motion dictated by the optical flow. This leads us to three applications described in this paper: the detection of the entry and exit areas of the crowd in the image, the detection of dynamic occlusions and the possibility to link entry areas with exit ones according to the flow of the pedestrians. We provide the results of our experimentation on synthetic data and show promising results.}
+}

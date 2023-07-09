@@ -1,0 +1,12 @@
+@article{BREZILLONRACOCEANU2007_44,
+  title={A context model for content based medical image retrieval},
+  pub_year={2007},
+  citation={Medical Imaging Technology 25 (5), 327, 2007},
+  author={Patrick BREZILLON and Daniel RACOCEANU},
+  journal={Medical Imaging Technology},
+  volume={25},
+  number={5},
+  pages={327},
+  publisher={日本医用画像工学会},
+  abstract={Content-Based Image Retrieval (CBIR) systems are reaching nowadays a limitation related to the well-known semantic gap. Taking into account the domain knowledge for bridging this gap, is a very challenging task, due to the particular importance of every detail surrounding the given topic, user and query. The notion of context becomes then a key problem. However, one often considers the word context like words “concept” or “system”, ie without giving a clear definition. This problem has been encountered in artificial intelligence and fixed with a context model and software called contextual graphs. In this paper, we point out that the different types of context in CBIR. Thus, if one wishes to use efficiently context, we previously need to identify and model it correctly. We show how it can be possible to improve the different steps in the CBIR processing. We illustrate this point on two steps, namely the user’s query management and the medical image domain knowledge-related semantic indexing, thanks to methods and tools coming from artificial intelligence.}
+}

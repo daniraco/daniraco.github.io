@@ -1,0 +1,11 @@
+@article{CamarasuRacoceanu2012_60,
+  title={Content-Based Medical Image Indexing and Retrieval on Grids},
+  pub_year={2012},
+  citation={Philippine Information Technology Journal 2 (1), 25-28, 2012},
+  author={Sorina Camarasu and Hugues Benoit-Cattin and Johan Montagnat and Daniel Racoceanu},
+  journal={Philippine Information Technology Journal},
+  volume={2},
+  number={1},
+  pages={25-28},
+  abstract={This paper provides an overview of the different projects and implementations concerned with using grid technologies for medical image indexing and retrieval. The main question that we raise is what can grids bring to medical image indexing and retrieval? To what extent can grids improve the efficiency of classical solutions and what is the effort necessary to integrate them? We provide both qualitative and quantitative answers evaluating the grid contribution in the field of image indexing and retrieval.}
+}

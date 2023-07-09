@@ -1,0 +1,12 @@
+@article{PalluatZerhouni2005_46,
+  title={An UML Modelling of a Neuro-Fuzzy Monitoring System},
+  pub_year={2005},
+  citation={IFAC Proceedings Volumes 38 (1), 305-310, 2005},
+  author={Nicolas Palluat and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={IFAC Proceedings Volumes},
+  volume={38},
+  number={1},
+  pages={305-310},
+  publisher={Elsevier},
+  abstract={The complexity of real production systems implies more difficulties to make an efficient monitoring and especially fault diagnosis. We propose a new method supporting the operator to find the cause and the origin of a fault. To obtain a diagnosis aid system that is both reactive and easy to configure, we define a set of artificial intelligence tools using neuro-fuzzy techniques. The interest of these techniques is to combine the neural networks learning capabilities and the natural language formalism modelling capabilities of the fuzzy logic. Our approach follows the UML approach with the description of the seven use cases of our method.}
+}

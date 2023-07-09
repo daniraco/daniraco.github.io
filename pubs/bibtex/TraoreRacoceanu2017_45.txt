@@ -1,0 +1,10 @@
+@article{TraoreRacoceanu2017_45,
+  title={Bridging the semantic gap between diagnostic histopathology and image analysis},
+  pub_year={2017},
+  citation={Stud Health Technol Inform 235, 436-440, 2017},
+  author={Lamine Traore and Yannick Kergosien and Daniel Racoceanu},
+  journal={Stud Health Technol Inform},
+  volume={235},
+  pages={436-440},
+  abstract={With the wider acceptance of Whole Slide Images (WSI) in histopathology domain, automatic image analysis algorithms represent a very promising solution to support pathologist’s laborious tasks during the diagnosis process, to create a quantification-based second opinion and to enhance inter-observer agreement. In this context, reference vocabularies and formalization of the associated knowledge are especially needed to annotate histopathology images with labels complying with semantic standards. In this work, we elaborate a sustainable triptych able to bridge the gap between pathologists and image analysis engineers/scientists. The proposed paradigm is structured along three components: i) extracting a relevant semantic repository from the College of American Pathologists (CAP) organ-specific Cancer Checklists and associated Protocols (CC\&P); ii) identifyingthrough the NCBO Bioportal–imaging formalized knowledge issued from effective histopathology imaging methods highlighted by recent Digital Pathology (DP) contests and iii) proposing a formal representation of the imaging concepts and functionalities issued from major biomedical imaging software (MATLAB, ITK, ImageJ). Since the first step i) has been the object of a recent publication of our team, this study focuses on the steps ii) and iii). Our hypothesis is that the management of available semantic resources concerning the histopathology imaging methods-issued from CAP documents-associated with effective methods highlighted by the recent DP challenges will facilitate the integration of WSI in clinical routine and support new generation of DP protocols.}
+}

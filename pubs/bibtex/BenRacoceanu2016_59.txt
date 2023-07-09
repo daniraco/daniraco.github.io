@@ -1,0 +1,11 @@
+@article{BenRacoceanu2016_59,
+  title={A structure-based approach for colon gland segmentation in digital pathology},
+  pub_year={2016},
+  citation={Medical Imaging 2016: Digital Pathology 9791, 151-158, 2016},
+  author={Bassem Ben Cheikh and Philippe Bertheau and Daniel Racoceanu},
+  conference={Medical Imaging 2016: Digital Pathology},
+  volume={9791},
+  pages={151-158},
+  publisher={SPIE},
+  abstract={The morphology of intestinal glands is an important and significant indicator of the level of the severity of an inflammatory bowel disease, and has also been used routinely by pathologists to evaluate the malignancy and the prognosis of colorectal cancers such as adenocarcinomas. The extraction of meaningful information describing the morphology of glands relies on an accurate segmentation method. In this work, we propose a novel technique based on mathematical morphology that characterizes the spatial positioning of nuclei for intestinal gland segmentation in histopathological images. According to their appearance, glands can be divided into two types: hallow glands and solid glands. Hallow glands are composed of lumen and/or goblet cells cytoplasm, or filled with abscess in some advanced stages of the disease, while solid glands are composed of bunches of cells clustered together and can also be …}
+}

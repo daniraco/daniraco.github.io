@@ -1,0 +1,9 @@
+@article{LJoskowicz2020_21,
+  title={Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part I},
+  pub_year={2020},
+  citation={Springer Nature, 2020},
+  author={Anne L Martel and Purang Abolmaesumi and Danail Stoyanov and Diana Mateus and Maria A Zuluaga and S Kevin Zhou and Daniel Racoceanu and Leo Joskowicz},
+  volume={12261},
+  publisher={Springer Nature},
+  abstract={The seven-volume set LNCS 12261, 12262, 12263, 12264, 12265, 12266, and 12267 constitutes the refereed proceedings of the 23rd International Conference on Medical Image Computing and Computer-Assisted Intervention, MICCAI 2020, held in Lima, Peru, in October 2020. The conference was held virtually due to the COVID-19 pandemic. The 542 revised full papers presented were carefully reviewed and selected from 1809 submissions in a double-blind review process. The papers are organized in the following topical sections: Part I: machine learning methodologies Part II: image reconstruction; prediction and diagnosis; cross-domain methods and reconstruction; domain adaptation; machine learning applications; generative adversarial networks Part III: CAI applications; image registration; instrumentation and surgical phase detection; navigation and visualization; ultrasound imaging; video image analysis Part IV: segmentation; shape models and landmark detection Part V: biological, optical, microscopic imaging; cell segmentation and stain normalization; histopathology image analysis; opthalmology Part VI: angiography and vessel analysis; breast imaging; colonoscopy; dermatology; fetal imaging; heart and lung imaging; musculoskeletal imaging Part VI: brain development and atlases; DWI and tractography; functional brain networks; neuroimaging; positron emission tomography}
+}

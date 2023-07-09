@@ -1,0 +1,11 @@
+@article{JimenezRacoceanu2023_78,
+  title={A meta-graph approach for analyzing whole slide histopathological images of human brain tissue with Alzheimer's disease biomarkers},
+  pub_year={2023},
+  citation={Medical Imaging 2023: Digital and Computational Pathology 12471, 476-482, 2023},
+  author={Gabriel Jimenez and Pablo Mas and Anuradha Kar and Julien Peyrache and Lea Ingrassia and Susana Boluda and Benoît Delatour and Lev Stimmer and Daniel Racoceanu},
+  conference={Medical Imaging 2023: Digital and Computational Pathology},
+  volume={12471},
+  pages={476-482},
+  publisher={SPIE},
+  abstract={ Recently, high-performance deep learning models have enabled automatic and precise analysis of medical images with high content. In digital histopathology, a challenge lies in analyzing Whole Slide Images (WSI) due to their large size, often requiring splitting them into smaller patches for deep learning models. This leads to the loss of global tissue information and limits the classification or clustering of patients based on tissue characteristics.  }
+}

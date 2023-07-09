@@ -1,0 +1,20 @@
+@article{ZemouriZERHOUNI2003_61,
+  title={Réseaux de neurones récurrents à fonctions de base radiales: Application à la surveillance dynamique},
+  pub_year={2003},
+  citation={Journal européen des systèmes automatisés 37 (1), 49-81, 2003},
+  author={Ryad Zemouri and Daniel Racoceanu and Noureddine ZERHOUNI},
+  journal={Journal européen des systèmes automatisés},
+  volume={37},
+  number={1},
+  pages={49-81},
+  abstract={Réseaux de neurones récurrents à fonctions de base radiales : Application à la surveillance 
+dynamique CNRS Inist Pascal-Francis CNRS Pascal and Francis Bibliographic Databases 
+Simple search Advanced search Search by classification Search by vocabulary My Account 
+Home > Search results Help Export Export Selection : Selected items (1) Format : Permanent 
+link CopyPermanent link Copy http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail\&idt=15138209 
+Réseaux de neurones récurrents à fonctions de base radiales : Application à la surveillance 
+dynamique Other title Radial basis function recurrent neural networks: application to the 
+dynamical surveillance (en) Author ZEMOURI, Ryad 1 ; RACOCEANU, Daniel 1 ; 
+ZERHOUNI, Noureddine 1 [1] Laboratoire d'Automatique de Besançon, Groupe Maintenance 
+et Sûreté de Fonctionnement, 25, rue Alain Savary, 25000 Besançon, France Source …}
+}

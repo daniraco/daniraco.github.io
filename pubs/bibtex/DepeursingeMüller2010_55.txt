@@ -1,0 +1,12 @@
+@article{DepeursingeMüller2010_55,
+  title={Fusing visual and clinical information for lung tissue classification in high-resolution computed tomography},
+  pub_year={2010},
+  citation={Artificial intelligence in medicine 50 (1), 13-21, 2010},
+  author={Adrien Depeursinge and Daniel Racoceanu and Jimison Iavindrasana and Gilles Cohen and Alexandra Platon and Pierre-Alexandre Poletti and Henning Müller},
+  journal={Artificial intelligence in medicine},
+  volume={50},
+  number={1},
+  pages={13-21},
+  publisher={Elsevier},
+  abstract={}
+}

@@ -1,0 +1,11 @@
+@article{RacoceanuZerhouni2005_75,
+  title={Monitoring Approach Using Recurrent Radial Basis Function Neural Networks and Neuro-Fuzzy Systems},
+  pub_year={2005},
+  citation={2005 International Conference on Neural Networks and Brain 2, 678-682, 2005},
+  author={Daniel Racoceanu and Noureddine Zerhouni},
+  conference={2005 International Conference on Neural Networks and Brain},
+  volume={2},
+  pages={678-682},
+  publisher={IEEE},
+  abstract={Multiple reconfiguration and complexity of modern production systems lead to design intelligent monitoring aid systems. The use of artificial intelligence techniques in order to exploit their learning and human experience modeling seems very promising. In this paper, we propose a new monitoring aid system composed by a dynamic neural network detection tool and a neuro-fuzzy diagnosis tool. Learning capabilities due to the neural structure permit us to update the monitoring aid system. The neuro-fuzzy network provides an abductive diagnosis. Moreover it takes into account the uncertainties on the maintenance knowledge by giving a fuzzy characterization of each cause}
+}

@@ -1,0 +1,8 @@
+@article{ZemouriDurand2001_81,
+  title={Simulation et évaluation des performances d’un atelier de maintenance},
+  pub_year={2001},
+  citation={Proceeding of the Symposium International sur la Maintenance Industrielle …, 2001},
+  author={R Zemouri and D Racoceanu and N Zerhouni and S Durand},
+  journal={Proceeding of the Symposium International sur la Maintenance Industrielle, SIMI’2001, 21-23 janvier 2001, Alger, Algérie},
+  abstract={Dans ce papier, nous présentons les résultats d’une étude concernant l’optimisation des performances d’un atelier de maintenance des unités de ferrage des automobiles PSA PEUGEOT CITROEN–site de Sochaux. La mission principale de cet atelier est d’assurer une maintenance curative de qualité dans les plus brefs délais. L’évaluation des performances de cet atelier consiste en premier lieu à modéliser le circuit de réparation des outils de production par les Réseaux de Petri stochastiques (RdPS). L’aspect analytique de ces outils de modélisation couplé avec ceux des processus de naissance et de morts nous ont permis de calculer le taux d’occupation de chaque place du RdPS. Ce taux d’occupation qui est fonction des taux d’entrée et de sortie ainsi que de la capacité des places nous renseigne sur le comportement asymptotique des places du réseau. Cette caractéristique nous a orientés vers l …}
+}

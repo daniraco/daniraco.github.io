@@ -1,0 +1,10 @@
+@article{IrshadRacoceanu2013_76,
+  title={Multi-channels statistical and morphological features based mitosis detection in breast cancer histopathology},
+  pub_year={2013},
+  citation={2013 35th Annual International Conference of the IEEE Engineering in …, 2013},
+  author={Humayun Irshad and Ludovic Roux and Daniel Racoceanu},
+  conference={2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  pages={6091-6094},
+  publisher={IEEE},
+  abstract={Accurate counting of mitosis in breast cancer histopathology plays a critical role in the grading process. Manual counting of mitosis is tedious and subject to considerable inter- and intra-reader variations. This work aims at improving the accuracy of mitosis detection by selecting the color channels that better capture the statistical and morphological features having mitosis discrimination from other objects. The proposed framework includes comprehensive analysis of first and second order statistical features together with morphological features in selected color channels and a study on balancing the skewed dataset using SMOTE method for increasing the predictive accuracy of mitosis classification. The proposed framework has been evaluated on MITOS data set during an ICPR 2012 contest and ranked second from 17 finalists. The proposed framework achieved 74% detection rate, 70% precision and 72% F …}
+}

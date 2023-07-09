@@ -1,0 +1,11 @@
+@article{ECretu2009_66,
+  title={Toward translational incremental similarity-based reasoning in breast cancer grading},
+  pub_year={2009},
+  citation={Medical Imaging 2009: Computer-Aided Diagnosis 7260, 942-953, 2009},
+  author={Adina E Tutac and Daniel Racoceanu and Wee-Keng Leow and Henning Müller and Thomas Putti and Vladimir Cretu},
+  conference={Medical Imaging 2009: Computer-Aided Diagnosis},
+  volume={7260},
+  pages={942-953},
+  publisher={SPIE},
+  abstract={One of the fundamental issues in bridging the gap between the proliferation of Content-Based Image Retrieval (CBIR) systems in the scientific literature and the deficiency of their usage in medical community is based on the characteristic of CBIR to access information by images or/and text only. Yet, the way physicians are reasoning about patients leads intuitively to a case representation. Hence, a proper solution to overcome this gap is to consider a CBIR approach inspired by Case-Based Reasoning (CBR), which naturally introduces medical knowledge structured by cases. Moreover, in a CBR system, the knowledge is incrementally added and learned. The purpose of this study is to initiate a translational solution from CBIR algorithms to clinical practice, using a CBIR/CBR hybrid approach. Therefore, we advance the idea of a translational incremental similarity-based reasoning (TISBR), using combined CBIR …}
+}

@@ -1,0 +1,10 @@
+@article{DallePutti2008_76,
+  title={Automatic breast cancer grading of histopathological images},
+  pub_year={2008},
+  citation={2008 30th Annual International Conference of the IEEE Engineering in …, 2008},
+  author={Jean-Romain Dalle and Wee Kheng Leow and Daniel Racoceanu and Adina Eunice Tutac and Thomas C Putti},
+  conference={2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society},
+  pages={3052-3055},
+  publisher={IEEE},
+  abstract={Breast cancer grading of histopathological images is the standard clinical practice for the diagnosis and prognosis of breast cancer development. In a large hospital, a pathologist typically handles 100 grading cases per day, each consisting of about 2000 image frames. It is, therefore, a very tedious and time-consuming task. This paper proposes a method for automatic computer grading to assist pathologists by providing second opinions and reducing their workload. It combines the three criteria in the Nottingham scoring system using a multi-resolution approach. To our best knowledge, there is no existing work that provide complete grading according to the Nottingham criteria.}
+}

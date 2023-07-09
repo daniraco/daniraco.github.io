@@ -1,0 +1,8 @@
+@article{LacosteVuillenemot2007_79,
+  title={Inter-Media Conceptual Based Medical Image Indexing and Retrieval with UMLS at IPAL},
+  pub_year={2007},
+  citation={Lecture Notes in Computer Science, Evaluation of Multilingual and Multi …, 2007},
+  author={Caroline Lacoste and Jean-Pierre Chevallet and Joo-Hwee Lim and Diem Le Thi Hoang and Xiong Wei and Daniel Racoceanu and Roxana Teodorescu and Nicolas Vuillenemot},
+  pages={694-701},
+  abstract={We promote the use of explicit medical knowledge to solve retrieval of information both visual and textual. For text, this knowledge is a set of concepts from a Meta-thesaurus, the Unified Medical Language System (UMLS). For images, this knowledge is a set of semantic features that are learned from examples using SVM within a structured learning framework. Image and text index are represented in the same way: a vector of concepts. The use of concepts allows the expression of a common index form: an inter-media index, offering the opportunity of homogeneous indexing/querying time fusion techniques. Top results obtained with concept based approaches show the potential of conceptual indexing.}
+}

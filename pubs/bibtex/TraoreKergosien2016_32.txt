@@ -1,0 +1,10 @@
+@article{TraoreKergosien2016_32,
+  title={Sustainable formal representation of breast cancer grading histopathological knowledge},
+  pub_year={2016},
+  citation={Diagnostic Pathology 1 (8), 2016},
+  author={L Traore and C Daniel and M-C Jaulent and T Schrader and Daniel Racoceanu and Y Kergosien},
+  journal={Diagnostic Pathology},
+  volume={1},
+  number={8},
+  abstract={AimsOur objective is to i) analyze the histopathological knowledge for breast cancer grading available in the reference CAP CC\&P and ii) to build a sustainable formal representation of this knowledge based on existing bio-medical ontologies in NCBO Bioportal [6][7] and UMLS semantic types [8].MethodsOur methodology was first experimented in the context of two cancer grading methods for invasive (Nottinghamsystem) and ductal in situ breast carcinoma. A corpus consisting of 5 texts or â€ œnotesâ€ was first selected by an AP expert from the two corresponding CAP CC\&Ps. From each note the expert also extracted a list of keyconcepts to be used as a â€ œgold standardâ€. We used NCBO Annotator [9] for automatic analysis of the corpus. Annotator supports the biomedical community in tagging raw texts automatically with concepts from relevant biomedical ontology and terminology repositories. The methodology used consists in:}
+}

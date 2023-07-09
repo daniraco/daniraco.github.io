@@ -1,0 +1,10 @@
+@article{RacoceanuZerhouni1994_77,
+  title={Use of an homographic transformation jointly to the singular perturbation for the resolution of Markov chains. Application to the operational safety study},
+  pub_year={1994},
+  citation={Proceedings of the 1994 IEEE International Conference on Robotics and …, 1994},
+  author={Daniel Racoceanu and Abdellah El Moudni and Michel Ferney and S Zerhouni},
+  conference={Proceedings of the 1994 IEEE International Conference on Robotics and Automation},
+  pages={3544-3549},
+  publisher={IEEE},
+  abstract={Our work concerns the adaptation of the singular perturbation method jointly to the homographic transformation to the category of ergodic Markov chains which presents the two-time-scale property. For Markov chains, the two-time-scale property becomes a property of two-weighting-scale of the states in the system evolution. This lead us to call the slow and fast parts of a decomposed system strong and respectively weak. The limit resolution methodology of the Markov chains by the method of singular perturbation assumes firstly the detection of the irreducible classes of the chain, and secondly, the decomposition of each final ergodic classes presenting the two-weighting-scale property. In the resolution at the limit of the decomposed system, we struck the problem of the stochasticity of the subsystems obtained using directly the singular perturbation method. Indeed, the strong and weak submatrix are not stochastic …}
+}

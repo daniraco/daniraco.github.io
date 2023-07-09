@@ -1,0 +1,10 @@
+@article{QiuRacoceanu2007_74,
+  title={Finding Image Structure by Hierarchal Segmentation},
+  pub_year={2007},
+  citation={2007 IEEE International Conference on Multimedia and Expo, 1419-1422, 2007},
+  author={Bo Qiu and Daniel Racoceanu},
+  conference={2007 IEEE International Conference on Multimedia and Expo},
+  pages={1419-1422},
+  publisher={IEEE},
+  abstract={Image segmentation has been studied for many years. But what factors influence segmentation results indeed? Why some images are easy to be handled while the others are not? In this paper we put forward the so-called 'image structure constant' and 'image structure map' to judge the complexity of an image. They can be applied on any image. 'Structure constant' can be found by a hierarchal segmentation method based on k-means and gray histogram, which is processed by increasing the clustering centers' number of k-means step by step and tracing the regions' change. At the same time its structure map can be formed reflecting the relationship between pixel gray values and image regions. With the structure constant and structure map we can dissert an image is easy to be segmented or not, quantitatively. Furthermore, a neighbor-matched-region (NMR) graph is designed to judge an image's complexity …}
+}

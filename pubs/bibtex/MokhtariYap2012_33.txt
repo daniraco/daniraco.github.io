@@ -1,0 +1,11 @@
+@article{MokhtariYap2012_33,
+  title={New trends to support independence in persons with mild dementia–a mini-review},
+  pub_year={2012},
+  citation={Gerontology 58 (6), 554-563, 2012},
+  author={Mounir Mokhtari and Hamdi Aloulou and Thibaut Tiberghien and Jit Biswas and Daniel Racoceanu and Philip Yap},
+  volume={58},
+  number={6},
+  pages={554-563},
+  publisher={Karger Publishers},
+  abstract={Our research was motivated by the growing aging population worldwide and the need to concentrate research efforts on a specific target group; it focuses on elderly persons with physical and cognitive deficiencies. The primary goal is to enable persons with mild dementia to maximize their physical and mental functions through assistive technologies in order to be able to continue to participate in social networks and lead independent and purposeful lives. Persons with mild dementia usually have problems in performing activities of daily living due to episodic memory decline. These can include simple activities, such as bathing, changing clothes and preparing meals. Through extended field test trials involving end users, we have demonstrated that assistive technology that provides timely prompts, alarms and reminders can enable them to preserve their abilities and improve their quality of life. Understanding the …}
+}

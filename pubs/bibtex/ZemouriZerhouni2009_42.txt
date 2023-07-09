@@ -1,0 +1,11 @@
+@article{ZemouriZerhouni2009_42,
+  title={Boosting the Performances of the Recurrent Neural Network by the Fuzzy Min-Max},
+  pub_year={2009},
+  citation={SCIENCE AND TECHNOLOGY 12 (1), 69-90, 2009},
+  author={Ryad Zemouri and Florin Gheorghe Filip and Eugenia Minca and Daniel Racoceanu and Noureddine Zerhouni},
+  journal={SCIENCE AND TECHNOLOGY},
+  volume={12},
+  number={1},
+  pages={69-90},
+  abstract={The k-means training algorithm used for the RBF (Radial Basis Function) neural network can have some weakness like empty clusters, the choice of the cluster number and the random choice of the centers of theses clusters. In this paper, we use the Fuzzy Min Max technique to boost the performances of the training algorithm. This technique is used to determine the number of the k centers and to initialize correctly these k centers. The k-means algorithm always converges to the same result for all the tests.}
+}
