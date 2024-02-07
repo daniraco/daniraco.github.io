@@ -1,8 +1,9 @@
 @article{JimenezRacoceanu2023_37,
   title={Computational Pathology for Brain Disorders},
   pub_year={2023},
-  citation={arXiv preprint arXiv:2301.07030, 2023},
+  citation={New York, NY: Humana; 2023. Chapter 18},
   author={Gabriel Jimenez and Daniel Racoceanu},
-  journal={arXiv preprint arXiv:2301.07030},
+  journal={Machine Learning for Brain Disorders},
+  doi={10.1007/978-1-0716-3195-9_18},
   abstract={Non-invasive brain imaging techniques allow understanding the behavior and macro changes in the brain to determine the progress of a disease. However, computational pathology provides a deeper understanding of brain disorders at cellular level, able to consolidate a diagnosis and make the bridge between the medical image and the omics analysis. In traditional histopathology, histology slides are visually inspected, under the microscope, by trained pathologists. This process is time-consuming and labor-intensive; therefore, the emergence of Computational Pathology has triggered great hope to ease this tedious task and make it more robust. This chapter focuses on understanding the state-of-the-art machine learning techniques used to analyze whole slide images within the context of brain disorders. We present a selective set of remarkable machine learning algorithms providing discriminative approaches and quality results on brain disorders. These methodologies are applied to different tasks, such as monitoring mechanisms contributing to disease progression and patient survival rates, analyzing morphological phenotypes for classification and quantitative assessment of disease, improving clinical care, diagnosing tumor specimens, and intraoperative interpretation. Thanks to the recent progress in machine learning algorithms for high-content image processing, computational pathology marks the rise of a new generation of medical discoveries and clinical protocols, including in brain disorders.}
 }
