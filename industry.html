@@ -1,236 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Daniel Racoceanu | Prof. website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <meta charset="utf-8">
+  <title>Daniel Racoceanu | Translational AI & Industrial Collaborations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="description" content="Daniel Racoceanu – Professor at Sorbonne University working on AI for computational pathology, multimodal biomedical imaging, spatial omics and trustworthy AI.">
+  <meta name="author" content="Daniel Racoceanu">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 50px 0 25px;
+      font-weight: 700;
+    }
+
+    .lead-text {
+      font-size: 18px;
+      max-width: 950px;
+      margin: 0 auto 35px;
+      text-align: justify;
+    }
+
+    .impact-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      height: 100%;
+    }
+
+    .impact-card h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: #1e3a8a;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .gallery a {
+      margin: 12px;
+      max-width: calc(50% - 24px);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+      transition: 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+    }
+
+    #pre_footer img {
+      height: 60px;
+      max-width: 150px;
+    }
+
+    #pre_footer_support {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-table {
+      width: 80%;
+      border: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .social-network li {
+      display: inline-block;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery a {
+        max-width: 100%;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo" width="50"/></a>
-                </div> -->
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li> 
-						<li><a href="short bio.html">Short Bio</a></li>
-						<li><a href="cv.html">Curriculum Vitae</a></li>
-						<li><a href="courses.html">Courses</a></li>
-						<li><a href="research.html">Research</a></li>  
-                        <li><a href="phd_supervised.html">PhD Supervised</a></li>  
-						<li><a href="publications.html">Publications</a></li>  
-						<li><a href="projects.html">Projects</a></li>
-						<li class="active"><a href="industry.html">Industry</a></li>
-						<li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header><!-- end header -->
-</div>
-    <section id="inner-headline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="pageTitle">Industrial collaborations and experience</h2>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="content">
-        <div class="container">
-                        
-            <div class="about" style="width:100%;">
-                <div class="row" style="margin:0;text-align:justify;"> 
-                    <div class="col-md-12">
-                        <h2 style="text-align:center;">VivaTech 2023: Pioneering Digital Pathology through Scientific Research and Innovation</h2>
-                        <p>
-                            From June 15 to 18, 2023, our dedicated team took the stage at Viva Technology to illuminate the future of digital pathology. Rooted in robust scientific research, our team demonstrated how creativity, coupled with technical prowess, can reshape healthcare.
-                        </p>
-                        <p>
-                            At the heart of our innovation lies the commitment to develop cutting-edge deep learning models that are trustworthy and responsible. We've transformed cloud-based efficient computing into a platform that empowers pathologists, clinicians, and biologists to work with unparalleled speed and accuracy.
-                        </p>
-                        <p>
-                            Our key focus is reducing repetitive tasks in healthcare, thereby enabling professionals to devote their full attention to enhancing patient care. We accomplish this by optimizing big data compression and efficient storage, revolutionizing the way data is managed in healthcare.
-                        </p>
-                        
-                        <p>
-                            Our presence at Viva Technology 2023 was not just about showcasing technology; it was a testament to our relentless pursuit of advancement. We're not merely scientists; we are innovators, striving to harness the power of AI and cloud computing to bring about a healthier, more efficient future.
-                        </p>
-                                    
-                        <div style="display:flex; flex-wrap:wrap; justify-content:center;">
-                            <a href="pics/vivatech/1.jpg" target="_blank" style="margin:10px; max-width: calc(50% - 20px);">
-                                <img src="pics/vivatech/1.jpg" alt="Image 1 showing our team's stand at VivaTech 2023" style="width:100%; height:auto; border-radius:15px; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2); transition:0.3s;"/>
-                            </a>
-                            <a href="pics/vivatech/2.jpg" target="_blank" style="margin:10px; max-width: calc(50% - 20px);">
-                                <img src="pics/vivatech/2.jpg" alt="Image 2 featuring our team presenting their advanced technologies" style="width:100%; height:auto; border-radius:15px; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2); transition:0.3s;"/>
-                            </a>
-                            <a href="pics/vivatech/4.jpg" target="_blank" style="margin:10px; max-width: calc(50% - 20px);">
-                                <img src="pics/vivatech/4.jpg" alt="Image 4 showing interested visitors at our stand" style="width:100%; height:auto; border-radius:15px; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2); transition:0.3s;"/>
-                            </a>
-                            <a href="pics/vivatech/5.jpg" target="_blank" style="margin:10px; max-width: calc(50% - 20px);">
-                                <img src="pics/vivatech/5.jpg" alt="Image 5 providing a glimpse into our immersive technology experience" style="width:100%; height:auto; border-radius:15px; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2); transition:0.3s;"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <script>
-                // JavaScript code to add hover effect
-                let images = document.querySelectorAll('img');
-                images.forEach(img => {
-                    img.onmouseover = function() {
-                        this.style.boxShadow = '0 16px 32px 0 rgba(0,0,0,0.4)';
-                    };
-                    img.onmouseout = function() {
-                        this.style.boxShadow = '0 4px 8px 0 rgba(0,0,0,0.2)';
-                    };
-                });
-            </script>
-            
-            
-            
-            
-            
-        
-        </div>
-    </section>
-
-</section>
-<style> 
-	#pre_footer img {
-		/* width: 100px; */
-		height: 60px;
-	}
-	#pre_footer_support {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.footer-table {
-		width: 80%;
-		border: 0;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.footer-link {
-		width: 1%;
-	}
-
-	</style>
-	</br></br>
-	<div id="pre_footer">
-		<div id="pre_footer_support">
-			<table class="footer-table">
-				<tr>
-					<td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute - ICM"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inria.fr/en" title="French National Institute for Research in Digital Science and Technology - Inria"><img src="img/logos/inria.svg" alt="Inria" id="Inria"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research - CNRS"><img src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inserm.fr/en" title="French National Institute for Health and Medical Research - INSERM"><img src="img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.aphp.fr/" title="Greater Paris University Hospitals - AP-HP"><img src="img/logos/Assistance_publique.svg" alt="AP-HP" id="AP-HP"></a></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	</br></br>
-<footer>
+<header>
+  <div class="navbar navbar-default navbar-static-top">
     <div class="container">
-        <div class="row">
-        <div class="col-lg-3">
-            <div class="widget">
-            <h5 class="widgetheading">Our Contact</h5>
-            <address>
-                <strong>Daniel RACOCEANU</strong><br>
-                Sorbonne University<br>
-                Paris Brain Institute<br>
-                Aramis Inria team<br>
-                47 bd. de l'hopital<br>
-                75013 Paris, France<br>
-            </address>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="short_bio.html">Short Bio</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="active"><a href="industry.html">Industry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Translational AI & Industrial Collaborations</h1>
+  <p>
+    Bridging histopathology, spatial omics and trustworthy artificial intelligence
+    to accelerate next-generation precision medicine.
+  </p>
+</section>
+
+<section id="content">
+  <div class="container">
+
+    <h2 class="section-title">From Scientific Research to Clinical Innovation</h2>
+
+    <p class="lead-text">
+      My translational work focuses on the development of responsible and trustworthy
+      artificial intelligence for computational pathology, biomedical imaging and
+      multimodal medicine. At the interface between academic research, clinical needs
+      and industrial innovation, my objective is to design AI systems that are not only
+      technically performant, but also interpretable, reproducible and clinically useful.
+    </p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="impact-card">
+          <h3>Computational Pathology</h3>
+          <p>
+            Development of AI methods for digital pathology, whole-slide image analysis,
+            virtual staining, tissue phenotyping and clinically relevant decision support.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="impact-card">
+          <h3>Multimodal Biomedical AI</h3>
+          <p>
+            Integration of histology, spatial omics, molecular data and clinical information
+            to build richer representations of disease and support precision medicine.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="impact-card">
+          <h3>Trustworthy & Responsible AI</h3>
+          <p>
+            Emphasis on explainability, robustness, reproducibility, regulatory awareness
+            and human-in-the-loop systems for real-world biomedical deployment.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">VivaTech 2023</h2>
+
+    <p class="lead-text">
+      At Viva Technology 2023, our team presented research-driven innovation in digital
+      pathology and AI-assisted biomedical image analysis. The demonstration highlighted
+      how advanced deep learning, efficient computation and clinically oriented design
+      can help reduce repetitive tasks, improve analytical consistency and support
+      healthcare professionals in their decision-making workflows.
+    </p>
+
+    <p class="lead-text">
+      This experience illustrated a broader vision: translating cutting-edge academic
+      research into robust and usable technologies for medicine, while maintaining
+      scientific rigor, transparency and responsibility.
+    </p>
+
+    <div class="gallery">
+      <a href="pics/vivatech/1.jpg" target="_blank">
+        <img src="pics/vivatech/1.jpg" alt="Team stand at VivaTech 2023">
+      </a>
+
+      <a href="pics/vivatech/2.jpg" target="_blank">
+        <img src="pics/vivatech/2.jpg" alt="Presentation of digital pathology technologies">
+      </a>
+
+      <a href="pics/vivatech/4.jpg" target="_blank">
+        <img src="pics/vivatech/4.jpg" alt="Visitors discussing AI and digital pathology">
+      </a>
+
+      <a href="pics/vivatech/5.jpg" target="_blank">
+        <img src="pics/vivatech/5.jpg" alt="Immersive demonstration of biomedical AI tools">
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td>
+          <a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University">
+            <img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute">
+            <img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.inria.fr/en" title="Inria">
+            <img src="img/logos/inria.svg" alt="Inria">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.cnrs.fr/en" title="CNRS">
+            <img src="img/logos/logoCNRS.svg" alt="CNRS">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.inserm.fr/en" title="Inserm">
+            <img src="img/logos/Inserm.svg" alt="Inserm">
+          </a>
+        </td>
+
+        <td>
+          <a href="https://www.aphp.fr/" title="AP-HP">
+            <img src="img/logos/Assistance_publique.svg" alt="AP-HP">
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br><br>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="widget">
+          <h5 class="widgetheading">Contact</h5>
+          <address>
+            <strong>Daniel RACOCEANU</strong><br>
+            Professor, Sorbonne University<br>
+            Paris Brain Institute<br>
+            47 boulevard de l'Hôpital<br>
+            75013 Paris, France
+          </address>
+          <p>
+            <i class="icon-envelope-alt"></i>
+            daniel.racoceanu@sorbonne-universite.fr
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <ul class="social-network">
+          <li>
+            <a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate">
+              <i class="fab fa-researchgate"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/daniraco" title="X / Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/daniraco" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/daniraco" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar">
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed">
+              <i class="fas fa-book-medical"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://orcid.org/0000-0002-9416-1803" title="ORCID">
+              <i class="fas fa-id-badge"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus">
+              <i class="fas fa-id-badge"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="sub-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copyright">
             <p>
-                <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
+              &copy; Daniel Racoceanu. All rights reserved.
             </p>
-            </div>
+          </div>
         </div>
-        
-    
-    
-        </div>
+      </div>
     </div>
-    <div id="sub-footer">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-            <div class="copyright">
-                <p>
-                <span>&copy; All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</span></a>
-                </p>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <ul class="social-network">
-                <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i>
-                <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/daniraco" data-placement="top" title="Github"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-                <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><i class="fas fa-id-badge"></i></a></li> 
-                <li><a href="https://www..scopus.com/authid/detail.uri?authorId=6603452376" data-placement="top" title="Scopus"><i class="fas fa-id-badge"></i></a></li>	
-            </ul>
-            </div>
-            
-        </div>
-        </div>
-    </div>
-    </footer>
-    </div>
-    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-    <!-- javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script> 
-    <script src="js/portfolio/jquery.quicksand.js"></script>
-    <script src="js/portfolio/setting.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/fontawesome/all.js"></script>
+  </div>
+</footer>
+
+</div>
+
+<a href="#" class="scrollup">
+  <i class="fa fa-angle-up active"></i>
+</a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/fontawesome/all.js"></script>
+
 </body>
 </html>
