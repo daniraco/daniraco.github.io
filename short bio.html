@@ -1,290 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="utf-8">
+
 <title>Daniel Racoceanu | Short Bio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Short biography of Daniel Racoceanu, Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute, working on biomedical image analysis, computational pathology, machine learning, deep learning, and explainable AI." />
-<meta name="author" content="Daniel Racoceanu" />
 
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="Short biography of Daniel Racoceanu, Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute, working on computational pathology, biomedical imaging, multimodal learning and trustworthy artificial intelligence.">
+
+<meta name="author" content="Daniel Racoceanu">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" />
-
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<link href="css/jcarousel.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
 <style>
-  .bio-downloads {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 28px;
-    margin: 20px 0 35px 0;
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 950px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.bio-intro {
+  max-width: 1050px;
+  margin: 40px auto 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.bio-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin: 20px 0 45px;
+}
+
+.bio-downloads a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.bio-downloads a:hover {
+  transform: translateY(-2px);
+  background: #eef2ff;
+}
+
+.bio-downloads img {
+  width: 30px;
+  height: auto;
+}
+
+.bio-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.bio-card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #1e3a8a;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.bio-card p {
+  text-align: justify;
+  font-size: 16px;
+  color: #333;
+}
+
+.metrics-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 20px 0 50px;
+}
+
+.metric-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px 28px;
+  min-width: 220px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.metric-card h2 {
+  color: #1e3a8a;
+  font-size: 32px;
+  margin: 0;
+}
+
+.metric-card p {
+  margin-top: 5px;
+  color: #555;
+}
+
+#pre_footer img {
+  height: 60px;
+  max-width: 140px;
+  object-fit: contain;
+}
+
+#pre_footer_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-table {
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 10px 16px;
+}
+
+.social-network li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+
+  .hero h1 {
+    font-size: 32px;
   }
 
-  .bio-downloads a {
+  .hero p {
+    font-size: 17px;
+  }
+
+  .bio-card {
+    padding: 22px;
+  }
+
+  .footer-table,
+  .footer-table tr,
+  .footer-table td {
     display: block;
-    text-align: center;
-    color: inherit;
-    text-decoration: none;
+    width: 100%;
   }
+}
 
-  .bio-downloads img {
-    width: 72px;
-    height: auto;
-    margin-bottom: 8px;
-  }
-
-  .bio-lead {
-    font-size: 1.08em;
-    line-height: 1.7;
-    text-align: justify;
-  }
-
-  .bio-section {
-    margin-bottom: 26px;
-  }
-
-  .bio-section p {
-    text-align: justify;
-    line-height: 1.7;
-  }
-
-  .bio-section ul {
-    padding-left: 20px;
-    line-height: 1.7;
-  }
-
-  #pre_footer img {
-    height: 60px;
-    max-width: 130px;
-    object-fit: contain;
-  }
-
-  #pre_footer_support {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-table {
-    width: 80%;
-    border: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .footer-link {
-    width: 1%;
-    padding: 8px 14px;
-  }
-
-  @media (max-width: 768px) {
-    .footer-table,
-    .footer-table tr,
-    .footer-table td {
-      display: block;
-      width: 100%;
-    }
-
-    .footer-link {
-      padding: 12px 0;
-    }
-  }
 </style>
+
 </head>
 
 <body>
+
 <div id="wrapper">
-  <!-- start header -->
-  <header>
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="short-bio.html">Short Bio</a></li>
-            <li><a href="cv.html">Curriculum Vitae</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="industry.html">Industry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- end header -->
 
-  <section id="inner-headline">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="pageTitle">Short Bio</h2>
-        </div>
-      </div>
-    </div>
-  </section>
+<header>
 
-  <section id="content">
-    <div class="container">
-      <div class="about">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="about-logo">
+<div class="navbar navbar-default navbar-static-top">
 
-              <div class="bio-downloads" aria-label="Download short biography">
-                <a href="docs/short_bio/DR_ShortBiography.pdf" title="Download short bio in English">
-                  <img src="img/icons/PDF_icon.svg.png" alt="PDF icon">
-                  <span>English</span>
-                </a>
-                <a href="docs/short_bio/DR_ShortBiography_FR.pdf" title="Download short bio in French">
-                  <img src="img/icons/PDF_icon.svg.png" alt="PDF icon">
-                  <span>French</span>
-                </a>
-                <a href="docs/short_bio/DR_ShortBiography_ESP.pdf" title="Download short bio in Spanish">
-                  <img src="img/icons/PDF_icon.svg.png" alt="PDF icon">
-                  <span>Spanish</span>
-                </a>
-                <a href="docs/short_bio/DR_ShortBiography_RO.pdf" title="Download short bio in Romanian">
-                  <img src="img/icons/PDF_icon.svg.png" alt="PDF icon">
-                  <span>Romanian</span>
-                </a>
-              </div>
+<div class="container">
 
-              <div class="bio-section">
-                <h3>Current Position<span class="color"></span></h3>
-                <p class="bio-lead">
-                  Daniel Racoceanu is Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute, within the Inria ARAMIS team. His research lies at the intersection of biomedical image analysis, pattern recognition, machine learning, deep learning, and computational integrative pathology. He develops artificial intelligence methods for microscopy, histopathology, multimodal biomedical data integration, and explainable decision-support systems, with a particular focus on clinically meaningful and trustworthy AI.
-                </p>
-              </div>
+<div class="navbar-collapse collapse">
 
-              <div class="bio-section">
-                <h3>Research Focus<span class="color"></span></h3>
-                <p>
-                  His current work explores how AI can bridge tissue morphology, molecular information, and clinical interpretation. This includes computational pathology, high-content microscopy, digital histopathology, multimodal representation learning, spatial omics, virtual staining, explainability, uncertainty estimation, and human-in-the-loop approaches for translational biomedical applications.
-                </p>
-              </div>
+<ul class="nav navbar-nav">
 
-              <div class="bio-section">
-                <h3>Educational Background<span class="color"></span></h3>
-                <p>
-                  He received his Ph.D. in 1997 and his Habilitation to Direct Research / HDR in 2006 from the University Marie &amp; Louis Pasteur, Besançon, France.
-                </p>
-              </div>
+<li><a href="index.html">Home</a></li>
+<li class="active"><a href="short_bio.html">Short Bio</a></li>
+<li><a href="cv.html">Curriculum Vitae</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="phd_supervised.html">PhD Supervised</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="industry.html">Industry</a></li>
+<li><a href="contact.html">Contact</a></li>
 
-              <div class="bio-section">
-                <h3>Past Positions<span class="color"></span></h3>
-                <p>
-                  Before joining academia, he worked as Project Manager at General Electric. In 1999, he became Associate Professor at the University Marie &amp; Louis Pasteur and Research Fellow at FEMTO-ST Institute, CNRS UMR 6174.
-                </p>
-                <p>
-                  From 2005 to 2014, he contributed to the creation and development of the International Joint Research Unit / Lab IPAL, UMI CNRS 2955, in Singapore. From 2008 to 2014, he served as Director of this joint research venture between Sorbonne University, CNRS, the National University of Singapore, and the Agency for Science, Technology and Research.
-                </p>
-                <p>
-                  From 2009 to 2015, he was Professor at the School of Computing, National University of Singapore. From 2014 to 2016, he was Professor at Pierre and Marie Curie University, member of the Executive Board of the University Institute of Health Engineering of Sorbonne University, and co-Director of the Cancer Theranostics research team at the Bioimaging Lab, CNRS UMR 7371 / Inserm U1146.
-                </p>
-                <p>
-                  From 2016 to 2018, he was Professor in Biomedical Image and Data Analytics at the Pontifical Catholic University of Peru.
-                </p>
-              </div>
+</ul>
 
-              <div class="bio-section">
-                <h3>Scientific Responsibilities<span class="color"></span></h3>
-                <p>
-                  Daniel Racoceanu is co-founder of the European Society for Digital and Integrative Pathology, where he served as Vice-President from 2016 to 2018 and President from 2018 to 2020. He has been a member of its Advisory Board since 2020.
-                </p>
-                <p>
-                  From 2018 to 2022, he served on the Board of Directors of the Medical Image Computing and Computer Assisted Intervention Society. He was General Chair of MICCAI 2020 in Lima, Peru, and contributed to the organization of MICCAI 2021 in Strasbourg and MICCAI 2022 in Singapore.
-                </p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <br><br>
-  <div id="pre_footer">
-    <div id="pre_footer_support">
-      <table class="footer-table">
-        <tr>
-          <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-          <td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute - ICM"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-          <td class="footer-link"><a href="https://www.inria.fr/en" title="French National Institute for Research in Digital Science and Technology - Inria"><img src="img/logos/inria.svg" alt="Inria" id="Inria"></a></td>
-          <td class="footer-link"><a href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research - CNRS"><img src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-          <td class="footer-link"><a href="https://www.inserm.fr/en" title="French National Institute for Health and Medical Research - INSERM"><img src="img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-          <td class="footer-link"><a href="https://www.aphp.fr/" title="Greater Paris University Hospitals - AP-HP"><img src="img/logos/Assistance_publique.svg" alt="AP-HP" id="AP-HP"></a></td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <br><br>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="widget">
-            <h5 class="widgetheading">Contact</h5>
-            <address>
-              <strong>Daniel Racoceanu</strong><br>
-              Sorbonne University<br>
-              Paris Brain Institute<br>
-              Inria ARAMIS team<br>
-              47 boulevard de l'Hôpital<br>
-              75013 Paris, France
-            </address>
-            <p>
-              <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="sub-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="copyright">
-              <p>
-                <span>&copy; All rights reserved. Theme by </span><a href="http://webthemez.com" target="_blank" rel="noopener">WebThemez</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <ul class="social-network">
-              <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
-              <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter / X"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/daniraco" data-placement="top" title="GitHub"><i class="fab fa-github"></i></a></li>
-              <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-              <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-              <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
-              <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" data-placement="top" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
 </div>
 
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+</div>
 
-<!-- javascript -->
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Short Biography</h1>
+
+<p>
+Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute,
+working at the intersection of artificial intelligence, computational pathology,
+biomedical imaging and multimodal medicine.
+</p>
+
+</section>
+
+<section id="content">
+
+<div class="container">
+
+<div class="bio-intro">
+
+Over the past two decades, Daniel Racoceanu has contributed to the development of
+artificial intelligence methodologies for biomedical imaging, computational pathology,
+high-content microscopy and multimodal medical data analysis, with a particular focus on
+trustworthy and clinically meaningful AI systems.
+
+</div>
+
+<div class="metrics-row">
+
+<div class="metric-card">
+<h2>20+</h2>
+<p>Years in AI Research</p>
+</div>
+
+<div class="metric-card">
+<h2>21</h2>
+<p>PhD Students Supervised</p>
+</div>
+
+<div class="metric-card">
+<h2>MICCAI</h2>
+<p>Board Member & General Chair</p>
+</div>
+
+<div class="metric-card">
+<h2>AI → Medicine</h2>
+<p>Interdisciplinary Research</p>
+</div>
+
+</div>
+
+<div class="bio-downloads">
+
+<a href="docs/short_bio/DR_ShortBiography.pdf">
+<img src="img/icons/PDF_icon.svg.png" alt="PDF">
+English Version
+</a>
+
+<a href="docs/short_bio/DR_ShortBiography_FR.pdf">
+<img src="img/icons/PDF_icon.svg.png" alt="PDF">
+French Version
+</a>
+
+<a href="docs/short_bio/DR_ShortBiography_ESP.pdf">
+<img src="img/icons/PDF_icon.svg.png" alt="PDF">
+Spanish Version
+</a>
+
+<a href="docs/short_bio/DR_ShortBiography_RO.pdf">
+<img src="img/icons/PDF_icon.svg.png" alt="PDF">
+Romanian Version
+</a>
+
+</div>
+
+<div class="bio-card">
+
+<h2>Current Position</h2>
+
+<p>
+Daniel Racoceanu is Professor at Sorbonne University and Principal Investigator at the
+Paris Brain Institute, within the Center for Artificial Intelligence and Data Science.
+His research lies at the intersection of biomedical image analysis, pattern recognition,
+machine learning, deep learning and computational integrative pathology.
+</p>
+
+<p>
+He develops artificial intelligence methods for microscopy, histopathology,
+multimodal biomedical data integration and explainable decision-support systems,
+with a particular focus on trustworthy AI and clinically interpretable models.
+</p>
+
+</div>
+
+<div class="bio-card">
+
+<h2>Research Focus</h2>
+
+<p>
+His current research explores how artificial intelligence can bridge tissue morphology,
+molecular information and clinical interpretation. This includes computational pathology,
+digital histopathology, multimodal representation learning, spatial omics,
+virtual staining, explainability, uncertainty estimation and human-in-the-loop AI
+for translational biomedical applications.
+</p>
+
+<p>
+His broader objective is to contribute to the emergence of next-generation
+integrative pathology and precision medicine through trustworthy multimodal AI systems.
+</p>
+
+</div>
+
+<div class="bio-card">
+
+<h2>Academic Background</h2>
+
+<p>
+He received his Ph.D. in 1997 and his Habilitation to Direct Research (HDR)
+in 2006 from the University Marie & Louis Pasteur, Besançon, France.
+</p>
+
+<p>
+Before joining academia, he worked as Project Manager at General Electric.
+In 1999, he became Associate Professor at the University Marie & Louis Pasteur
+and Research Fellow at FEMTO-ST Institute, CNRS UMR 6174.
+</p>
+
+</div>
+
+<div class="bio-card">
+
+<h2>International Experience</h2>
+
+<p>
+From 2005 to 2014, he contributed to the creation and development of the
+International Joint Research Unit / Lab IPAL (UMI CNRS 2955) in Singapore.
+From 2008 to 2014, he served as Director of this joint research venture between
+Sorbonne University, CNRS, the National University of Singapore and A*STAR Singapore.
+</p>
+
+<p>
+From 2009 to 2015, he was Professor at the School of Computing,
+National University of Singapore.
+From 2014 to 2016, he was Professor at Pierre and Marie Curie University
+and co-Director of the Cancer Theranostics research team at the Bioimaging Lab,
+CNRS UMR 7371 / Inserm U1146.
+</p>
+
+<p>
+From 2016 to 2018, he was Professor in Biomedical Image and Data Analytics
+at the Pontifical Catholic University of Peru.
+</p>
+
+</div>
+
+<div class="bio-card">
+
+<h2>Scientific Responsibilities</h2>
+
+<p>
+Daniel Racoceanu is co-founder of the European Society for Digital and Integrative Pathology (ESDIP),
+where he served as Vice-President from 2016 to 2018 and President from 2018 to 2020.
+He has been a member of its Advisory Board since 2020.
+</p>
+
+<p>
+From 2018 to 2022, he served on the Board of Directors of the
+Medical Image Computing and Computer Assisted Intervention Society (MICCAI).
+He was General Chair of MICCAI 2020 in Lima, Peru,
+and contributed to the organization of MICCAI 2021 in Strasbourg
+and MICCAI 2022 in Singapore.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+
+<div id="pre_footer_support">
+
+<table class="footer-table">
+
+<tr>
+
+<td class="footer-link">
+<a href="https://www.sorbonne-universite.fr/en">
+<img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University">
+</a>
+</td>
+
+<td class="footer-link">
+<a href="https://institutducerveau-icm.org/en/">
+<img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute">
+</a>
+</td>
+
+<td class="footer-link">
+<a href="https://www.inria.fr/en">
+<img src="img/logos/inria.svg" alt="Inria">
+</a>
+</td>
+
+<td class="footer-link">
+<a href="https://www.cnrs.fr/en">
+<img src="img/logos/logoCNRS.svg" alt="CNRS">
+</a>
+</td>
+
+<td class="footer-link">
+<a href="https://www.inserm.fr/en">
+<img src="img/logos/Inserm.svg" alt="Inserm">
+</a>
+</td>
+
+<td class="footer-link">
+<a href="https://www.aphp.fr/">
+<img src="img/logos/Assistance_publique.svg" alt="AP-HP">
+</a>
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<br><br>
+
+<footer>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-4">
+
+<div class="widget">
+
+<h5 class="widgetheading">Contact</h5>
+
+<address>
+
+<strong>Daniel Racoceanu</strong><br>
+
+Professor, Sorbonne University<br>
+
+Principal Investigator, Paris Brain Institute<br>
+
+Center for Artificial Intelligence and Data Science<br>
+
+187 Rue du Chevaleret<br>
+
+75013 Paris, France
+
+</address>
+
+<p>
+daniel.racoceanu@sorbonne-universite.fr
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-8">
+
+<ul class="social-network">
+
+<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+
+<li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+
+<li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+
+<li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+
+<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+
+<li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="sub-footer">
+
+<div class="container">
+
+<p>&copy; Daniel Racoceanu. All rights reserved.</p>
+
+</div>
+
+</div>
+
+</footer>
+
+</div>
+
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -296,5 +552,7 @@
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/fontawesome/all.js"></script>
+
 </body>
+
 </html>

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Daniel Racoceanu | Research Projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Research projects led by Daniel Racoceanu in computational pathology, biomedical imaging, artificial intelligence, multimodal learning and digital medicine.">
+  <meta name="description"
+    content="Research projects led by Daniel Racoceanu in computational pathology, biomedical imaging, artificial intelligence, multimodal learning and digital medicine.">
   <meta name="author" content="Daniel Racoceanu">
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +55,7 @@
       border-radius: 18px;
       padding: 28px;
       margin-bottom: 35px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
     }
 
     .project-card h2 {
@@ -100,7 +102,13 @@
       max-width: 85%;
       height: auto;
       border-radius: 16px;
-      box-shadow: 0 5px 16px rgba(0,0,0,0.16);
+      box-shadow: 0 5px 16px rgba(0, 0, 0, 0.16);
+    }
+
+    /* Make project images 2 and 3 much smaller */
+    .project-card:nth-of-type(2) .project-image img,
+    .project-card:nth-of-type(3) .project-image img {
+      max-width: 35%;
     }
 
     #pre_footer img {
@@ -135,7 +143,9 @@
         font-size: 17px;
       }
 
-      .project-image img {
+      .project-image img,
+      .project-card:nth-of-type(2) .project-image img,
+      .project-card:nth-of-type(3) .project-image img {
         max-width: 100%;
       }
     }
@@ -143,249 +153,259 @@
 </head>
 
 <body>
-<div id="wrapper">
+  <div id="wrapper">
 
-<header>
-  <div class="navbar navbar-default navbar-static-top">
-    <div class="container">
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="short_bio.html">Short Bio</a></li>
-          <li><a href="cv.html">Curriculum Vitae</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="phd_supervised.html">PhD Supervised</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li class="active"><a href="projects.html">Projects</a></li>
-          <li><a href="industry.html">Industry</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <header>
+      <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="short_bio.html">Short Bio</a></li>
+              <li><a href="cv.html">Curriculum Vitae</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="phd_supervised.html">PhD Supervised</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li class="active"><a href="projects.html">Projects</a></li>
+              <li><a href="industry.html">Industry</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
+    </header>
 
-<section class="hero">
-  <h1>Research Projects</h1>
-  <p>
-    Computational pathology, biomedical imaging, multimodal learning and trustworthy AI
-    for precision medicine.
-  </p>
-</section>
-
-<section id="content">
-  <div class="container">
-
-    <h2 class="section-title">Selected Projects</h2>
-
-    <div class="project-card">
-      <h2>
-        <a href="./projects/phagostat.html" target="_blank">
-          PhagoStat: Phagocytosis Unveiled
-        </a>
-      </h2>
-      <p class="project-authors">
-        Mehdi Ounissi, Morwena Latouche and Daniel Racoceanu
-      </p>
+    <section class="hero">
+      <h1>Research Projects</h1>
       <p>
-        A scalable and interpretable deep learning framework for neurodegenerative disease analysis,
-        focusing on phagocytosis-related mechanisms and biomedical image interpretation.
+        Computational pathology, biomedical imaging, multimodal learning and trustworthy AI
+        for precision medicine.
       </p>
-      <div class="project-keywords">
-        <span class="tag">Deep Learning</span>
-        <span class="tag">Neurodegeneration</span>
-        <span class="tag">Interpretability</span>
-        <span class="tag">Biomedical Imaging</span>
-      </div>
-      <div class="project-image">
-        <img src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/PhagoStat.jpg?raw=true" alt="PhagoStat project overview">
-      </div>
-    </div>
+    </section>
 
-    <div class="project-card">
-      <h2>
-        <a href="./projects/malmo.html" target="_blank">
-          MALMO: Mathematical Approaches to Modelling Metabolic Plasticity and Heterogeneity in Melanoma
-        </a>
-      </h2>
-      <p class="project-authors">
-        Janan Arslan, Ayse Gungor, Mehdi Ounissi, Pawan Kumar, Haocheng Luo,
-        Matthieu Lacroix, Pierrick Dupré, Arran Hodgkinson, Christine Pignodel,
-        Laurent Le Cam, Ovidiu Radulescu and Daniel Racoceanu
-      </p>
-      <p>
-        A collaborative project combining mathematical modelling, artificial intelligence and biomedical data
-        analysis to better understand metabolic plasticity and heterogeneity in melanoma.
-      </p>
-      <div class="project-keywords">
-        <span class="tag">Melanoma</span>
-        <span class="tag">Mathematical Modelling</span>
-        <span class="tag">Metabolism</span>
-        <span class="tag">AI for Cancer</span>
-      </div>
-      <div class="project-image">
-        <img src="img/wsi3d_logo.png" alt="MALMO project logo">
-      </div>
-    </div>
+    <section id="content">
+      <div class="container">
 
-    <div class="project-card">
-      <h2>
-        <a href="./projects/stratifiad_miccai.html" target="_blank">
-          Visual Deep Learning-Based Explanation for Neuritic Plaques Segmentation in Alzheimer’s Disease
-        </a>
-      </h2>
-      <p class="project-authors">
-        Gabriel Jimenez, Anuradha Kar, Mehdi Ounissi, Léa Ingrassia,
-        Susana Boluda, Benoît Delatour, Lev Stimmer and Daniel Racoceanu
-      </p>
-      <p>
-        A weakly supervised deep learning approach for whole-slide histopathological images,
-        focusing on explainable segmentation of neuritic plaques in Alzheimer’s disease.
-      </p>
-      <div class="project-keywords">
-        <span class="tag">Alzheimer’s Disease</span>
-        <span class="tag">Digital Pathology</span>
-        <span class="tag">Weak Supervision</span>
-        <span class="tag">Explainable AI</span>
-      </div>
-      <div class="project-image">
-        <img src="https://github.com/stratifIAD/unet-pytorch/blob/098f742f58799e4ff277d0f4f1c6ecb32e257ed1/imgs/att_unet.png?raw=true" alt="Attention U-Net architecture for neuritic plaque segmentation">
-      </div>
-    </div>
+        <h2 class="section-title">Selected Projects</h2>
 
-    <div class="project-card">
-      <h2>
-        <a href="./projects/stratifiad.html" target="_blank">
-          STRATIFIAD: Refining Alzheimer’s Disease Patient Stratification
-        </a>
-      </h2>
-      <p class="project-authors">
-        Gabriel Jimenez, Anuradha Kar, Mehdi Ounissi, Léa Ingrassia,
-        Susana Boluda, Benoît Delatour, Lev Stimmer and Daniel Racoceanu
-      </p>
-      <p>
-        A computational histopathology project using explainable artificial intelligence
-        to improve the stratification of Alzheimer’s disease patients from tissue-level features.
-      </p>
-      <div class="project-keywords">
-        <span class="tag">Computational Histopathology</span>
-        <span class="tag">Patient Stratification</span>
-        <span class="tag">Alzheimer’s Disease</span>
-        <span class="tag">Precision Medicine</span>
-      </div>
-      <div class="project-image">
-        <img src="img/Stratifiad_project_fig.png" alt="STRATIFIAD project illustration">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<br><br>
-
-<div id="pre_footer">
-  <div id="pre_footer_support">
-    <table class="footer-table">
-      <tr>
-        <td>
-          <a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University">
-            <img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University">
-          </a>
-        </td>
-        <td>
-          <a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute">
-            <img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute">
-          </a>
-        </td>
-        <td>
-          <a href="https://www.inria.fr/en" title="Inria">
-            <img src="img/logos/inria.svg" alt="Inria">
-          </a>
-        </td>
-        <td>
-          <a href="https://www.cnrs.fr/en" title="CNRS">
-            <img src="img/logos/logoCNRS.svg" alt="CNRS">
-          </a>
-        </td>
-        <td>
-          <a href="https://www.inserm.fr/en" title="Inserm">
-            <img src="img/logos/Inserm.svg" alt="Inserm">
-          </a>
-        </td>
-        <td>
-          <a href="https://www.aphp.fr/" title="AP-HP">
-            <img src="img/logos/Assistance_publique.svg" alt="AP-HP">
-          </a>
-        </td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-<br><br>
-
-<footer>
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-4">
-        <div class="widget">
-          <h5 class="widgetheading">Contact</h5>
-          <address>
-            <strong>Daniel RACOCEANU</strong><br>
-            Professor, Sorbonne University<br>
-            Paris Brain Institute<br>
-            47 boulevard de l'Hôpital<br>
-            75013 Paris, France
-          </address>
-          <p>
-            <i class="icon-envelope-alt"></i>
-            daniel.racoceanu@sorbonne-universite.fr
+        <div class="project-card">
+          <h2>
+            <a href="./projects/phagostat.html" target="_blank">
+              PhagoStat: Phagocytosis Unveiled
+            </a>
+          </h2>
+          <p class="project-authors">
+            Mehdi Ounissi, Morwena Latouche and Daniel Racoceanu
           </p>
+          <p>
+            A scalable and interpretable deep learning framework for neurodegenerative disease analysis,
+            focusing on phagocytosis-related mechanisms and biomedical image interpretation.
+          </p>
+          <div class="project-keywords">
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Neurodegeneration</span>
+            <span class="tag">Interpretability</span>
+            <span class="tag">Biomedical Imaging</span>
+          </div>
+          <div class="project-image">
+            <img src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/PhagoStat.jpg?raw=true"
+              alt="PhagoStat project overview">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h2>
+            <a href="./projects/malmo.html" target="_blank">
+              MALMO: Mathematical Approaches to Modelling Metabolic Plasticity and Heterogeneity in Melanoma
+            </a>
+          </h2>
+          <p class="project-authors">
+            Janan Arslan, Ayse Gungor, Mehdi Ounissi, Pawan Kumar, Haocheng Luo,
+            Matthieu Lacroix, Pierrick Dupré, Arran Hodgkinson, Christine Pignodel,
+            Laurent Le Cam, Ovidiu Radulescu and Daniel Racoceanu
+          </p>
+          <p>
+            A collaborative project combining mathematical modelling, artificial intelligence and biomedical data
+            analysis to better understand metabolic plasticity and heterogeneity in melanoma.
+          </p>
+          <div class="project-keywords">
+            <span class="tag">Melanoma</span>
+            <span class="tag">Mathematical Modelling</span>
+            <span class="tag">Metabolism</span>
+            <span class="tag">AI for Cancer</span>
+          </div>
+          <div class="project-image">
+            <img src="img/wsi3d_logo.png" alt="MALMO project logo">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h2>
+            <a href="./projects/stratifiad_miccai.html" target="_blank">
+              Visual Deep Learning-Based Explanation for Neuritic Plaques Segmentation in Alzheimer’s Disease
+            </a>
+          </h2>
+          <p class="project-authors">
+            Gabriel Jimenez, Anuradha Kar, Mehdi Ounissi, Léa Ingrassia,
+            Susana Boluda, Benoît Delatour, Lev Stimmer and Daniel Racoceanu
+          </p>
+          <p>
+            A weakly supervised deep learning approach for whole-slide histopathological images,
+            focusing on explainable segmentation of neuritic plaques in Alzheimer’s disease.
+          </p>
+          <div class="project-keywords">
+            <span class="tag">Alzheimer’s Disease</span>
+            <span class="tag">Digital Pathology</span>
+            <span class="tag">Weak Supervision</span>
+            <span class="tag">Explainable AI</span>
+          </div>
+          <div class="project-image">
+            <img
+              src="https://github.com/stratifIAD/unet-pytorch/blob/098f742f58799e4ff277d0f4f1c6ecb32e257ed1/imgs/att_unet.png?raw=true"
+              alt="Attention U-Net architecture for neuritic plaque segmentation">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h2>
+            <a href="./projects/stratifiad.html" target="_blank">
+              STRATIFIAD: Refining Alzheimer’s Disease Patient Stratification
+            </a>
+          </h2>
+          <p class="project-authors">
+            Gabriel Jimenez, Anuradha Kar, Mehdi Ounissi, Léa Ingrassia,
+            Susana Boluda, Benoît Delatour, Lev Stimmer and Daniel Racoceanu
+          </p>
+          <p>
+            A computational histopathology project using explainable artificial intelligence
+            to improve the stratification of Alzheimer’s disease patients from tissue-level features.
+          </p>
+          <div class="project-keywords">
+            <span class="tag">Computational Histopathology</span>
+            <span class="tag">Patient Stratification</span>
+            <span class="tag">Alzheimer’s Disease</span>
+            <span class="tag">Precision Medicine</span>
+          </div>
+          <div class="project-image">
+            <img src="img/Stratifiad_project_fig.png" alt="STRATIFIAD project illustration">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <br><br>
+
+    <div id="pre_footer">
+      <div id="pre_footer_support">
+        <table class="footer-table">
+          <tr>
+            <td>
+              <a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University">
+                <img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University">
+              </a>
+            </td>
+            <td>
+              <a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute">
+                <img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.inria.fr/en" title="Inria">
+                <img src="img/logos/inria.svg" alt="Inria">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.cnrs.fr/en" title="CNRS">
+                <img src="img/logos/logoCNRS.svg" alt="CNRS">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.inserm.fr/en" title="Inserm">
+                <img src="img/logos/Inserm.svg" alt="Inserm">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.aphp.fr/" title="AP-HP">
+                <img src="img/logos/Assistance_publique.svg" alt="AP-HP">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <br><br>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="widget">
+              <h5 class="widgetheading">Contact</h5>
+              <address>
+                <strong>Daniel RACOCEANU</strong><br>
+                Professor, Sorbonne University<br>
+                Principal Investigator, Paris Brain Institute<br>
+                Center for AI and Data Science<br>
+                187 Rue du Chevaleret<br>
+                75013 Paris, France
+              </address>
+              <p>
+                <i class="icon-envelope-alt"></i>
+                daniel.racoceanu@sorbonne-universite.fr
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <ul class="social-network">
+              <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i
+                    class="fab fa-researchgate"></i></a></li>
+              <li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i
+                    class="fas fa-graduation-cap"></i></a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i
+                    class="fas fa-book-medical"></i></a></li>
+              <li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+              <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i
+                    class="fas fa-id-badge"></i></a></li>
+            </ul>
+          </div>
+
         </div>
       </div>
 
-      <div class="col-lg-8">
-        <ul class="social-network">
-          <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
-          <li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
-          <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-          <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-          <li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
-          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
-        </ul>
+      <div id="sub-footer">
+        <div class="container">
+          <p>&copy; Daniel Racoceanu. All rights reserved.</p>
+        </div>
       </div>
+    </footer>
 
-    </div>
   </div>
 
-  <div id="sub-footer">
-    <div class="container">
-      <p>&copy; Daniel Racoceanu. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+  <a href="#" class="scrollup">
+    <i class="fa fa-angle-up active"></i>
+  </a>
 
-</div>
-
-<a href="#" class="scrollup">
-  <i class="fa fa-angle-up active"></i>
-</a>
-
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/fontawesome/all.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/fontawesome/all.js"></script>
 
 </body>
+
 </html>
