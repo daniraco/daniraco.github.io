@@ -2,196 +2,433 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Daniel Racoceanu | Prof. website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Courses taught by Daniel Racoceanu in biomedical image analysis, artificial intelligence and machine learning, computer graphics." />
-<meta name="author" content="http://webthemez.com" />
+<title>Daniel Racoceanu | Courses</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="css/bootstrap.min.css" rel="stylesheet" />
+<meta name="description" content="Courses taught by Daniel Racoceanu in artificial intelligence, biomedical image analysis, medical imaging, computer graphics, machine learning and intelligent systems.">
+<meta name="author" content="Daniel Racoceanu">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
+<link href="css/jcarousel.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<style>
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 980px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.intro-text {
+  max-width: 1050px;
+  margin: 40px auto 45px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.metrics-row,
+.themes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 25px 0 50px;
+}
+
+.metric-card,
+.theme-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px 28px;
+  min-width: 210px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.metric-card h2 {
+  color: #1e3a8a;
+  font-size: 32px;
+  margin: 0;
+}
+
+.metric-card p {
+  margin-top: 5px;
+  color: #555;
+}
+
+.theme-card {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  margin: 60px 0 35px;
+  font-weight: 700;
+  color: #1e3a8a;
+  font-size: 34px;
+}
+
+.course-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.course-card h2 {
+  color: #1e3a8a;
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.course-card h3 {
+  color: #111827;
+  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.course-period {
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.course-card p {
+  text-align: justify;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2ff;
+  color: #1e3a8a;
+  padding: 6px 11px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 4px 4px 0 0;
+}
+
+#pre_footer img {
+  height: 60px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+#pre_footer_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-table {
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 10px 16px;
+}
+
+.social-network li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .course-card {
+    padding: 22px;
+  }
+
+  .footer-table,
+  .footer-table tr,
+  .footer-table td {
+    display: block;
+    width: 100%;
+  }
+}
+</style>
 </head>
 
 <body>
 <div id="wrapper">
 
-    <header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="short bio.html">Short Bio</a></li>
-                        <li><a href="cv.html">Curriculum Vitae</a></li>
-                        <li class="active"><a href="courses.html">Courses</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="phd_supervised.html">PhD Supervised</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="industry.html">Industry</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="inner-headline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="pageTitle">Courses</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="content">
-        <div class="container">
-            <div class="about">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="main">
-                            <div class="course">
-
-                                <p class="course-period">Since 2019 – <strong>Full Professor</strong> – Sorbonne University, Paris, France</p>
-                                <ul class="course-description">
-                                    <li>Faculty of Science and Engineering, Department of Engineering: Computer Graphics, Medical Image Analysis, Pattern Recognition and Machine Learning, Object-Oriented Programming.</li>
-                                </ul>
-
-                                <p class="course-period">2016 – 2018 – <strong>Full Professor</strong> – Pontifical Catholic University of Peru</p>
-                                <ul class="course-description">
-                                    <li>Faculty of Sciences and Engineering, Department of Engineering: Medical Image Analysis, Pattern Recognition and Machine Learning, Digital Signal Processing.</li>
-                                </ul>
-
-                                <p class="course-period">2011 – 2016 – <strong>Full Professor</strong> – Université Pierre et Marie Curie (Paris 6), Paris, France</p>
-                                <ul class="course-description">
-                                    <li>Faculty of Science and Engineering, Department of Engineering: Medical Imaging, from Physics to Semantic Indexing.</li>
-                                </ul>
-
-                                <p class="course-period">2013 – 2015 – <strong>Full Professor</strong> – National University of Singapore</p>
-                                <ul class="course-description">
-                                    <li>School of Computing, Department of Computer Science.</li>
-                                </ul>
-
-                                <p class="course-period">2009 – 2013 – <strong>Associate Professor</strong> – National University of Singapore</p>
-                                <ul class="course-description">
-                                    <li>School of Computing, Department of Computer Science.</li>
-                                </ul>
-
-                                <p class="course-period">1999 – 2011 – <strong>Associate Professor</strong> – University of Franche-Comté, Besançon, France</p>
-                                <ul class="course-description">
-                                    <li>Faculty of Sciences and Technologies: Artificial Intelligence, Computer Vision, Diagnosis and Prognosis, Control Systems, Fault Detection, Real-Time Systems, Nonlinear Systems, Discrete Event Systems.</li>
-                                </ul>
-
-                                <p class="course-period">1993 – 1996 – <strong>Lecturer</strong> – University Institute of Technology of Belfort, University of Besançon, France</p>
-                                <ul class="course-description">
-                                    <li>Production System Management Department: Logistics Management, Supply Chain Management (including labs on operational and industrial standards, and flexible production system configuration).</li>
-                                    <li>Systems and Network Department: Flexible Production Systems (labs on RFID, Programmable Logic Controllers programming, local networks, and production flow management).</li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        #pre_footer img {
-            height: 60px;
-        }
-        #pre_footer_support {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .footer-table {
-            width: 80%;
-            border: 0;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .footer-link {
-            width: 1%;
-        }
-    </style>
-
-    <br><br>
-
-    <div id="pre_footer">
-        <div id="pre_footer_support">
-            <table class="footer-table">
-                <tr>
-                    <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-                    <td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute - ICM"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-                    <td class="footer-link"><a href="https://www.inria.fr/en" title="French National Institute for Research in Digital Science and Technology - Inria"><img src="img/logos/inria.svg" alt="Inria" id="Inria"></a></td>
-                    <td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research - CNRS"><img src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-                    <td class="footer-link"><a href="https://www.inserm.fr/en" title="French National Institute for Health and Medical Research - INSERM"><img src="img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-                    <td class="footer-link"><a href="https://www.aphp.fr/" title="Greater Paris University Hospitals - AP-HP"><img src="img/logos/Assistance_publique.svg" alt="AP-HP" id="AP-HP"></a></td>
-                </tr>
-            </table>
-        </div>
+<header>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="short_bio.html">Short Bio</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li class="active"><a href="courses.html">Courses</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
+  </div>
+</header>
 
-    <br><br>
+<section class="hero">
+  <h1>Courses</h1>
+  <p>
+    Teaching artificial intelligence, biomedical image analysis, medical imaging,
+    computer graphics, machine learning and intelligent systems across engineering
+    and computational medicine programs.
+  </p>
+</section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="widget">
-                        <h5 class="widgetheading">Contact</h5>
-                        <address>
-                            <strong>Daniel RACOCEANU</strong><br>
-                            Professor, Sorbonne University<br>
-                            Principal Investigator, Paris Brain Institute<br>
-                            Center for AI and Data Science<br>
-                            187 Rue du Chevaleret<br>
-                            75013 Paris, France
-                        </address>
-                        <p>
-                            <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section id="content">
+<div class="container">
 
-        <div id="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="copyright">
-                            <p>
-                                <span>&copy; All rights reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
-                            </p>
-                        </div>
-                    </div>
+<p class="intro-text">
+My teaching activities bridge engineering, computer science, artificial intelligence
+and biomedical applications. They span both methodological foundations and applied
+courses, with a strong emphasis on medical imaging, computational pathology,
+machine learning, computer vision and modern AI for health.
+</p>
 
-                    <div class="col-lg-6">
-                        <ul class="social-network">
-                            <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
-                            <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="https://github.com/daniraco" data-placement="top" title="GitHub"><i class="fab fa-github"></i></a></li>
-                            <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-                            <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
-                            <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" data-placement="top" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<div class="metrics-row">
+  <div class="metric-card"><h2>30+</h2><p>Years of Teaching</p></div>
+  <div class="metric-card"><h2>AI</h2><p>Core Teaching Area</p></div>
+  <div class="metric-card"><h2>Medicine</h2><p>Biomedical Applications</p></div>
+  <div class="metric-card"><h2>International</h2><p>France · Singapore · Peru</p></div>
+</div>
+
+<h2 class="section-title">Teaching Themes</h2>
+
+<div class="themes-grid">
+  <div class="theme-card">Artificial Intelligence</div>
+  <div class="theme-card">Medical Image Analysis</div>
+  <div class="theme-card">Machine Learning</div>
+  <div class="theme-card">Pattern Recognition</div>
+  <div class="theme-card">Computer Vision</div>
+  <div class="theme-card">Computer Graphics</div>
+  <div class="theme-card">Biomedical Imaging</div>
+  <div class="theme-card">Intelligent Systems</div>
+</div>
+
+<h2 class="section-title">Current Teaching</h2>
+
+<div class="course-card">
+  <h2>Sorbonne University</h2>
+  <p class="course-period">Since 2019 — Full Professor — Paris, France</p>
+  <p>
+    Faculty of Science and Engineering, Department of Engineering.
+    Courses include computer graphics, medical image analysis, pattern recognition,
+    machine learning and object-oriented programming.
+  </p>
+  <div>
+    <span class="tag">Medical Image Analysis</span>
+    <span class="tag">Machine Learning</span>
+    <span class="tag">Computer Graphics</span>
+    <span class="tag">Object-Oriented Programming</span>
+  </div>
+</div>
+
+<h2 class="section-title">Previous Teaching Positions</h2>
+
+<div class="course-card">
+  <h2>Pontifical Catholic University of Peru</h2>
+  <p class="course-period">2016–2018 — Full Professor — Lima, Peru</p>
+  <p>
+    Faculty of Sciences and Engineering, Department of Engineering.
+    Teaching activities focused on medical image analysis, pattern recognition,
+    machine learning and digital signal processing.
+  </p>
+  <div>
+    <span class="tag">Medical Image Analysis</span>
+    <span class="tag">Pattern Recognition</span>
+    <span class="tag">Machine Learning</span>
+    <span class="tag">Digital Signal Processing</span>
+  </div>
+</div>
+
+<div class="course-card">
+  <h2>Université Pierre et Marie Curie / Sorbonne University</h2>
+  <p class="course-period">2011–2016 — Full Professor — Paris, France</p>
+  <p>
+    Faculty of Science and Engineering, Department of Engineering.
+    Teaching centered on medical imaging, from physical acquisition principles
+    to semantic indexing and intelligent interpretation of biomedical images.
+  </p>
+  <div>
+    <span class="tag">Medical Imaging</span>
+    <span class="tag">Biomedical Image Analysis</span>
+    <span class="tag">Semantic Indexing</span>
+    <span class="tag">Image Understanding</span>
+  </div>
+</div>
+
+<div class="course-card">
+  <h2>National University of Singapore</h2>
+  <p class="course-period">2013–2015 — Adjunct Full Professor — Singapore</p>
+  <p>
+    School of Computing, Department of Computer Science.
+    Teaching and academic activities at the interface between computer science,
+    biomedical image analysis and intelligent information systems.
+  </p>
+  <div>
+    <span class="tag">Computer Science</span>
+    <span class="tag">Biomedical Imaging</span>
+    <span class="tag">AI for Health</span>
+  </div>
+</div>
+
+<div class="course-card">
+  <h2>National University of Singapore</h2>
+  <p class="course-period">2009–2013 — Adjunct Associate Professor — Singapore</p>
+  <p>
+    School of Computing, Department of Computer Science.
+    Teaching and supervision activities linked to medical image analysis,
+    image understanding, knowledge representation and biomedical AI.
+  </p>
+  <div>
+    <span class="tag">Medical Image Analysis</span>
+    <span class="tag">Knowledge Representation</span>
+    <span class="tag">Image Understanding</span>
+  </div>
+</div>
+
+<div class="course-card">
+  <h2>University of Franche-Comté</h2>
+  <p class="course-period">1999–2011 — Associate Professor — Besançon, France</p>
+  <p>
+    Faculty of Sciences and Technologies. Teaching covered artificial intelligence,
+    computer vision, diagnosis and prognosis, control systems, fault detection,
+    real-time systems, nonlinear systems and discrete event systems.
+  </p>
+  <div>
+    <span class="tag">Artificial Intelligence</span>
+    <span class="tag">Computer Vision</span>
+    <span class="tag">Diagnosis & Prognosis</span>
+    <span class="tag">Control Systems</span>
+    <span class="tag">Discrete Event Systems</span>
+  </div>
+</div>
+
+<div class="course-card">
+  <h2>University Institute of Technology of Belfort</h2>
+  <p class="course-period">1993–1996 — Lecturer — University of Besançon, France</p>
+  <p>
+    Teaching activities in production system management, logistics management,
+    supply chain management and flexible production systems. Laboratory sessions
+    included RFID, programmable logic controllers, local networks and production
+    flow management.
+  </p>
+  <div>
+    <span class="tag">Logistics</span>
+    <span class="tag">Supply Chain Management</span>
+    <span class="tag">Flexible Production Systems</span>
+    <span class="tag">Programmable Logic Controllers</span>
+  </div>
+</div>
+
+</div>
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University"></a></td>
+        <td class="footer-link"><a href="https://institutducerveau-icm.org/en/"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute"></a></td>
+        <td class="footer-link"><a href="https://www.inria.fr/en"><img src="img/logos/inria.svg" alt="Inria"></a></td>
+        <td class="footer-link"><a href="https://www.cnrs.fr/en"><img src="img/logos/logoCNRS.svg" alt="CNRS"></a></td>
+        <td class="footer-link"><a href="https://www.inserm.fr/en"><img src="img/logos/Inserm.svg" alt="Inserm"></a></td>
+        <td class="footer-link"><a href="https://www.aphp.fr/"><img src="img/logos/Assistance_publique.svg" alt="AP-HP"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br><br>
+
+<footer>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4">
+<div class="widget">
+<h5 class="widgetheading">Contact</h5>
+<address>
+<strong>Daniel RACOCEANU</strong><br>
+Professor, Sorbonne University<br>
+Principal Investigator, Paris Brain Institute<br>
+Center for Artificial Intelligence and Data Science<br>
+187 Rue du Chevaleret<br>
+75013 Paris, France
+</address>
+<p>daniel.racoceanu@sorbonne-universite.fr</p>
+</div>
+</div>
+
+<div class="col-lg-8">
+<ul class="social-network">
+<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+<li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+<li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="sub-footer">
+<div class="container">
+<p>&copy; Daniel Racoceanu. All rights reserved.</p>
+</div>
+</div>
+</footer>
 
 </div>
 
@@ -208,5 +445,6 @@
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/fontawesome/all.js"></script>
+
 </body>
 </html>
