@@ -1,436 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<title>Daniel Racoceanu | Prof. website</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="" />
-	<meta name="author" content="http://webthemez.com" />
-	<!-- css -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-	<link href="css/jcarousel.css" rel="stylesheet" />
-	<link href="css/flexslider.css" rel="stylesheet" />
-	<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" />
+<meta charset="utf-8">
+<title>Daniel Racoceanu | AI for Computational & Integrative Pathology</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<meta name="description" content="Daniel Racoceanu, Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute, working on AI for computational pathology, biomedical imaging, spatial omics and trustworthy multimodal medicine.">
+<meta name="author" content="Daniel Racoceanu">
 
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<style>
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  padding: 80px 20px;
+}
+
+.hero-container {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1 1 620px;
+}
+
+.hero-text h1 {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #dbeafe;
+  margin-bottom: 22px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 780px;
+}
+
+.hero-photo {
+  flex: 0 0 260px;
+  text-align: center;
+}
+
+.hero-photo img {
+  width: 230px;
+  max-width: 100%;
+  border-radius: 28px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.28);
+}
+
+.hero-buttons {
+  margin-top: 25px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 6px 8px 6px 0;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1e3a8a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-buttons a.secondary {
+  background: #eef2ff;
+}
+
+.section-title {
+  text-align: center;
+  margin: 60px 0 35px;
+  font-weight: 700;
+  color: #1e3a8a;
+  font-size: 34px;
+}
+
+.intro-text {
+  max-width: 1050px;
+  margin: 40px auto 45px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.themes-grid,
+.metrics-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 25px 0 50px;
+}
+
+.theme-card,
+.metric-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px 28px;
+  min-width: 220px;
+  max-width: 310px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.theme-card h3 {
+  color: #1e3a8a;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.metric-card h2 {
+  color: #1e3a8a;
+  font-size: 32px;
+  margin: 0;
+}
+
+.metric-card p {
+  margin-top: 5px;
+  color: #555;
+}
+
+.vision-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.vision-card h2 {
+  color: #1e3a8a;
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.vision-card p {
+  text-align: justify;
+}
+
+.visual-row {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.visual-row img {
+  max-width: 420px;
+  width: 55%;
+  height: auto;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2ff;
+  color: #1e3a8a;
+  padding: 6px 11px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 4px 4px 0 0;
+}
+
+#pre_footer img {
+  height: 60px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+#pre_footer_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-table {
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 10px 16px;
+}
+
+.social-network li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 34px;
+  }
+
+  .hero-text h2 {
+    font-size: 20px;
+  }
+
+  .visual-row img {
+    width: 90%;
+  }
+
+  .footer-table,
+  .footer-table tr,
+  .footer-table td {
+    display: block;
+    width: 100%;
+  }
+}
+</style>
 </head>
 
 <body>
-	<div id="wrapper">
-		<!-- start header -->
-		<header>
-			<div class="navbar navbar-default navbar-static-top">
-				<div class="container">
-					<!-- <div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo" width="50"/></a>
-				</div> -->
-					<div class="navbar-collapse collapse ">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="short bio.html">Short Bio</a></li>
-							<li><a href="cv.html">Curriculum Vitae</a></li>
-							<li><a href="courses.html">Courses</a></li>
-							<li><a href="research.html">Research</a></li>
-							<li><a href="phd_supervised.html">PhD Supervised</a></li>
-							<li><a href="publications.html">Publications</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="industry.html">Industry</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</header>
+<div id="wrapper">
 
-		<!-- end header -->
-		<section id="featured">
+<header>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="short_bio.html">Short Bio</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
 
-			<style>
-				#main-slider .slides li {
-					display: none;
-				}
+<section class="hero">
+  <div class="hero-container">
 
-				#main-slider .slides .flex-active-slide {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					flex-direction: column;
-				}
+    <div class="hero-text">
+      <h1>Daniel Racoceanu</h1>
+      <h2>
+        AI for Computational & Integrative Pathology<br>
+        Biomedical Imaging · Spatial Omics · Trustworthy AI
+      </h2>
 
-				.slide-content {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					flex-direction: row;
-				}
+      <p>
+        Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute,
+        developing artificial intelligence methods that bridge histopathology, spatial omics,
+        biomedical imaging and clinical interpretation for next-generation precision medicine.
+      </p>
 
-				.slider-img {
-					width: 720px;
-					max-width: 720px;
-					height: auto;
-					/* height: 400px; */
-					object-fit: cover;
-				}
-			</style>
+      <div class="hero-buttons">
+        <a href="research.html">Research</a>
+        <a href="publications.html" class="secondary">Publications</a>
+        <a href="phd_supervised.html" class="secondary">PhD Supervision</a>
+        <a href="contact.html" class="secondary">Contact</a>
+      </div>
+    </div>
 
-			<!-- Slider -->
-			<div id="main-slider" class="flexslider">
-				<ul class="slides">
-					<li>
-						<div class="slide-content">
-							<img class="slider-img" src="videos/cells.gif" alt="" />
-							<!-- <img class="slider-img" src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_semantic.gif?raw=true">
-					<img class="slider-img" src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_tracking.gif?raw=true"> -->
-						</div>
-					</li>
-					<li>
-						<div class="slide-content">
-							<img class="slider-img" src="videos/reg.gif">
-						</div>
-					</li>
-					<li>
-						<div class="slide-content">
-							<img class="slider-img" src="videos/malmo_base.gif" alt="" />
-						</div>
-					</li>
-				</ul>
-			</div>
+    <div class="hero-photo">
+      <img src="img/DR.jpeg" alt="Portrait of Daniel Racoceanu">
+    </div>
 
+  </div>
+</section>
 
-			<!-- end slider -->
+<section id="content">
+<div class="container">
 
-		</section>
+<p class="intro-text">
+My research focuses on the development of trustworthy and clinically meaningful AI systems
+for biomedical imaging, computational pathology and multimodal medicine. The central goal is
+to connect tissue morphology with molecular, spatial and clinical information in order to
+better understand disease mechanisms and support precision medicine.
+</p>
 
+<div class="metrics-row">
+  <div class="metric-card"><h2>AI → Medicine</h2><p>Interdisciplinary Research</p></div>
+  <div class="metric-card"><h2>21</h2><p>PhD Students Supervised</p></div>
+  <div class="metric-card"><h2>MICCAI</h2><p>Board Member & General Chair</p></div>
+  <div class="metric-card"><h2>20+</h2><p>Years of AI Research</p></div>
+</div>
 
-		<section class="callaction">
-			<div class="container">
-				<div class="row" style="display:flex; align-items:center;">
-					<div class="col-md-4 text-center">
-						<img src="img/DR.jpeg" alt="Portrait of Daniel Racoceanu" style="width:60%; max-width:260px;" />
-					</div>
-					<div class="col-md-8">
-						<div>
-							<h1 style="margin-bottom:10px;">Daniel Racoceanu</h1>
-							<h3 style="margin-top:0;">
-								Professor at Sorbonne University<br>
-								Principal Investigator at the Paris Brain Institute
-							</h3>
-							<p style="font-size:1.2em; margin-top:15px;">
-								<strong>high-content biomedical image analysis, integrative computational pathology, omics imaging / spatial transcriptomics, responsible AI</strong>
-							</p>
-							<p style="text-align:justify;">
-								I lead research at the intersection of biomedical image analysis, computational
-								pathology, machine learning, and explainable artificial intelligence. Our work aims to
-								connect tissue morphology with molecular and clinical information in order to better understand
-								disease mechanisms and support the next generation of precision medicine.
-							</p>
-							<p style="margin-top:20px;">
-								<a href="research.html" class="btn btn-primary">Research</a>
-								<a href="publications.html" class="btn btn-default">Publications</a>
-								<a href="contact.html" class="btn btn-default">Contact</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+<h2 class="section-title">Research Vision</h2>
 
-		<section id="content">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-0">
-						<!-- Heading and para -->
+<div class="vision-card">
+  <h2>From Microscopy to Molecular Insight</h2>
 
-						<div class="block-heading-one">
-							<h3><span>Research Vision</span></h3>
-						</div>
+  <p>
+    Histopathology is being transformed by digital pathology, whole-slide imaging,
+    spatial omics and modern artificial intelligence. My research develops computational
+    methods that make tissue data more measurable, interpretable and clinically actionable.
+  </p>
 
-						<p style="text-align: justify;">
-							Histopathology is being transformed by digital pathology, whole-slide imaging, multi-omics,
-							and modern artificial intelligence. Our research develops computational methods that make
-							tissue data more measurable, interpretable, and clinically actionable.
-						</p>
+  <p>
+    We study how to analyze and model complex biomedical images across scales, from
+    microscopy to tissue architecture, and how to bridge morphology with molecular
+    information such as spatial transcriptomics and spatial proteomics. A central goal is
+    to build robust, explainable and human-centered AI systems that can assist clinicians
+    and biomedical researchers while remaining scientifically grounded and ethically responsible.
+  </p>
 
-						<p style="text-align: justify;">
-							We study how to analyze and model complex biomedical images across scales, from microscopy
-							to tissue architecture, and how to bridge morphology with molecular information such as
-							spatial transcriptomics and spatial proteomics. A central goal is to build robust,
-							explainable, and human-centered AI systems that can assist clinicians and biomedical
-							researchers while remaining scientifically grounded and ethically responsible.
-						</p>
+  <div>
+    <span class="tag">Computational Pathology</span>
+    <span class="tag">Spatial Transcriptomics</span>
+    <span class="tag">Virtual Staining</span>
+    <span class="tag">Multimodal Learning</span>
+    <span class="tag">Explainable AI</span>
+  </div>
+</div>
 
+<h2 class="section-title">Core Research Areas</h2>
 
-						<div class="block-heading-one">
-							<h3><span>Core Research Areas</span></h3>
-						</div>
+<div class="themes-grid">
 
-						<div class="row text-center" style="margin-top: 20px;">
-							<div class="col-md-3 col-sm-6">
-								<h4>Computational Pathology</h4>
-								<p>AI methods for detection, segmentation, quantification, and interpretation in
-									whole-slide images.</p>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<h4>Omics Imaging</h4>
-								<p>Integration of histology with spatial transcriptomics, spatial proteomics, and
-									multimodal tissue data.</p>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<h4>Virtual Staining</h4>
-								<p>Computational generation of molecular and immunohistochemical contrasts from standard
-									H&amp;E images.</p>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<h4>Trustworthy AI</h4>
-								<p>Human-centered models with interpretability, uncertainty estimation, and responsible
-									decision support.</p>
-							</div>
-						</div>
+  <div class="theme-card">
+    <h3>Computational Pathology</h3>
+    <p>AI methods for detection, segmentation, quantification and interpretation in whole-slide images.</p>
+  </div>
 
+  <div class="theme-card">
+    <h3>Omics Imaging</h3>
+    <p>Integration of histology with spatial transcriptomics, spatial proteomics and multimodal tissue data.</p>
+  </div>
 
-						<img src="img/logos/logo_wsi_robot.svg" alt=""
-							style="display: block; margin: auto; width: 30%;" />
+  <div class="theme-card">
+    <h3>Virtual Staining</h3>
+    <p>Computational generation of molecular and immunohistochemical contrasts from standard H&amp;E images.</p>
+  </div>
 
-						<!-- Accordion ends -->
+  <div class="theme-card">
+    <h3>Trustworthy AI</h3>
+    <p>Human-centered models with interpretability, uncertainty estimation and responsible decision support.</p>
+  </div>
 
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-5">
-					</div>
-					<div class="row">
-					</div>
-				</div>
+</div>
 
-		</section>
-		<div class="testimonial-area">
-			<div class="testimonial-solid">
-				<div class="container">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="">
-								<a href="#"></a>
-							</li>
-							<li data-target="#carousel-example-generic" data-slide-to="1" class="">
-								<a href="#"></a>
-							</li>
-							<li data-target="#carousel-example-generic" data-slide-to="2" class="active">
-								<a href="#"></a>
-							</li>
-							<li data-target="#carousel-example-generic" data-slide-to="3" class="">
-								<a href="#"></a>
-							</li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="item">
-								<p>Be careful of your thoughts, for your thoughts become your words.</p>
-								<p>Be careful of your words, for your words become your actions.</p>
-								<p>Be careful of your actions, for your actions become your habits.</p>
-								<p>Be careful of your habits, for your habits become your character.</p>
-								<p>Be careful of your character, for your character becomes your destiny.</p>
-								<p><b>- Chinese proverb -</b></p>
-							</div>
-							<div class="item">
-								<p>If you are planning for a year, sow rice; if you are planning for a decade, plant
-									trees; if you are planning for a lifetime, educate people.</p>
-								<p><b>- Chinese proverb -</b></p>
-							</div>
-							<div class="item active">
-								<p>A load of books does not equal one good teacher.</p>
-								<p><b>- Chinese proverb -</b></p>
-							</div>
-							<div class="item">
-								<p>If you give me rice, I will eat today. If you teach me how to grow rice, I will eat
-									everyday.</p>
-								<p><b>- Mahatma Gandhi -</b></p>
-							</div>
-							<div class="item">
-								<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-								<p><b>- Confucius -</b></p>
-							</div>
-							<div class="item">
-								<p>Learning without thinking is labor lost; thinking without learning is perilous.</p>
-								<p><b>- Confucius -</b></p>
-							</div>
-							<div class="item">
-								<p>The more I learn, the more I realize how much I don’t know.</p>
-								<p><b>- Socrates -</b></p>
-							</div>
-							<div class="item">
-								<p>We cannot solve our problems with the same thinking we used when we created them.</p>
-								<p><b>- Albert Einstein -</b></p>
-							</div>
-							<div class="item">
-								<p>Science is not only a disciple of reason but also one of romance and passion.</p>
-								<p><b>- Stephen Hawking -</b></p>
-							</div>
-							<div class="item">
-								<p>An investment in knowledge pays the best interest.</p>
-								<p><b>- Benjamin Franklin -</b></p>
-							</div>
-							<div class="item">
-								<p>It does not matter how slowly you go as long as you do not stop.</p>
-								<p><b>- Confucius -</b></p>
-							</div>
-							<div class="item">
-								<p>He who learns but does not think is lost; he who thinks but does not learn is in
-									great danger.</p>
-								<p><b>- Chinese proverb -</b></p>
-							</div>
-							<div class="item">
-								<p>Knowledge is power.</p>
-								<p><b>- Francis Bacon -</b></p>
-							</div>
-							<div class="item">
-								<p>The best way to predict the future is to invent it.</p>
-								<p><b>- Alan Kay -</b></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<style>
-			#pre_footer img {
-				/* width: 100px; */
-				height: 60px;
-			}
+<div class="visual-row">
+  <img src="img/logos/logo_wsi_robot.svg" alt="Whole-slide imaging and computational pathology logo">
+</div>
 
-			#pre_footer_support {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
+</div>
+</section>
 
-			.footer-table {
-				width: 80%;
-				border: 0;
-				margin: 0 auto;
-				text-align: center;
-			}
+<br><br>
 
-			.footer-link {
-				width: 1%;
-			}
-		</style>
-		</br></br>
-		<div id="pre_footer">
-			<div id="pre_footer_support">
-				<table class="footer-table">
-					<tr>
-						<td class="footer-link"><a href="https://www.sorbonne-universite.fr/en"
-								title="Sorbonne University"><img src="img/logos/Logo_of_Sorbonne_University.svg"
-									alt="Sorbonne University" id="Sorbonne"></a></td>
-						<!-- <td class="footer-space"></td> -->
-						<td class="footer-link"><a href="https://institutducerveau-icm.org/en/"
-								title="Paris Brain Institute - ICM"><img
-									src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="ICM" id="ICM"></a>
-						</td>
-						<!-- <td class="footer-space"></td> -->
-						<td class="footer-link"><a href="https://www.inria.fr/en"
-								title="French National Institute for Research in Digital Science and Technology - Inria"><img
-									src="img/logos/inria.svg" alt="Inria" id="Inria"></a></td>
-						<!-- <td class="footer-space"></td> -->
-						<td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs"
-								title="French National Centre for Scientific Research - CNRS"><img
-									src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-						<!-- <td class="footer-space"></td> -->
-						<td class="footer-link"><a href="https://www.inserm.fr/en"
-								title="French National Institute for Health and Medical Research - INSERM"><img
-									src="img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-						<!-- <td class="footer-space"></td> -->
-						<td class="footer-link"><a href="https://www.aphp.fr/"
-								title="Greater Paris University Hospitals - AP-HP"><img
-									src="img/logos/Assistance_publique.svg" alt="AP-HP" id="AP-HP"></a></td>
-					</tr>
-				</table>
-			</div>
-		</div>
-		</br></br>
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="widget">
-							<h5 class="widgetheading">Our Contact</h5>
-							<address>
-								<strong>Daniel RACOCEANU</strong><br>
-								Professor, Sorbonne University<br>
-								Principal Investigator, Paris Brain Institute<br>
-								Center for AI and Data Science<br>
-								187 Rue du Chevaleret<br>
-								75013 Paris, France
-							</address>
-							<p>
-								<i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-							</p>
-						</div>
-					</div>
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University"></a></td>
+        <td class="footer-link"><a href="https://institutducerveau-icm.org/en/"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute"></a></td>
+        <td class="footer-link"><a href="https://www.inria.fr/en"><img src="img/logos/inria.svg" alt="Inria"></a></td>
+        <td class="footer-link"><a href="https://www.cnrs.fr/en"><img src="img/logos/logoCNRS.svg" alt="CNRS"></a></td>
+        <td class="footer-link"><a href="https://www.inserm.fr/en"><img src="img/logos/Inserm.svg" alt="Inserm"></a></td>
+        <td class="footer-link"><a href="https://www.aphp.fr/"><img src="img/logos/Assistance_publique.svg" alt="AP-HP"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
 
-				</div>
-			</div>
-			<div id="sub-footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="copyright">
-								<p>
-									<span>&copy; All right reserved. By </span><a href="http://webthemez.com"
-										target="_blank">WebThemez</span></a>
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<ul class="social-network">
-								<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top"
-										title="ResearchGate"><i class="fab fa-researchgate"></i>
-								<li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i
-											class="fab fa-twitter"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/daniraco" data-placement="top"
-										title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="https://github.com/daniraco" data-placement="top" title="Github"><i
-											class="fab fa-github"></i></a></li>
-								<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl"
-										data-placement="top" title="Google Scholar"><i
-											class="fas fa-graduation-cap"></i></a></li>
-								<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu"
-										data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-								<li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top"
-										title="ORCID"><i class="fas fa-id-badge"></i></a></li>
-								<li><a href="https://www..scopus.com/authid/detail.uri?authorId=6603452376"
-										data-placement="top" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-	<!-- javascript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.fancybox.pack.js"></script>
-	<script src="js/jquery.fancybox-media.js"></script>
-	<script src="js/portfolio/jquery.quicksand.js"></script>
-	<script src="js/portfolio/setting.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/animate.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/fontawesome/all.js"></script>
+<br><br>
+
+<footer>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4">
+<div class="widget">
+<h5 class="widgetheading">Contact</h5>
+<address>
+<strong>Daniel RACOCEANU</strong><br>
+Professor, Sorbonne University<br>
+Principal Investigator, Paris Brain Institute<br>
+Center for Artificial Intelligence and Data Science<br>
+187 Rue du Chevaleret<br>
+75013 Paris, France
+</address>
+<p>daniel.racoceanu@sorbonne-universite.fr</p>
+</div>
+</div>
+
+<div class="col-lg-8">
+<ul class="social-network">
+<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+<li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+<li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="sub-footer">
+<div class="container">
+<p>&copy; Daniel Racoceanu. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/fontawesome/all.js"></script>
+
 </body>
-
 </html>

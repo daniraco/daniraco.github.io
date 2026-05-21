@@ -2,261 +2,390 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Daniel Racoceanu | Prof. website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<title>Daniel Racoceanu | Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<meta name="description" content="Contact details for Daniel Racoceanu, Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute, working on computational pathology, biomedical imaging and trustworthy AI.">
+<meta name="author" content="Daniel Racoceanu">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<style>
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 980px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.intro-text {
+  max-width: 1000px;
+  margin: 40px auto 45px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-grid,
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 45px;
+  justify-content: center;
+}
+
+.contact-card,
+.partner-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.contact-card {
+  flex: 1 1 420px;
+  max-width: 560px;
+}
+
+.partner-card {
+  flex: 1 1 280px;
+  max-width: 340px;
+  text-align: center;
+}
+
+.contact-card h2,
+.partner-card h3 {
+  color: #1e3a8a;
+  margin-top: 0;
+}
+
+.contact-card h2 {
+  font-size: 26px;
+}
+
+.partner-card h3 {
+  font-size: 20px;
+}
+
+.partner-card img {
+  height: 58px;
+  max-width: 180px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.partner-card a {
+  color: #1e3a8a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-line {
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: 700;
+  color: #111827;
+}
+
+.section-title {
+  text-align: center;
+  margin: 60px 0 35px;
+  font-weight: 700;
+  color: #1e3a8a;
+  font-size: 34px;
+}
+
+.profile-links {
+  text-align: center;
+  margin: 20px 0 50px;
+}
+
+.profile-links a {
+  display: inline-block;
+  margin: 6px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1e3a8a;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+#pre_footer img {
+  height: 60px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+#pre_footer_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-table {
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 10px 16px;
+}
+
+.social-network li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .contact-card,
+  .partner-card {
+    padding: 22px;
+  }
+
+  .footer-table,
+  .footer-table tr,
+  .footer-table td {
+    display: block;
+    width: 100%;
+  }
+}
+</style>
 </head>
+
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo" width="50"/></a>
-                </div> -->
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li> 
-						<li><a href="short bio.html">Short Bio</a></li>
-						<li><a href="cv.html">Curriculum Vitae</a></li>
-						<li><a href="courses.html">Courses</a></li>
-						<li><a href="research.html">Research</a></li>  
-                        <li><a href="phd_supervised.html">PhD Supervised</a></li>  
-						<li><a href="publications.html">Publications</a></li>  
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="industry.html">Industry</a></li>
-						<li class="active"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header><!-- end header -->
 
-    <section id="inner-headline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="pageTitle">Contact</h2>
-                </div>
-            </div>
-        </div>
-        </section>
-
-    <section id="content">
-        <div class="container">
-                        
-                        <div class="about">
-                        
-                            <div class="row"> 
-                                <div class="col-md-12">
-                                    <div class="about-logo">
-
-                                        <div id="main">
-                                            <h4>Daniel RACOCEANU</h4>
-                                            <p>Professor in BioMedical Image Computing and Artificial Intelligence</p>
-                                            <p>Sorbonne University, Faculty of Science and Engineering, Engineering Department (UFR Ing&eacute;nierie)</p>
-                                            <p>Pierre &amp; Marie Curie campus, 4 place Jussieu, 75005 Paris, France</p>
-                                            <p>E-mail SU: daniel [dot] racoceanu [at] sorbonne-universite [dot] fr</p>
-                                            <br>
-                                            <p>Principal Investigator of the Paris Brain Institute (Institut du Cerveau - ICM)</p>
-                                            <p>Center for Artificial Intelligence and Data Science • ARAMIS Lab</p>
-                                            <p>187 rue du Chevaleret, 75013 Paris, France</p>
-                                            <p>E-mail ICM: daniel [dot] racoceanu [at] icm-institute [dot] org</p>
-                                            <br>
-                                            <h4>Partners</h4>
-                                            <style>
-                                                .link-list {
-                                                    width: 100%;
-                                                }
-                                                .link-list-item {
-                                                    display: flex;
-                                                    align-items: center;
-                                                    padding: 1em;
-                                                    transition: background-color .3s ease;
-                                                }
-                                                .link-list-item:hover {
-                                                    background-color: #f5f5f5;
-                                                }
-                                                .link-list-item:nth-child(even) {
-                                                    background-color: #f0f0f0;
-                                                }
-                                                .link-list-item-logo {
-                                                    display: flex;
-                                                    justify-content: center;
-                                                    align-items: center;
-                                                    flex: 0 0 15%;
-                                                    margin-right: 1em;
-                                                }
-                                                .link-list-item a {
-                                                    display: block;
-                                                }
-                                                .link-list-item img {
-                                                    max-height: 40px;
-                                                }
-                                            </style>
-                                            <div class="link-list">
-                                                <div class="link-list-item">
-                                                    <div class="link-list-item-logo"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="img/logos/logoSU.png" alt="Sorbonne University" id="Sorbonne"></a></div>
-                                                    <div><a href="https://www.sorbonne-universite.fr/en"> Sorbonne University</a></div>
-                                                </div>
-                                                <div class="link-list-item">
-                                                    <div class="link-list-item-logo"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute"><img src="img/logos/logoICMsmall.png" alt="ICM"id="ICM"></a></div>
-                                                    <div><a href="https://icm-institute.org/en/mission-en/">Paris Brain Institute - ICM</a></div>
-                                                </div>
-
-                                                <div class="link-list-item">
-                                                    <div class="link-list-item-logo"><a href="https://www.inria.fr/en" title="French National Institute for Research in Digital Science and Technology"><img src="img/logos/inria_.svg" alt="Inria" id="Inria"></a></div>
-                                                    <div><a href="https://www.inria.fr/en">French National Institute for Research in Digital Science and Technology - Inria</a></div>
-                                                </div>
-                                                
-                                                <div class="link-list-item">
-                                                    <div class="link-list-item-logo"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research"><img src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></div>
-                                                    <div><a href="http://www.cnrs.fr/en/cnrs">French National Centre for Scientific Research - CNRS</a></div>
-                                                </div>
-                                                <div class="link-list-item">
-                                                    <div class="link-list-item-logo"><a href="https://www.inserm.fr/en" title="French National Institute of Health and Medical Research"><img src="img/logos/Inserm.svg" alt="Inserm" id="Inserm"></a></div>
-                                                    <div><a href="https://www.inserm.fr/en">French National Institute of Health and Medical Research - Inserm</a></div>
-                                                </div>
-                                                <div class="link-list-item">
-                                                    <div class="link-list-item-logo"><a href="https://www.aphp.fr/" title="Public Assistance Hospital of Paris"><img src="img/logos/Assistance_publique copie.svg" alt="APHP" id="APHP"></a></div>
-                                                    <div><a href="https://www.aphp.fr/">Public Assistance Hospital of Paris - APHP</a></div>
-                                                </div>
-
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-									<!-- <a href="#" class="btn btn-color">Read more</a>   -->
-								</div>
-							</div>
-						</div>
-									
-		</div>
-</section>
-<style> 
-	#pre_footer img {
-		/* width: 100px; */
-		height: 60px;
-	}
-	#pre_footer_support {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.footer-table {
-		width: 80%;
-		border: 0;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.footer-link {
-		width: 1%;
-	}
-
-	</style>
-	</br></br>
-	<div id="pre_footer">
-		<div id="pre_footer_support">
-			<table class="footer-table">
-				<tr>
-					<td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute - ICM"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inria.fr/en" title="French National Institute for Research in Digital Science and Technology - Inria"><img src="img/logos/inria.svg" alt="Inria" id="Inria"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research - CNRS"><img src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inserm.fr/en" title="French National Institute for Health and Medical Research - INSERM"><img src="img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.aphp.fr/" title="Greater Paris University Hospitals - AP-HP"><img src="img/logos/Assistance_publique.svg" alt="AP-HP" id="AP-HP"></a></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	</br></br>
-<footer>
+<header>
+  <div class="navbar navbar-default navbar-static-top">
     <div class="container">
-        <div class="row">
-        <div class="col-lg-3">
-            <div class="widget">
-            <h5 class="widgetheading">Our Contact</h5>
-            <address>
-                <strong>Daniel RACOCEANU</strong><br>
-                Professor, Sorbonne University<br>
-                Principal Investigator, Paris Brain Institute<br>
-                Center for AI and Data Science<br>
-                187 Rue du Chevaleret<br>
-                75013 Paris, France
-            </address>
-            <p>
-                <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-            </p>
-            </div>
-        </div>
-        
-        </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="short_bio.html">Short Bio</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="sub-footer">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-            <div class="copyright">
-                <p>
-                <span>&copy; All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</span></a>
-                </p>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <ul class="social-network">
-                <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i>
-                <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/daniraco" data-placement="top" title="Github"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path d="M48 7.078c-1.77.789-3.634 1.355-5.502 1.607-1.75-2.066-4.414-3.292-7.498-3.292-5.532 0-10.036 4.505-10.036 10.039 0 .784.1 1.542.25 2.271-4.663-.233-8.687-2.46-11.417-5.858-.478.818-.75 1.759-.75 2.741 0 1.894 1.021 3.558 2.548 4.527-1.48-.045-2.872-.452-4.095-1.126v.11c0 2.641 1.877 4.856 4.369 5.358-.456.123-.938.183-1.424.183-.348 0-.687-.034-1.021-.097.688 2.141 2.708 3.688 5.09 3.727-1.868 1.463-4.217 2.338-6.746 2.338-1.387 0-2.756-.147-4.083-.436 2.392 1.532 5.242 2.423 8.28 2.423 9.94 0 15.394-8.15 15.394-15.394 0-.234-.004-.466-.015-.698C46.043 10.352 47.171 8.672 48 7.078z" fill="#00B0FF"/></svg></i></a></li>
-                <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="ORCID Logo" style="width: 20px; height: 20px;"></i></a></li> 
-                <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" data-placement="top" title="Scopus"><img src="https://www.um.edu.mt/__data/assets/image/0003/341985/varieties/banner.jpg" alt="Scopus Logo" style="width: 20px; height: 20px;"></i></a></li>	
-            </ul>
-            </div>
-        </div>
-        </div>
-    </div>
-    </footer>
-    </div>
-    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-    <!-- javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script> 
-    <script src="js/portfolio/jquery.quicksand.js"></script>
-    <script src="js/portfolio/setting.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/fontawesome/all.js"></script>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Contact</h1>
+  <p>
+    Academic contact and institutional affiliations for collaborations in artificial intelligence,
+    computational pathology, biomedical imaging and multimodal medicine.
+  </p>
+</section>
+
+<section id="content">
+<div class="container">
+
+<p class="intro-text">
+Daniel Racoceanu is Professor at Sorbonne University and Principal Investigator at the Paris Brain Institute,
+working at the interface of artificial intelligence, biomedical image analysis, computational pathology
+and trustworthy AI for medicine.
+</p>
+
+<div class="contact-grid">
+
+  <div class="contact-card">
+    <h2>Sorbonne University</h2>
+    <p class="contact-line"><span class="label">Position:</span> Professor in Biomedical Image Computing and Artificial Intelligence</p>
+    <p class="contact-line"><span class="label">Faculty:</span> Faculty of Science and Engineering</p>
+    <p class="contact-line"><span class="label">Department:</span> Engineering Department / UFR Ingénierie</p>
+    <p class="contact-line"><span class="label">Campus:</span> Pierre and Marie Curie campus</p>
+    <p class="contact-line"><span class="label">Address:</span> 4 place Jussieu, 75005 Paris, France</p>
+    <p class="contact-line"><span class="label">E-mail:</span> daniel [dot] racoceanu [at] sorbonne-universite [dot] fr</p>
+  </div>
+
+  <div class="contact-card">
+    <h2>Paris Brain Institute</h2>
+    <p class="contact-line"><span class="label">Position:</span> Principal Investigator</p>
+    <p class="contact-line"><span class="label">Center:</span> Center for Artificial Intelligence and Data Science</p>
+    <p class="contact-line"><span class="label">Institute:</span> Paris Brain Institute / Institut du Cerveau</p>
+    <p class="contact-line"><span class="label">Address:</span> 187 rue du Chevaleret, 75013 Paris, France</p>
+    <p class="contact-line"><span class="label">E-mail:</span> daniel [dot] racoceanu [at] icm-institute [dot] org</p>
+  </div>
+
+</div>
+
+<div class="profile-links">
+  <a href="https://github.com/daniraco" target="_blank">GitHub</a>
+  <a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" target="_blank">Google Scholar</a>
+  <a href="https://orcid.org/0000-0002-9416-1803" target="_blank">ORCID</a>
+  <a href="https://dblp.org/pid/63/4416.html" target="_blank">DBLP</a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" target="_blank">PubMed</a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" target="_blank">Scopus</a>
+</div>
+
+<h2 class="section-title">Institutional Partners</h2>
+
+<div class="partners-grid">
+
+  <div class="partner-card">
+    <img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University">
+    <h3>Sorbonne University</h3>
+    <a href="https://www.sorbonne-universite.fr/en" target="_blank">Visit website</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute">
+    <h3>Paris Brain Institute</h3>
+    <a href="https://institutducerveau-icm.org/en/" target="_blank">Visit website</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="img/logos/inria.svg" alt="Inria">
+    <h3>Inria</h3>
+    <a href="https://www.inria.fr/en" target="_blank">Visit website</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="img/logos/logoCNRS.svg" alt="CNRS">
+    <h3>CNRS</h3>
+    <a href="https://www.cnrs.fr/en" target="_blank">Visit website</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="img/logos/Inserm.svg" alt="Inserm">
+    <h3>Inserm</h3>
+    <a href="https://www.inserm.fr/en" target="_blank">Visit website</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="img/logos/Assistance_publique.svg" alt="AP-HP">
+    <h3>AP-HP</h3>
+    <a href="https://www.aphp.fr/" target="_blank">Visit website</a>
+  </div>
+
+</div>
+
+</div>
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University"></a></td>
+        <td class="footer-link"><a href="https://institutducerveau-icm.org/en/"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute"></a></td>
+        <td class="footer-link"><a href="https://www.inria.fr/en"><img src="img/logos/inria.svg" alt="Inria"></a></td>
+        <td class="footer-link"><a href="https://www.cnrs.fr/en"><img src="img/logos/logoCNRS.svg" alt="CNRS"></a></td>
+        <td class="footer-link"><a href="https://www.inserm.fr/en"><img src="img/logos/Inserm.svg" alt="Inserm"></a></td>
+        <td class="footer-link"><a href="https://www.aphp.fr/"><img src="img/logos/Assistance_publique.svg" alt="AP-HP"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br><br>
+
+<footer>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4">
+<div class="widget">
+<h5 class="widgetheading">Contact</h5>
+<address>
+<strong>Daniel RACOCEANU</strong><br>
+Professor, Sorbonne University<br>
+Principal Investigator, Paris Brain Institute<br>
+Center for Artificial Intelligence and Data Science<br>
+187 Rue du Chevaleret<br>
+75013 Paris, France
+</address>
+<p>daniel.racoceanu@sorbonne-universite.fr</p>
+</div>
+</div>
+
+<div class="col-lg-8">
+<ul class="social-network">
+<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+<li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+<li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="sub-footer">
+<div class="container">
+<p>&copy; Daniel Racoceanu. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/fontawesome/all.js"></script>
+
 </body>
 </html>
