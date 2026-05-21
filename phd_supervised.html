@@ -1,480 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Prof. Daniel Racoceanu | website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <meta charset="utf-8">
+  <title>Daniel Racoceanu | PhD Supervision</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="description" content="PhD students supervised by Daniel Racoceanu, Professor at Sorbonne University, working on computational pathology, biomedical imaging, artificial intelligence, multimodal learning and medical image analysis.">
+  <meta name="author" content="Daniel Racoceanu">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 55px 0 35px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .student-card {
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+      background: #fff;
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 26px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .student-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .student-name {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e3a8a;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .student-info h3 {
+      font-size: 21px;
+      margin-top: 0;
+      color: #111827;
+    }
+
+    .student-info p {
+      margin-bottom: 7px;
+    }
+
+    .links a {
+      margin-right: 10px;
+      font-weight: 600;
+    }
+
+    #pre_footer img {
+      height: 60px;
+      max-width: 150px;
+    }
+
+    #pre_footer_support {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-table {
+      width: 80%;
+      border: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .social-network li {
+      display: inline-block;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 768px) {
+      .student-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo" width="50"/></a>
-                </div> -->
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li> 
-						<li><a href="short bio.html">Short Bio</a></li>
-						<li><a href="cv.html">Curriculum Vitae</a></li>
-						<li><a href="courses.html">Courses</a></li>
-						<li><a href="research.html">Research</a></li>  
-                        <li class="active"><a href="phd_supervised.html">PhD Supervised</a></li>  
-						<li><a href="publications.html">Publications</a></li>  
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="industry.html">Industry</a></li>
-						<li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header><!-- end header -->
-</div>
-    <section id="inner-headline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="pageTitle">PhD Supervised</h2>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="content">
-        <div class="container">
-                        
-            <div class="about">
-                <div class="row"> 
-                    <div class="col-md-12">
-                      <h3>On-going Ph.D. Supervisions</h3>
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/swannruyter.jpeg" width="150"/>
-                                <div class="dr">Swann RUYTER</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>ComPath: Next Generation Computational Pathomics for Personalized Medicine. Explainable Deep Learning Integration of Computational Pathology and Spatial Transcriptomics</strong>
-                                <p>Ph.D. candidate, Sorbonne University</p>
-                                <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                            </div>
-                        </div>
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/estherkozlowski.jpeg" width="150"/>
-                                <div class="dr">Esther KOZLOWSKI</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>Study of the Heterogeneous Progression of Parkinson's Disease Using Artificial Intelligence and Multimodal MRI</strong>
-                                <p>Ph.D. candidate, Sorbonne University</p>
-                                <p>ED158 (ED3C) Doctoral School of Brain, Cognition, and Behavior (Cerveau, Cognition, Comportement).</p>
-                            </div>
-                        </div>
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/aysegungor.jpeg" width="150"/>
-                                <div class="dr">Ayse GUNGOR</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>Generative Methods for the Identification of Neuro-Visual Pathologies and Transfer to Artificial Vision</strong>
-                                <p>Ph.D. candidate, Sorbonne University</p>
-                                <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                            </div>
-                        </div>
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/iliassarbout.jpeg" width="150"/>
-                                <div class="dr">Ilias SARBOUT</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>The Visual Brain in the Context of Blindness: Exploring and Guiding with Machine Learning</strong>
-                                <p>Ph.D. candidate, Sorbonne University</p>
-                                <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                            </div>
-                        </div>
-                      
-                      <h3>Graduated Ph.D.s Supervised</h3>
-
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/mehdiounissi.jpg" width="150"/>
-                                <div class="dr">Mehdi OUNISSI</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>Decoding the Black Box: Enhancing Interpretability and Trust in AI for Biomedical Imaging—A Step Towards Responsible Artificial Intelligence</strong>
-                                    <p>Ph.D. of the Sorbonne University, Paris, France</p>
-                                    <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication And Electronics</p>
-                                    <p>16 Oct. 2024, Paris, France</p>
-                                    <p><a Href="pubs/PhD_supervized/PhD_mehdiounissi.pdf">[Ph.D. Report]</a>&amp;<a Href="pubs/PhD_supervized/PhD_mehdiounissi_slides.pdf">[slides]</a></p>
-                                    <p>&nbsp;</p></td>
-                            </div>
-                        </div>
-
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/gabrieljimenez.jpeg" width="150"/>
-                                <div class="dr">Gabriel Alexandro JIMENEZ GARAY</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>Representation Learning and Data-Centric Approaches in Computational Pathology. Instantiation to Alzheimer’s Disease</strong>
-                                    <p>Ph.D. of the Sorbonne University, Paris, France</p>
-                                    <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                                    <p>18 Sept. 2024, Paris, France</p>
-                                    <p><a Href="pubs/PhD_supervized/PhD_gabrieljimenez.pdf">[Ph.D. Report]</a>&amp;<a Href="pubs/PhD_supervized/PhD_gabrieljimenez_slides.pdf">[slides]</a></p>
-                                    <p>&nbsp;</p></td>
-                            </div>
-                        </div>
-
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/oumeimalaifa.png" width="150"/>
-                                <div class="dr">Oumeima LAIFA</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>A Joint Discriminative-generative Approach For Tumor Angiogenesis Assessment In Computational Pathology</strong>
-                                    <p>Ph.D. of the Sorbonne University, Paris, France</p>
-                                    <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                                    <p>Ph.D. Oral Defense: 2 Sept. 2019, Paris, France</p>
-                                    <p>jury: Prof. Yannick Kergosien (president), Prof. Maria Gloria Bueno Garcia(reviewer), A/Prof.Dr.Habil. Vlad Popovici (reviewer), A/Prof. Nicolas Lomenie (examiner), Dr.Habil. Thierry Delzescaux (examiner), Prof. Daniel Racoceanu (supervisor)</p>
-                                    <p>co-supervised With Dr Wee Kuan Lee (Bioinformatics Institute, A*STAR, Singapore)</p>
-                                    <p><a Href="pubs/PhD_supervized/PhD_oumeimalaifa.pdf">[Ph.D. Report]</a>&amp;<a Href="pubs/PhD_supervized/PhD_oumeimalaifa_slides.pdf">[slides]</a></p>
-                                    <p>&nbsp;</p></td>
-                            </div>
-                        </div>
-
-                        <div style="width: 100%; display: flex;">
-                            <div style="width: 35%; text-align: center;">
-                                <img src="pics/laminetraore.png" width="150"/>
-                                <div class="dr">Lamine TRAORE</div>
-                            </div>
-                            <div style="width: 65%;" class="dr">
-                                <strong>Semantic Modelling Of A Histopathology Image exploration And Analysis Tool</strong>
-                                <p>Ph.D. of the University Pierre and Marie Curie, Paris, France</p>
-                                <p>ED393 Doctoral School - Public Health: Epidemiology And Biomedical Informatics</p>
-                                <p>8 Dec. 2017, Paris, France</p>
-                                <p>co-supervised with Prof. Yannick Kergosien (University Cergy Pontoise, France)</p>
-                                <p><a Href="pubs/PhD_supervized/PhD_laminetraore.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/ResumeThese_laminetraore.pdf">[synopsis]</a> &amp; <a Href="pubs/PhD_supervized/PhD_laminetraore_slides.pdf">[slides]</a></p>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-
-                        <div style="width: 100%; display: flex;">
-                          <div style="width: 35%; text-align: center;">
-                              <img src="pics/BassemBENCHEIKH.jpeg" width="150"/>
-                              <div class="dr">Bassem BEN CHEIKH</div>
-                          </div>
-                          <div style="width: 65%;" class="dr">
-                              <strong>Graph-based Mathematical Morphology For The Characterization Of The Spatial Organization Of Histological Structures In High-content Images: Application To Tumor Microenvironment In Breast Cancer</strong>
-                              <p>Ph.D. of the University Pierre and Marie Curie, Paris, France</p>
-                              <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                              <p>26 Sept 2017, Paris, France</p>
-                              <p><a Href="pubs/PhD_supervized/PhD_BassemBENCHEIKH.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/ResumeThese_BassemBENCHEIKH.pdf">[synopsis]</a> &amp; <a Href="pubs/PhD_supervized/PhD_BassemBENCHEIKH_slides.pdf">[slides]</a></p>
-                              <p>&nbsp;</p>
-                          </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/OlivierMORERE.jpg" width="150"/>
-                            <div class="dr">Olivier MORERE</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Deep Learning Compact And Invariant Image Descriptors For Instance Retrieval</strong>
-                            <p>Ph.D. of the University Pierre and Marie Curie, Paris, France</p>
-                            <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                            <p>8 June 2016, Paris, France</p>
-                            <p>co-supervised With Dr Antoine Veillard (UPMC), Dr Vijay Chandresekhar (i<sup>2</sup>r, A*STAR) And Dr Hanlin Goh (i<sup>2</sup>r, A*STAR)</p>
-                            <p><a Href="pubs/PhD_supervized/PhD_OlivierMORERE.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_OlivierMORERE_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-                      
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/SreetamaBASU.jpg" width="150"/>
-                            <div class="dr">Sreetama BASU</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Digital Reconstruction Of Neuronal Structures From 3d Microscopy Data</strong>
-                            <p>Ph.D. of the National University of Singapore</p>
-                            <p>24 March 2014, Singapore</p>
-                            <p>co-supervised With A/Prof. Wei-tsang Ooi, National University of Singapore</p>
-                            <p>first Position After Ph.D.:  Research Fellow, Ecole Normale Sup&eacute;rieure, Paris, France.</p>
-                            <p><a Href="pubs/PhD_supervized/PhD_SreetamaBASU.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_SreetamaBASU_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/AntoineFAGETTE.jpg" width="150"/>
-                            <div class="dr">Antoine FAGETTE</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Dense Crowd Analysis</strong>
-                            <p>Ph.D. of the University Pierre and Marie Curie, Paris, France</p>
-                            <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                            <p>13 June 2014, Paris, France</p>
-                            <p>first position after the Ph.D.: R&D Engineer, Thales-Asia Solution Engineer</p>
-                            <p><a Href="pubs/PhD_supervized/PhD_AntoineFAGETTE.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/ResumeThese_AntoineFAGETTE.pdf">[synopsis]</a> &amp; <a Href="pubs/PhD_supervized/PhD_AntoineFAGETTE_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/StephaneRIGAUD.jpg" width="150"/>
-                            <div class="dr">St&eacute;phane RIGAUD</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Analysis-synthesis Approach For Neurosphere Modelisation Under Phase-contrast Microscopy</strong>
-                            <p>Ph.D. of the University Pierre and Marie Curie, Paris, France</p>
-                            <p>ED130 (EDITE) Doctoral School - Computer Science, Telecommunication and Electronics</p>
-                            <p>10th of March  2014, Paris, France</p>
-                            <p>first position after the Ph.D.:  Institut Curie, Paris, France, (3 Years Contract)</p>
-                            <p><a Href="pubs/PhD_supervized/PhD_StephaneRIGAUD.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_StephaneRIGAUD_synopsis.pdf">[synopsis]</a> &amp; <a Href="pubs/PhD_supervized/PhD_StephaneRIGAUD_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/HumayunIRSHAD.jpg" width="150"/>
-                            <div class="dr">Humayun IRSHAD</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Automated Mitosis Detection In Color And Multispectral High-content Images In Histopathology: Application To Breast Cancer Grading In Digital Pathology</strong>
-                            <p>Ph.D. of the University Grenoble Alpes, UJF-Grenoble 1.
-                            <p>20th Of January 2014, Grenoble, France</p>
-                            <p>first position after the Ph.D.: Research Fellow, Harvard Medical School, Boston, USA (3 Years Contract).</p>
-                            <p><a Href="pubs/PhD_supervized/PhD_HumayunIRSHAD.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_HumayunIRSHAD_synopsis.pdf">[synopsis]</a> &amp; <a Href="pubs/PhD_supervized/PhD_HumayunIRSHAD_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/AntoineVEILLARD.jpg" width="150"/>
-                            <div class="dr">Antoine VEILLARD</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Kernel Methods For The Incorporation Of Prior-knowledge Into Support Vector Machines</strong>
-                            <p>Ph.D. of the National University of Singapore</p>
-                            <p>11 Dec. 2012, Singapore</p>
-                            <p>first position after the Ph.D.: Research Fellow @ University Pierre And Marie Curie, Paris, France (3 Years Contract)</p>
-                            <p><a Href="pubs/PhD_supervized/PhD_AntoineVEILLARD.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_AntoineVEILLARD_synopsis.pdf">[synopsis]</a> &amp; <a Href="pubs/PhD_supervized/PhD_AntoineVEILLARD_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/RoxanaTEODORESCU.jpg" width="150"/>
-                            <div class="dr">Roxana Oana TEODORESCU</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Parkinson's Disease Prognosis Using Diffusion Tensor Imaging Features Fusion</strong> Pronostic De La Maladie De Parkinson, Bas&eacute; Sur La Fusion Des Caract&eacute;ristiques D'images Par R&eacute;sonance Magn&eacute;tique De Diffusion
-                            <p>Double Ph.D. Diplomae: University of Franche-comt&eacute; and Politehnica University of Timisoara</p>
-                            <p>11 Apr. 2011,Besan&ccedil;on, France</p>
-                            <p>first position after the Ph.D.: Research Fellow @ Mount Sinai University Hospital, New York (3 Years Contract)</p>
-                            <p><em Class="dr"><a Href="pubs/PhD_supervized/PhD_RoxanaTEODORESCU.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_RoxanaTEODORESCU_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/adinatutac.png" width="150"/>
-                            <div class="dr">Adina Eunice TUTAC (&Eacute;p. Branici)</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Formal Representation And Reasoning For Microscopic Medical Image-based Prognosis. Application To Breast Cancer Grading </strong>/ Repr&eacute;sentation Et Raisonnement Formels Pour Le Pronostic Bas&eacute; Sur L&rsquo;imagerie  M&eacute;dicale Microscopique. Application &agrave; La Graduation Du Cancer Du Sein</strong>
-                            <p>Double Ph.D. Diplomae: University of Franche-comt&eacute; and Politehnica University of Timisoara</p>
-                            <p>22 Oct. 2010, Timisoara, Romania</p>
-                            <p>first position after the Ph.D.: R&amp;d Manager At Sionic Srl, Timisoara, Romania</p>
-                            <p><em Class="dr"><a Href="pubs/PhD_supervized/PhD_adinatutac.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_adinatutac_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/nicolaspalluat.jpg" width="150"/>
-                            <div class="dr">Nicolas PALLUAT</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                            <strong>Dynamic Monitoring Using Temporal Neuro-fuzzy Systems / </strong>m&eacute;thodologie De Surveillance Dynamique &agrave; L&rsquo;aide Des R&eacute;seaux Neuro-flous Temporels </p>
-                            <p>Ph.D. of the University of Franche-comt&eacute;,  </p>
-                            <p>12 Jan. 2006, Besan&ccedil;on, France</p>
-                            <p>first position after the Ph.D.: Post-doctoral Fellow In Brezil (2,5 Years Contract)</p>
-                            <p><em Class="dr"><a Href="pubs/PhD_supervized/PhD_nicolaspalluat.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_nicolaspalluat_slides.pdf">[slides]</a></p>
-                            <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/eugeniaminca.jpg" width="150"/>
-                            <div class="dr">Eugenia MINCA</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                          <strong>Discrete Events Systems Monitoring Using Fuzzy Petri Nets. Application To Flexible Production Systems E-maintenance</strong> / Surveillance Des Syst&egrave;mes  En Utilisant Les R&eacute;seaux De Petri Flous. Application &agrave; La E-maintenance De Syst&egrave;mes Flexibles De Production</p>
-                          <p>Ph.D. of the University of Franche-comt&eacute;, Besan&ccedil;on, </p>
-                          <p>24 Sept. 2004, T&acirc;rgoviste, Romania</p>
-                          <p>first position after the Ph.D.: A/prof. (tenure position) University Valahia, Targoviste, Romania</p>
-                          <p><em Class="dr"><a Href="pubs/PhD_supervized/PhD_eugeniaminca.zip">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_eugeniaminca_slides.pdf">[slides]</a></p>
-                          <p>&nbsp;</p>
-                        </div>
-                      </div>
-
-                      <div style="width: 100%; display: flex;">
-                        <div style="width: 35%; text-align: center;">
-                            <img src="pics/ryadzemouri.jpg" width="150"/>
-                            <div class="dr">Ryad ZEMOURI</div>
-                        </div>
-                        <div style="width: 65%;" class="dr">
-                          <strong>Monitoring Using Dynamic Neural Networks: Application To The E-maintenance</strong> / Contribution &agrave; La Surveillance Des Syst&egrave;mes &agrave; L&rsquo;aide Des R&eacute;seaux De Neurones Dynamiques: Application &agrave; La E-maintenance</p>
-                          <p>Ph.D. of the University of Besan&ccedil;on, France</p>
-                          <p>28 Nov. 2003, Besan&ccedil;on, France</p>
-                          <p>first position after the Ph.D.: A/Prof. (tenure position) Conservatoire National Des Arts Et M&eacute;tiers (CNAM), Paris, France</p>
-                          <p><em Class="dr"><a Href="pubs/PhD_supervized/PhD_ryadzemouri.pdf">[Ph.D. Report]</a> &amp; <a Href="pubs/PhD_supervized/PhD_ryadzemouri_slides.pdf">[slides]</a></p>
-                        </div>
-                      </div>
-           
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-    </section>
-
-</section>
-<style> 
-	#pre_footer img {
-		/* width: 100px; */
-		height: 60px;
-	}
-	#pre_footer_support {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.footer-table {
-		width: 80%;
-		border: 0;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.footer-link {
-		width: 1%;
-	}
-
-	</style>
-	</br></br>
-	<div id="pre_footer">
-		<div id="pre_footer_support">
-			<table class="footer-table">
-				<tr>
-					<td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute - ICM"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inria.fr/en" title="French National Institute for Research in Digital Science and Technology - Inria"><img src="img/logos/inria.svg" alt="Inria" id="Inria"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research - CNRS"><img src="img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inserm.fr/en" title="French National Institute for Health and Medical Research - INSERM"><img src="img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.aphp.fr/" title="Greater Paris University Hospitals - AP-HP"><img src="img/logos/Assistance_publique.svg" alt="AP-HP" id="AP-HP"></a></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	</br></br>
-<footer>
+<header>
+  <div class="navbar navbar-default navbar-static-top">
     <div class="container">
-        <div class="row">
-        <div class="col-lg-3">
-            <div class="widget">
-            <h5 class="widgetheading">Our Contact</h5>
-            <address>
-                <strong>Daniel RACOCEANU</strong><br>
-                Sorbonne University<br>
-                Paris Brain Institute<br>
-                Aramis Inria team<br>
-                47 bd. de l'hopital<br>
-                75013 Paris, France<br>
-            </address>
-            <p>
-                <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-            </p>
-            </div>
-        </div>
-        
-    
-    
-        </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="short_bio.html">Short Bio</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li class="active"><a href="phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="sub-footer">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-            <div class="copyright">
-                <p>
-                <span>&copy; All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</span></a>
-                </p>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <ul class="social-network">
-                <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i>
-                <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/daniraco" data-placement="top" title="Github"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-                <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><i class="fas fa-id-badge"></i></a></li> 
-                <li><a href="https://www..scopus.com/authid/detail.uri?authorId=6603452376" data-placement="top" title="Scopus"><i class="fas fa-id-badge"></i></a></li>	
-            </ul>
-            </div>
-            
-        </div>
-        </div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>PhD Supervision</h1>
+  <p>
+    Training the next generation of researchers in artificial intelligence,
+    biomedical imaging, computational pathology and multimodal medicine.
+  </p>
+</section>
+
+<section id="content">
+  <div class="container">
+
+    <h2 class="section-title">Ongoing PhD Supervisions</h2>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/swannruyter.jpeg" alt="Swann Ruyter">
+        <div class="student-name">Swann RUYTER</div>
+      </div>
+      <div class="student-info">
+        <h3>ComPath: Next Generation Computational Pathomics for Personalized Medicine</h3>
+        <p><strong>Topic:</strong> Explainable deep learning integration of computational pathology and spatial transcriptomics.</p>
+        <p>PhD candidate, Sorbonne University</p>
+        <p>ED130 — EDITE Doctoral School, Computer Science, Telecommunication and Electronics</p>
+      </div>
     </div>
-    </footer>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/estherkozlowski.jpeg" alt="Esther Kozlowski">
+        <div class="student-name">Esther KOZLOWSKI</div>
+      </div>
+      <div class="student-info">
+        <h3>Heterogeneous Progression of Parkinson's Disease</h3>
+        <p><strong>Topic:</strong> Artificial intelligence and multimodal MRI for Parkinson’s disease progression.</p>
+        <p>PhD candidate, Sorbonne University</p>
+        <p>ED158 — Brain, Cognition and Behavior Doctoral School</p>
+      </div>
     </div>
-    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-    <!-- javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script> 
-    <script src="js/portfolio/jquery.quicksand.js"></script>
-    <script src="js/portfolio/setting.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/fontawesome/all.js"></script>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/aysegungor.jpeg" alt="Ayse Gungor">
+        <div class="student-name">Ayse GUNGOR</div>
+      </div>
+      <div class="student-info">
+        <h3>Generative Methods for Neuro-Visual Pathologies</h3>
+        <p><strong>Topic:</strong> Identification of neuro-visual pathologies and transfer to artificial vision.</p>
+        <p>PhD candidate, Sorbonne University</p>
+        <p>ED130 — EDITE Doctoral School, Computer Science, Telecommunication and Electronics</p>
+      </div>
+    </div>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/iliassarbout.jpeg" alt="Ilias Sarbout">
+        <div class="student-name">Ilias SARBOUT</div>
+      </div>
+      <div class="student-info">
+        <h3>The Visual Brain in the Context of Blindness</h3>
+        <p><strong>Topic:</strong> Exploring and guiding visual compensation using machine learning.</p>
+        <p>PhD candidate, Sorbonne University</p>
+        <p>ED130 — EDITE Doctoral School, Computer Science, Telecommunication and Electronics</p>
+      </div>
+    </div>
+
+    <h2 class="section-title">Graduated PhD Students</h2>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/mehdiounissi.jpg" alt="Mehdi Ounissi">
+        <div class="student-name">Mehdi OUNISSI</div>
+      </div>
+      <div class="student-info">
+        <h3>Decoding the Black Box: Enhancing Interpretability and Trust in AI for Biomedical Imaging</h3>
+        <p>PhD, Sorbonne University, Paris, France</p>
+        <p>ED130 — EDITE Doctoral School</p>
+        <p>Defense: 16 Oct. 2024, Paris, France</p>
+        <p class="links">
+          <a href="pubs/PhD_supervized/PhD_mehdiounissi.pdf">PhD Report</a>
+          <a href="pubs/PhD_supervized/PhD_mehdiounissi_slides.pdf">Slides</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/gabrieljimenez.jpeg" alt="Gabriel Jimenez Garay">
+        <div class="student-name">Gabriel Alexandro JIMENEZ GARAY</div>
+      </div>
+      <div class="student-info">
+        <h3>Representation Learning and Data-Centric Approaches in Computational Pathology</h3>
+        <p><strong>Application:</strong> Alzheimer’s disease</p>
+        <p>PhD, Sorbonne University, Paris, France</p>
+        <p>Defense: 18 Sept. 2024, Paris, France</p>
+        <p class="links">
+          <a href="pubs/PhD_supervized/PhD_gabrieljimenez.pdf">PhD Report</a>
+          <a href="pubs/PhD_supervized/PhD_gabrieljimenez_slides.pdf">Slides</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/oumeimalaifa.png" alt="Oumeima Laifa">
+        <div class="student-name">Oumeima LAIFA</div>
+      </div>
+      <div class="student-info">
+        <h3>A Joint Discriminative-Generative Approach for Tumor Angiogenesis Assessment in Computational Pathology</h3>
+        <p>PhD, Sorbonne University, Paris, France</p>
+        <p>Defense: 2 Sept. 2019, Paris, France</p>
+        <p>Co-supervised with Dr Wee Kuan Lee, Bioinformatics Institute, A*STAR, Singapore</p>
+        <p class="links">
+          <a href="pubs/PhD_supervized/PhD_oumeimalaifa.pdf">PhD Report</a>
+          <a href="pubs/PhD_supervized/PhD_oumeimalaifa_slides.pdf">Slides</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="student-card">
+      <div>
+        <img src="pics/laminetraore.png" alt="Lamine Traore">
+        <div class="student-name">Lamine TRAORE</div>
+      </div>
+      <div class="student-info">
+        <h3>Semantic Modelling of a Histopathology Image Exploration and Analysis Tool</h3>
+        <p>PhD, University Pierre and Marie Curie, Paris, France</p>
+        <p>Defense: 8 Dec. 2017, Paris, France</p>
+        <p>Co-supervised with Prof. Yannick Kergosien, University Cergy Pontoise</p>
+        <p class="links">
+          <a href="pubs/PhD_supervized/PhD_laminetraore.pdf">PhD Report</a>
+          <a href="pubs/PhD_supervized/ResumeThese_laminetraore.pdf">Synopsis</a>
+          <a href="pubs/PhD_supervized/PhD_laminetraore_slides.pdf">Slides</a>
+        </p>
+      </div>
+    </div>
+
+    <p style="text-align:center; margin-top:40px;">
+      Earlier PhD supervisions include work on mathematical morphology,
+      digital pathology, microscopy, neuroimaging, neural networks,
+      dynamic systems and e-maintenance.
+    </p>
+
+  </div>
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td><a href="https://www.sorbonne-universite.fr/en"><img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University"></a></td>
+        <td><a href="https://institutducerveau-icm.org/en/"><img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute"></a></td>
+        <td><a href="https://www.inria.fr/en"><img src="img/logos/inria.svg" alt="Inria"></a></td>
+        <td><a href="https://www.cnrs.fr/en"><img src="img/logos/logoCNRS.svg" alt="CNRS"></a></td>
+        <td><a href="https://www.inserm.fr/en"><img src="img/logos/Inserm.svg" alt="Inserm"></a></td>
+        <td><a href="https://www.aphp.fr/"><img src="img/logos/Assistance_publique.svg" alt="AP-HP"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br><br>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="widget">
+          <h5 class="widgetheading">Contact</h5>
+          <address>
+            <strong>Daniel RACOCEANU</strong><br>
+            Professor, Sorbonne University<br>
+            Paris Brain Institute<br>
+            47 boulevard de l'Hôpital<br>
+            75013 Paris, France
+          </address>
+          <p>
+            <i class="icon-envelope-alt"></i>
+            daniel.racoceanu@sorbonne-universite.fr
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <ul class="social-network">
+          <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+          <li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+          <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+          <li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="sub-footer">
+    <div class="container">
+      <p>&copy; Daniel Racoceanu. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/fontawesome/all.js"></script>
+
 </body>
 </html>
