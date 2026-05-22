@@ -2,223 +2,537 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Daniel Racoceanu | Prof. website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="../css/bootstrap.min.css" rel="stylesheet" />
-<link href="../css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="../css/jcarousel.css" rel="stylesheet" />
-<link href="../css/flexslider.css" rel="stylesheet" />
-<link href="../css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<title>Daniel Racoceanu | StratifIAD Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<meta name="description" content="StratifIAD: explainable artificial intelligence for computational histopathology and Alzheimer’s disease patient stratification.">
+<meta name="author" content="Daniel Racoceanu">
+
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="../css/jcarousel.css" rel="stylesheet">
+<link href="../css/flexslider.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+<style>
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 1050px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.project-intro {
+  max-width: 1050px;
+  margin: 40px auto 45px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.project-card,
+.paper-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.project-card h2,
+.paper-card h2 {
+  color: #1e3a8a;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.project-card p,
+.paper-card p {
+  text-align: justify;
+}
+
+.project-card ul {
+  padding-left: 22px;
+}
+
+.project-card li {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  text-align: center;
+  margin: 60px 0 35px;
+  font-weight: 700;
+  color: #1e3a8a;
+  font-size: 34px;
+}
+
+.themes-grid,
+.links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 25px 0 50px;
+}
+
+.theme-card,
+.resource-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px 26px;
+  min-width: 230px;
+  max-width: 340px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.theme-card {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.resource-card h3 {
+  color: #1e3a8a;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.resource-card a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #1e3a8a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2ff;
+  color: #1e3a8a;
+  padding: 6px 11px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 4px 4px 0 0;
+}
+
+.project-figure {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.project-figure img {
+  max-width: 780px;
+  width: 72%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.14);
+}
+
+.paper-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.paper-list li {
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.paper-list li:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-weight: 700;
+  color: #111827;
+}
+
+#pre_footer img {
+  height: 60px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+#pre_footer_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-table {
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 10px 16px;
+}
+
+.social-network li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .project-card,
+  .paper-card {
+    padding: 22px;
+  }
+
+  .project-figure img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-table,
+  .footer-table tr,
+  .footer-table td {
+    display: block;
+    width: 100%;
+  }
+}
+</style>
 </head>
+
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo" width="50"/></a>
-                </div> -->
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-						<li><a href="../index.html">Home</a></li> 
-						<li><a href="../short bio.html">Short Bio</a></li>
-						<li><a href="../cv.html">Curriculum Vitae</a></li>
-						<li><a href="../courses.html">Courses</a></li>
-						<li><a href="../research.html">Research</a></li>  
-						<li><a href="../publications.html">Publications</a></li>  
-						<li><a href="../projects.html">Projects</a></li>
-						<li><a href="../industry.html">Industry</a></li>
-						<li><a href="../contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header><!-- end header -->
-</div>
-    <section id="inner-headline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="pageTitle">StratifIAD (Big Brain Theory - BBT3): Refining Alzheimer Disease Patients’ stratification using explicable artificial intelligence in computational histopathology</h2>
-                    <p class="pageTitle">PIs: Daniel Racoceanu, Benoit Delatour - </p>
-                    <p class="pageTitle">Collaborators: Lev Stimmer, Suzana Boluda, Anuradha Kar, Gabriel Jimenez, Mehdi Ounissi</p>
-               </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="content">
-        <div class="container">
-                        
-            <div class="about">
-                <div class="row"> 
-                    <div class="col-md-12">
-                        </br>
-                        <img src="../../img/Stratifiad_project_fig.png"></a>
-                        </br>
-                        </br>
-                        <p>The project aims at developing algorithms for fully automated localization and characterization of tau and Aß aggregates in histological images of the human brain. The topography and morphology of the aggregates are heterogeneous with Aß accumulation taking the form of focal deposits or diffuse plaques and tau lesions forming neurofibrillary tangles.</p>
-                        
-                        <p>Within this project, multiple research themes are being explored such as:
-                        <ul>
-                        <li>Use of deep learning models with explainability features for segmentation of brain tissue images.</li>
-                        <li>Development of a cloud based platform for visualization and deep learning based annotation creation for whole slide images</li>
-                        <li>Use of graph models for representation of morphology and topology of tau objects</li>
-                        </ul>
-                        </p>
-                        
-                        <h3>GitHub:</h3>
-                        <a href="https://github.com/stratifIAD">https://github.com/stratifIAD</a>
-                        
-                        <h3>Papers:</h3>
-                        <ul>
-                        <li>Gabriel Jimenez, Pablo Mas, Anuradha Kar, Julien Peyrache, Lea Ingrassia, Susana Boluda, Benoît Delatour, Lev Stimmer, Daniel Racoceanu, "A meta-graph approach for analyzing whole slide histopathological images of human brain tissue with Alzheimer's disease biomarkers," Proc. SPIE 12471, Medical Imaging 2023: Digital and Computational Pathology, 124711T , San Diego, USA.</li>
-                        
-                        <li>G. Jimenez et al., “Visual Deep Learning-Based Explanation for Neuritic Plaques Segmentation in Alzheimer’s Disease Using Weakly Annotated Whole Slide Histopathological Images,”  In: Wang, L., Dou, Q., Fletcher, P.T., Speidel, S., Li, S. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2022. Lecture Notes in Computer Science, vol 13432. Springer, Cham, 2022, pp. 336–344.</li>
-                        
-                        <li>Kar, A, Improving segmentation quality with fusion based post-processing: An assessment with 3D deep learning and classical segmentation pipelines, CVPR-CVMI 2022 (highlights) at the 7th IEEE Workshop on Computer Vision for Microscopy Image Analysis (CVMI) at the 2022 IEEE CVPR conference, June 19, 2022.</li>
-                        
-                        <li>Garay, G.J., Kar, A., Ounissi, M., Stimmer, L., Delatour, B. and Racoceanu, D. (2022), Interpretable Deep Learning in Computational Histopathology for refined identification of Alzheimer’s Disease biomarkers. Alz. Dement., 18: e065363. - AAIC 2022, San Diego, USA.</li>
-                        
-                        <li>Kar A., Jimenez G., Ounissi M., Stimmer L., Delatour B., Racoceanu D., A deep learning framework for stratification of Alzheimer’s disease patients using whole slide histopathological brain tissue images, European Conference on Digital Pathology - ECDP 2022, Berlin, Germany.</li>
-                        
-                        <li>G. Jiménez,A. Kar,M. Ounissi,D. Racoceanu, "Empowering Researchers for Understanding Alzheimer’s Disease using Explainable AI", AI4 Health Winter School (virtual) 2022, 10-14th January 2022.</li>
-                        </ul>
-                        
+<header>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../short_bio.html">Short Bio</a></li>
+          <li><a href="../cv.html">Curriculum Vitae</a></li>
+          <li><a href="../courses.html">Courses</a></li>
+          <li><a href="../research.html">Research</a></li>
+          <li><a href="../phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="../publications.html">Publications</a></li>
+          <li class="active"><a href="../projects.html">Projects</a></li>
+          <li><a href="../industry.html">Industry</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
 
-
-                    
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-    </section>
-
+<section class="hero">
+  <h1>StratifIAD</h1>
+  <p>
+    Refining Alzheimer’s disease patient stratification using explainable artificial intelligence
+    in computational histopathology.
+  </p>
+  <p style="margin-top:14px;">
+    Big Brain Theory (BBT3)<br>
+    PIs: Daniel Racoceanu, Benoît Delatour
+  </p>
+  <p>
+    Collaborators: Lev Stimmer, Susana Boluda, Anuradha Kar,
+    Gabriel Jimenez, Mehdi Ounissi
+  </p>
 </section>
 
-<style> 
-	#pre_footer img {
-		/* width: 100px; */
-		height: 60px;
-	}
-	#pre_footer_support {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.footer-table {
-		width: 80%;
-		border: 0;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.footer-link {
-		width: 1%;
-	}
+<section id="content">
+<div class="container">
 
-	</style>
-	</br></br>
-	<div id="pre_footer">
-		<div id="pre_footer_support">
-			<table class="footer-table">
-				<tr>
-					<td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="../img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute"><img src="../img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inria.fr/en" title="Inria"><img src="../img/logos/inria.svg" alt="inria" id="INRIA"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research - CNRS"><img src="../img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inserm.fr/en" title="INSERM"><img src="../img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.aphp.fr/" title="APHP"><img src="../img/logos/Assistance_publique.svg" alt="APHP" id="APHP"></a></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	</br></br>
+<p class="project-intro">
+StratifIAD develops explainable artificial intelligence approaches for computational
+histopathology, focusing on the localization, characterization and interpretation
+of tau and amyloid-beta aggregates in Alzheimer’s disease whole-slide histopathology.
+</p>
+
+<div class="project-figure">
+  <img src="../img/Stratifiad_project_fig.png" alt="StratifIAD project overview">
+</div>
+
+<h2 class="section-title">Research Themes</h2>
+
+<div class="themes-grid">
+
+  <div class="theme-card">Alzheimer’s Disease</div>
+  <div class="theme-card">Computational Histopathology</div>
+  <div class="theme-card">Explainable AI</div>
+  <div class="theme-card">Whole-Slide Imaging</div>
+  <div class="theme-card">Deep Learning</div>
+  <div class="theme-card">Graph-Based Tissue Modeling</div>
+
+</div>
+
+<div class="project-card">
+<h2>Project Overview</h2>
+
+<p>
+The project aims to develop algorithms for fully automated localization and
+characterization of tau and amyloid-beta aggregates in histological images
+of the human brain.
+</p>
+
+<p>
+The morphology and spatial organization of these aggregates are highly heterogeneous.
+Amyloid-beta accumulation may appear as focal deposits or diffuse plaques, whereas
+tau lesions can form neurofibrillary tangles and neuritic structures with complex
+topological organization.
+</p>
+
+<div>
+  <span class="tag">Tau Pathology</span>
+  <span class="tag">Amyloid-beta</span>
+  <span class="tag">Deep Learning</span>
+  <span class="tag">Explainability</span>
+</div>
+</div>
+
+<div class="project-card">
+<h2>Scientific Objectives</h2>
+
+<ul>
+  <li>
+    Develop deep learning models with explainability mechanisms for segmentation
+    and interpretation of brain tissue histopathology.
+  </li>
+
+  <li>
+    Build cloud-based platforms for visualization, annotation refinement and
+    collaborative analysis of whole-slide images.
+  </li>
+
+  <li>
+    Explore graph-based models for representing morphology and topology of tau-related structures.
+  </li>
+
+  <li>
+    Improve patient stratification through interpretable computational biomarkers.
+  </li>
+</ul>
+</div>
+
+<div class="project-card">
+<h2>Scientific Vision</h2>
+
+<p>
+StratifIAD investigates how explainable AI can support computational pathology
+not only as a prediction tool, but also as a scientific instrument for understanding
+disease heterogeneity and tissue organization.
+</p>
+
+<p>
+The project places strong emphasis on traceability, interpretability and reproducibility,
+with the objective of developing clinically meaningful AI systems that remain compatible
+with expert-driven histopathological analysis.
+</p>
+</div>
+
+<h2 class="section-title">Resources</h2>
+
+<div class="links-grid">
+
+  <div class="resource-card">
+    <h3>GitHub Organization</h3>
+    <p>Repositories, code and experimental resources.</p>
+    <a href="https://github.com/stratifIAD" target="_blank">Open GitHub</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>MICCAI 2022 Study</h3>
+    <p>Neuritic plaque segmentation with explainable deep learning.</p>
+    <a href="./stratifiad_miccai.html">Open Project</a>
+  </div>
+
+</div>
+
+<h2 class="section-title">Selected Publications</h2>
+
+<div class="paper-card">
+
+<ul class="paper-list">
+
+<li>
+  <div class="paper-title">
+    A meta-graph approach for analyzing whole-slide histopathological images
+    of human brain tissue with Alzheimer’s disease biomarkers
+  </div>
+  <div>
+    Gabriel Jimenez, Pablo Mas, Anuradha Kar, Julien Peyrache,
+    Lea Ingrassia, Susana Boluda, Benoît Delatour,
+    Lev Stimmer, Daniel Racoceanu — SPIE Medical Imaging 2023.
+  </div>
+</li>
+
+<li>
+  <div class="paper-title">
+    Visual Deep Learning-Based Explanation for Neuritic Plaques Segmentation
+    in Alzheimer’s Disease Using Weakly Annotated Whole Slide Histopathological Images
+  </div>
+  <div>
+    G. Jimenez et al. — MICCAI 2022.
+  </div>
+</li>
+
+<li>
+  <div class="paper-title">
+    Improving segmentation quality with fusion based post-processing:
+    an assessment with 3D deep learning and classical segmentation pipelines
+  </div>
+  <div>
+    A. Kar — CVPR-CVMI 2022.
+  </div>
+</li>
+
+<li>
+  <div class="paper-title">
+    Interpretable Deep Learning in Computational Histopathology for refined
+    identification of Alzheimer’s disease biomarkers
+  </div>
+  <div>
+    Garay, Kar, Ounissi, Stimmer, Delatour and Racoceanu —
+    AAIC 2022.
+  </div>
+</li>
+
+<li>
+  <div class="paper-title">
+    A deep learning framework for stratification of Alzheimer’s disease patients
+    using whole-slide histopathological brain tissue images
+  </div>
+  <div>
+    Kar, Jimenez, Ounissi, Stimmer, Delatour and Racoceanu —
+    ECDP 2022.
+  </div>
+</li>
+
+<li>
+  <div class="paper-title">
+    Empowering Researchers for Understanding Alzheimer’s Disease using Explainable AI
+  </div>
+  <div>
+    Jimenez, Kar, Ounissi and Racoceanu —
+    AI4Health Winter School 2022.
+  </div>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en"><img src="../img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University"></a></td>
+        <td class="footer-link"><a href="https://institutducerveau-icm.org/en/"><img src="../img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute"></a></td>
+        <td class="footer-link"><a href="https://www.inria.fr/en"><img src="../img/logos/inria.svg" alt="Inria"></a></td>
+        <td class="footer-link"><a href="https://www.cnrs.fr/en"><img src="../img/logos/logoCNRS.svg" alt="CNRS"></a></td>
+        <td class="footer-link"><a href="https://www.inserm.fr/en"><img src="../img/logos/Inserm.svg" alt="Inserm"></a></td>
+        <td class="footer-link"><a href="https://www.aphp.fr/"><img src="../img/logos/Assistance_publique.svg" alt="AP-HP"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br><br>
 
 <footer>
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-3">
-            <div class="widget">
-            <h5 class="widgetheading">Our Contact</h5>
-            <address>
-            <strong>Daniel RACOCEANU</strong><br>
-            Sorbonne University<br>
-            Faculty of Science and Engineering<br>
-            Engineering Departement<br>
-            4 place Jussieu, 75005 Paris, France</address><br>
-            <p>
-                <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-            </p>
-            </div>
-        </div>
-        
-    
-    
-        </div>
-    </div>
-    <div id="sub-footer">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-            <div class="copyright">
-                <p>
-                <span>&copy; All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</span></a>
-                </p>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <ul class="social-network">
-                <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i>
-                <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/daniraco" data-placement="top" title="Github"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-                <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><i class="fas fa-id-badge"></i></a></li> 
-                
-            </ul>
-            </div>
-            
-        </div>
-        </div>
-    </div>
-    </footer>
-    </div>
-    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-    <!-- javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script> 
-    <script src="js/portfolio/jquery.quicksand.js"></script>
-    <script src="js/portfolio/setting.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/fontawesome/all.js"></script>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4">
+<div class="widget">
+<h5 class="widgetheading">Contact</h5>
+<address>
+<strong>Daniel RACOCEANU</strong><br>
+Professor, Sorbonne University<br>
+Principal Investigator, Paris Brain Institute<br>
+Center for Artificial Intelligence and Data Science<br>
+187 Rue du Chevaleret<br>
+75013 Paris, France
+</address>
+<p>daniel.racoceanu@sorbonne-universite.fr</p>
+</div>
+</div>
+
+<div class="col-lg-8">
+<ul class="social-network">
+<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+<li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+<li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="sub-footer">
+<div class="container">
+<p>&copy; Daniel Racoceanu. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.fancybox.pack.js"></script>
+<script src="../js/jquery.fancybox-media.js"></script>
+<script src="../js/portfolio/jquery.quicksand.js"></script>
+<script src="../js/portfolio/setting.js"></script>
+<script src="../js/jquery.flexslider.js"></script>
+<script src="../js/animate.js"></script>
+<script src="../js/custom.js"></script>
+<script src="../js/fontawesome/all.js"></script>
+
 </body>
 </html>

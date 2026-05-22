@@ -2,225 +2,458 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Daniel Racoceanu | Prof. website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="../css/bootstrap.min.css" rel="stylesheet" />
-<link href="../css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="../css/jcarousel.css" rel="stylesheet" />
-<link href="../css/flexslider.css" rel="stylesheet" />
-<link href="../css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<title>Daniel Racoceanu | PhagoStat Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<meta name="description" content="PhagoStat: a scalable and interpretable deep learning framework for efficient quantification of cell phagocytosis in neurodegenerative disease studies.">
+<meta name="author" content="Daniel Racoceanu">
+
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="../css/jcarousel.css" rel="stylesheet">
+<link href="../css/flexslider.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+<style>
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 1000px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.project-intro {
+  max-width: 1050px;
+  margin: 40px auto 45px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.project-card,
+.demo-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.project-card h2,
+.demo-card h2 {
+  color: #1e3a8a;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.demo-card h3 {
+  color: #111827;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.project-card p,
+.demo-card p {
+  text-align: justify;
+}
+
+.section-title {
+  text-align: center;
+  margin: 60px 0 35px;
+  font-weight: 700;
+  color: #1e3a8a;
+  font-size: 34px;
+}
+
+.themes-grid,
+.links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 25px 0 50px;
+}
+
+.theme-card,
+.resource-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px 26px;
+  min-width: 230px;
+  max-width: 340px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.theme-card {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.resource-card h3 {
+  color: #1e3a8a;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.resource-card a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #1e3a8a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2ff;
+  color: #1e3a8a;
+  padding: 6px 11px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 4px 4px 0 0;
+}
+
+.project-figure {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.project-figure img {
+  max-width: 720px;
+  width: 78%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.demo-figure {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.demo-figure img {
+  max-width: 640px;
+  width: 72%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+#pre_footer img {
+  height: 60px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+#pre_footer_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-table {
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 10px 16px;
+}
+
+.social-network li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .project-card,
+  .demo-card {
+    padding: 22px;
+  }
+
+  .project-figure img,
+  .demo-figure img {
+    width: 100%;
+  }
+
+  .footer-table,
+  .footer-table tr,
+  .footer-table td {
+    display: block;
+    width: 100%;
+  }
+}
+</style>
 </head>
+
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo" width="50"/></a>
-                </div> -->
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-						<li><a href="../index.html">Home</a></li> 
-						<li><a href="../short bio.html">Short Bio</a></li>
-						<li><a href="../cv.html">Curriculum Vitae</a></li>
-						<li><a href="../courses.html">Courses</a></li>
-						<li><a href="../research.html">Research</a></li>  
-						<li><a href="../publications.html">Publications</a></li>  
-						<li><a href="../projects.html">Projects</a></li>
-						<li><a href="../industry.html">Industry</a></li>
-						<li><a href="../contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header><!-- end header -->
-</div>
-    <section id="inner-headline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="pageTitle">Phagocytosis Unveiled: A Scalable and Interpretable Deep learning Framework for Neurodegenerative Disease Analysis</h2>
-                    <p class="pageTitle">Mehdi Ounissi and Morwena Latouche and Daniel Racoceanu</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="content">
-        <div class="container">
-                        
-            <div class="about">
-                <div class="row"> 
-                    <div class="col-md-12">
+<header>
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../short_bio.html">Short Bio</a></li>
+          <li><a href="../cv.html">Curriculum Vitae</a></li>
+          <li><a href="../courses.html">Courses</a></li>
+          <li><a href="../research.html">Research</a></li>
+          <li><a href="../phd_supervised.html">PhD Supervised</a></li>
+          <li><a href="../publications.html">Publications</a></li>
+          <li class="active"><a href="../projects.html">Projects</a></li>
+          <li><a href="../industry.html">Industry</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
 
-                        <div style="text-align: center;">
-                            <img style="width: 100%;" src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/PhagoStat.jpg?raw=true">
-                        </div>
-
-                        <p style="text-align: justify;">
-                        PhagoStat is an advanced Python-based pipeline developed to streamline the quantification and analysis of phagocytic activity in dynamic, unstained cells within real-world experimental settings. This innovative tool provides researchers with an efficient and reliable method for evaluating cellular phagocytosis, facilitating a deeper understanding of immune system mechanisms and cellular interactions.
-                        </p>
-                        <ul>
-                            <li>
-                                GitHub: 
-                                <a href="https://github.com/ounissimehdi/PhagoStat" target="_blank">PhagoStat repository</a>
-                            </li>
-                            <li>
-                                Paper: 
-                                <a href="https://www.nature.com/articles/s41598-024-56081-7" target="_blank">PhagoStat paper</a>
-                            </li>
-                        </ul>
-
-                        <h3>Demos:</h3>
-                        </br>
-                        <h4>Data Quality Check and Shift Correction Module: Ensuring Reliable and Accurate Data</h4>
-                        <div style="text-align: center;">
-                            <img style="width: 80%;" src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_reg.gif?raw=true">
-                        </div>
-                        
-                        </br></br></br>
-                        <h4>Real time aggregate quantification</h4>
-                        <div style="text-align: center;">
-                            <img style="width: 80%;" src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_aggr.gif?raw=true">
-                        </div>
-                        
-                        </br></br></br>
-                        <h4>Real time cellular quantification: instances & trajectories estimation</h4>
-                        <div style="text-align: center;">
-                            <img style="width: 80%;" src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_tracking.gif?raw=true">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-    </section>
-
+<section class="hero">
+  <h1>PhagoStat</h1>
+  <p>
+    A scalable and interpretable deep learning framework for efficient quantification
+    of cell phagocytosis in neurodegenerative disease studies.
+  </p>
+  <p style="margin-top:14px;">
+    Mehdi Ounissi · Morwena Latouche · Daniel Racoceanu
+  </p>
 </section>
 
-<style> 
-	#pre_footer img {
-		/* width: 100px; */
-		height: 60px;
-	}
-	#pre_footer_support {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.footer-table {
-		width: 80%;
-		border: 0;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.footer-link {
-		width: 1%;
-	}
+<section id="content">
+<div class="container">
 
-	</style>
-	</br></br>
-	<div id="pre_footer">
-		<div id="pre_footer_support">
-			<table class="footer-table">
-				<tr>
-					<td class="footer-link"><a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University"><img src="../img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University" id="Sorbonne"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute"><img src="../img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute" id="ICM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inria.fr/en" title="Inria"><img src="../img/logos/inria.svg" alt="inria" id="INRIA"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="http://www.cnrs.fr/en/cnrs" title="French National Centre for Scientific Research - CNRS"><img src="../img/logos/logoCNRS.svg" alt="CNRS" id="CNRS"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.inserm.fr/en" title="INSERM"><img src="../img/logos/Inserm.svg" alt="INSERM" id="INSERM"></a></td>
-					<!-- <td class="footer-space"></td> -->
-					<td class="footer-link"><a href="https://www.aphp.fr/" title="APHP"><img src="../img/logos/Assistance_publique.svg" alt="APHP" id="APHP"></a></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	</br></br>
+<p class="project-intro">
+PhagoStat is a Python-based pipeline designed to streamline the quantification,
+analysis and interpretation of phagocytic activity in dynamic, unstained cells
+under real-world experimental conditions.
+</p>
+
+<div class="project-figure">
+  <img src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/PhagoStat.jpg?raw=true" alt="PhagoStat project overview">
+</div>
+
+<h2 class="section-title">Research Themes</h2>
+
+<div class="themes-grid">
+  <div class="theme-card">Deep Learning</div>
+  <div class="theme-card">Biomedical Image Analysis</div>
+  <div class="theme-card">Neurodegeneration</div>
+  <div class="theme-card">Cell Phagocytosis</div>
+  <div class="theme-card">Interpretable AI</div>
+  <div class="theme-card">Dynamic Cell Imaging</div>
+</div>
+
+<div class="project-card">
+<h2>Project Overview</h2>
+
+<p>
+PhagoStat provides researchers with an efficient and reliable method for evaluating
+cellular phagocytosis, supporting the study of immune mechanisms, cellular interactions
+and neurodegenerative disease processes.
+</p>
+
+<p>
+The framework combines image preprocessing, data quality assessment, shift correction,
+aggregate quantification, instance-level cell analysis and trajectory estimation.
+Its design emphasizes scalability, interpretability and usability in realistic
+experimental settings.
+</p>
+
+<div>
+  <span class="tag">Phagocytosis Quantification</span>
+  <span class="tag">Dynamic Imaging</span>
+  <span class="tag">Cell Tracking</span>
+  <span class="tag">Interpretable Pipeline</span>
+</div>
+</div>
+
+<div class="project-card">
+<h2>Scientific Motivation</h2>
+
+<p>
+Quantifying phagocytic activity is essential for understanding immune response,
+cellular dynamics and neurodegenerative mechanisms. However, real-world microscopy
+data often include noise, drift, heterogeneous acquisition conditions and limited
+manual annotations.
+</p>
+
+<p>
+PhagoStat addresses these challenges through an automated and interpretable workflow
+that supports robust quantification while preserving the ability to inspect and validate
+intermediate results.
+</p>
+</div>
+
+<h2 class="section-title">Resources</h2>
+
+<div class="links-grid">
+
+  <div class="resource-card">
+    <h3>GitHub Repository</h3>
+    <p>Source code, documentation and demonstration material.</p>
+    <a href="https://github.com/ounissimehdi/PhagoStat" target="_blank">Open Repository</a>
+  </div>
+
+  <div class="resource-card">
+    <h3>Scientific Paper</h3>
+    <p>Published article in Scientific Reports.</p>
+    <a href="https://www.nature.com/articles/s41598-024-56081-7" target="_blank">Open Paper</a>
+  </div>
+
+</div>
+
+<h2 class="section-title">Demonstrations</h2>
+
+<div class="demo-card">
+  <h3>Data Quality Check and Shift Correction</h3>
+  <p>
+    This module ensures that dynamic microscopy data are reliable and accurately aligned
+    before downstream quantification.
+  </p>
+  <div class="demo-figure">
+    <img src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_reg.gif?raw=true" alt="PhagoStat shift correction demonstration">
+  </div>
+</div>
+
+<div class="demo-card">
+  <h3>Real-Time Aggregate Quantification</h3>
+  <p>
+    This module enables automated quantification of aggregate dynamics over time,
+    supporting the analysis of phagocytic activity at population scale.
+  </p>
+  <div class="demo-figure">
+    <img src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_aggr.gif?raw=true" alt="PhagoStat aggregate quantification demonstration">
+  </div>
+</div>
+
+<div class="demo-card">
+  <h3>Real-Time Cellular Quantification and Trajectory Estimation</h3>
+  <p>
+    This module estimates cellular instances and trajectories, enabling dynamic analysis
+    of individual cells and their interactions with aggregates.
+  </p>
+  <div class="demo-figure">
+    <img src="https://github.com/ounissimehdi/PhagoStat/blob/main/demos/result_tracking.gif?raw=true" alt="PhagoStat cell tracking demonstration">
+  </div>
+</div>
+
+</div>
+</section>
+
+<br><br>
+
+<div id="pre_footer">
+  <div id="pre_footer_support">
+    <table class="footer-table">
+      <tr>
+        <td class="footer-link"><a href="https://www.sorbonne-universite.fr/en"><img src="../img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University"></a></td>
+        <td class="footer-link"><a href="https://institutducerveau-icm.org/en/"><img src="../img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute"></a></td>
+        <td class="footer-link"><a href="https://www.inria.fr/en"><img src="../img/logos/inria.svg" alt="Inria"></a></td>
+        <td class="footer-link"><a href="https://www.cnrs.fr/en"><img src="../img/logos/logoCNRS.svg" alt="CNRS"></a></td>
+        <td class="footer-link"><a href="https://www.inserm.fr/en"><img src="../img/logos/Inserm.svg" alt="Inserm"></a></td>
+        <td class="footer-link"><a href="https://www.aphp.fr/"><img src="../img/logos/Assistance_publique.svg" alt="AP-HP"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<br><br>
 
 <footer>
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-3">
-            <div class="widget">
-            <h5 class="widgetheading">Our Contact</h5>
-            <address>
-            <strong>Daniel RACOCEANU</strong><br>
-            Sorbonne University<br>
-            Faculty of Science and Engineering<br>
-            Engineering Departement<br>
-            4 place Jussieu, 75005 Paris, France</address><br>
-            <p>
-                <i class="icon-envelope-alt"></i> daniel.racoceanu@sorbonne-universite.fr
-            </p>
-            </div>
-        </div>
-        
-    
-    
-        </div>
-    </div>
-    <div id="sub-footer">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-            <div class="copyright">
-                <p>
-                <span>&copy; All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</span></a>
-                </p>
-            </div>
-            </div>
-            <div class="col-lg-6">
-            <ul class="social-network">
-                <li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" data-placement="top" title="ResearchGate"><i class="fab fa-researchgate"></i>
-                <li><a href="https://twitter.com/daniraco" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/daniraco" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/daniraco" data-placement="top" title="Github"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ&hl" data-placement="top" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=daniel+racoceanu" data-placement="top" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
-                <li><a href="https://orcid.org/0000-0002-9416-1803" data-placement="top" title="ORCID"><i class="fas fa-id-badge"></i></a></li> 
-                
-            </ul>
-            </div>
-            
-        </div>
-        </div>
-    </div>
-    </footer>
-    </div>
-    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-    <!-- javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-media.js"></script> 
-    <script src="js/portfolio/jquery.quicksand.js"></script>
-    <script src="js/portfolio/setting.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/fontawesome/all.js"></script>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4">
+<div class="widget">
+<h5 class="widgetheading">Contact</h5>
+<address>
+<strong>Daniel RACOCEANU</strong><br>
+Professor, Sorbonne University<br>
+Principal Investigator, Paris Brain Institute<br>
+Center for Artificial Intelligence and Data Science<br>
+187 Rue du Chevaleret<br>
+75013 Paris, France
+</address>
+<p>daniel.racoceanu@sorbonne-universite.fr</p>
+</div>
+</div>
+
+<div class="col-lg-8">
+<ul class="social-network">
+<li><a href="https://www.researchgate.net/profile/Daniel-Racoceanu" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+<li><a href="https://x.com/daniraco" title="X / Twitter"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/in/daniraco" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="https://github.com/daniraco" title="GitHub"><i class="fab fa-github"></i></a></li>
+<li><a href="https://scholar.google.com/citations?user=2eBRLj0AAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i class="fas fa-book-medical"></i></a></li>
+<li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+<li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i class="fas fa-id-badge"></i></a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="sub-footer">
+<div class="container">
+<p>&copy; Daniel Racoceanu. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.fancybox.pack.js"></script>
+<script src="../js/jquery.fancybox-media.js"></script>
+<script src="../js/portfolio/jquery.quicksand.js"></script>
+<script src="../js/portfolio/setting.js"></script>
+<script src="../js/jquery.flexslider.js"></script>
+<script src="../js/animate.js"></script>
+<script src="../js/custom.js"></script>
+<script src="../js/fontawesome/all.js"></script>
+
 </body>
 </html>
