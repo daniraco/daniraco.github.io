@@ -21,6 +21,7 @@
       font-family: "Helvetica Neue", Arial, sans-serif;
       color: #222;
       line-height: 1.7;
+      background: #f8fafc;
     }
 
     .hero {
@@ -41,17 +42,19 @@
       font-size: 19px;
       max-width: 900px;
       margin: auto;
+      color: #ffffff;
     }
 
     .section-title {
       text-align: center;
       margin: 55px 0 35px;
       font-weight: 700;
-      color: #0f172a;
+      color: #1e3a8a;
+      font-size: 34px;
     }
 
     .project-card {
-      background: #fff;
+      background: #ffffff;
       border-radius: 18px;
       padding: 28px;
       margin-bottom: 35px;
@@ -105,16 +108,20 @@
       box-shadow: 0 5px 16px rgba(0, 0, 0, 0.16);
     }
 
-    /* Smaller images for projects 2 and 3 */
-    .project-card:nth-of-type(2) .project-image img,
-    .project-card:nth-of-type(3) .project-image img {
-      max-width: 26%;
+    img[alt="MALMO project logo"] {
+      max-width: 16% !important;
+      opacity: 0.96;
+    }
+
+    img[alt="Attention U-Net architecture for neuritic plaque segmentation"] {
+      max-width: 18% !important;
       opacity: 0.96;
     }
 
     #pre_footer img {
       height: 60px;
       max-width: 150px;
+      object-fit: contain;
     }
 
     #pre_footer_support {
@@ -130,13 +137,16 @@
       text-align: center;
     }
 
+    .footer-link {
+      padding: 10px 16px;
+    }
+
     .social-network li {
       display: inline-block;
       margin: 0 8px;
     }
 
     @media (max-width: 768px) {
-
       .hero h1 {
         font-size: 32px;
       }
@@ -149,11 +159,17 @@
         max-width: 100%;
       }
 
-      .project-card:nth-of-type(2) .project-image img,
-      .project-card:nth-of-type(3) .project-image img {
-        max-width: 65%;
+      img[alt="MALMO project logo"],
+      img[alt="Attention U-Net architecture for neuritic plaque segmentation"] {
+        max-width: 55% !important;
       }
 
+      .footer-table,
+      .footer-table tr,
+      .footer-table td {
+        display: block;
+        width: 100%;
+      }
     }
   </style>
 </head>
@@ -307,32 +323,37 @@
       <div id="pre_footer_support">
         <table class="footer-table">
           <tr>
-            <td>
+            <td class="footer-link">
               <a href="https://www.sorbonne-universite.fr/en" title="Sorbonne University">
                 <img src="img/logos/Logo_of_Sorbonne_University.svg" alt="Sorbonne University">
               </a>
             </td>
-            <td>
+
+            <td class="footer-link">
               <a href="https://institutducerveau-icm.org/en/" title="Paris Brain Institute">
                 <img src="img/logos/paris-brain-institute-icm-logo-vector.svg" alt="Paris Brain Institute">
               </a>
             </td>
-            <td>
+
+            <td class="footer-link">
               <a href="https://www.inria.fr/en" title="Inria">
                 <img src="img/logos/inria.svg" alt="Inria">
               </a>
             </td>
-            <td>
+
+            <td class="footer-link">
               <a href="https://www.cnrs.fr/en" title="CNRS">
                 <img src="img/logos/logoCNRS.svg" alt="CNRS">
               </a>
             </td>
-            <td>
+
+            <td class="footer-link">
               <a href="https://www.inserm.fr/en" title="Inserm">
                 <img src="img/logos/Inserm.svg" alt="Inserm">
               </a>
             </td>
-            <td>
+
+            <td class="footer-link">
               <a href="https://www.aphp.fr/" title="AP-HP">
                 <img src="img/logos/Assistance_publique.svg" alt="AP-HP">
               </a>
@@ -378,7 +399,8 @@
                     class="fas fa-graduation-cap"></i></a></li>
               <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Racoceanu+D" title="PubMed"><i
                     class="fas fa-book-medical"></i></a></li>
-              <li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a></li>
+              <li><a href="https://orcid.org/0000-0002-9416-1803" title="ORCID"><i class="fas fa-id-badge"></i></a>
+              </li>
               <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6603452376" title="Scopus"><i
                     class="fas fa-id-badge"></i></a></li>
             </ul>
