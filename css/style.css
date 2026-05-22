@@ -264,6 +264,29 @@ header ul.nav li ul li ul {
 color: #fff;  
 }
 
+/* Active menu tab */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #1e3a8a !important;
+    color: #ffffff !important;
+    border-radius: 8px;
+}
+
+/* Normal tabs */
+.navbar-default .navbar-nav > li > a {
+    color: #1e3a8a;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    border-radius: 8px;
+}
+
 ul.nav li.dropdown a {
 	z-index:1000;
 	display:block;
@@ -1693,5 +1716,3 @@ padding-top: 12px;
 
 
 }
-
- 
