@@ -1716,3 +1716,39 @@ padding-top: 12px;
 
 
 }
+/* Mobile navigation */
+.navbar-default .navbar-toggle {
+  border-color: #1e3a8a;
+  margin-top: 18px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1e3a8a;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    max-height: none;
+  }
+  .navbar .nav > li > a {
+    padding: 10px 16px !important;
+  }
+}
+
+/* Partner logos wrap on small screens */
+@media (max-width: 767px) {
+  .footer-table,
+  .footer-table tbody,
+  .footer-table tr {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+  }
+  .footer-table td {
+    display: inline-block !important;
+    width: auto !important;
+    padding: 8px 10px !important;
+  }
+  .footer-table img {
+    height: 40px !important;
+    max-width: 110px !important;
+  }
+}
